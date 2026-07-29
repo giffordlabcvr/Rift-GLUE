@@ -1,0 +1,63 @@
+
+  ## Non-coding sequences
+  
+  create feature whole_genome "Whole genome"
+  feature whole_genome set field displayName "Whole genome"
+  feature whole_genome set metatag INCLUDE_IN_SUMMARY true
+
+  ## mRNAs
+  
+
+  ## ORFs
+  
+  create feature NS1 -p whole_genome "nonstructural protein 1"
+  feature NS1 set metatag OWN_CODON_NUMBERING true
+  feature NS1 set metatag INCLUDE_IN_SUMMARY true
+  feature NS1 set metatag CODES_AMINO_ACIDS true
+
+  create feature NS2 -p whole_genome "nonstructural protein 2"
+  feature NS2 set metatag OWN_CODON_NUMBERING true
+  feature NS2 set metatag INCLUDE_IN_SUMMARY true
+  feature NS2 set metatag CODES_AMINO_ACIDS true
+
+  create feature N -p whole_genome "nucleoprotein"
+  feature N set metatag OWN_CODON_NUMBERING true
+  feature N set metatag INCLUDE_IN_SUMMARY true
+  feature N set metatag CODES_AMINO_ACIDS true
+
+  create feature P -p whole_genome "phosphoprotein"
+  feature P set metatag OWN_CODON_NUMBERING true
+  feature P set metatag INCLUDE_IN_SUMMARY true
+  feature P set metatag CODES_AMINO_ACIDS true
+
+  create feature M -p whole_genome "matrix protein"
+  feature M set metatag OWN_CODON_NUMBERING true
+  feature M set metatag INCLUDE_IN_SUMMARY true
+  feature M set metatag CODES_AMINO_ACIDS true
+
+  create feature SH -p whole_genome "small hydrophobic protein"
+  feature SH set metatag OWN_CODON_NUMBERING true
+  feature SH set metatag INCLUDE_IN_SUMMARY true
+  feature SH set metatag CODES_AMINO_ACIDS true
+
+  create feature G -p whole_genome "attachment glycoprotein"
+  feature G set metatag OWN_CODON_NUMBERING true
+  feature G set metatag INCLUDE_IN_SUMMARY true
+  feature G set metatag CODES_AMINO_ACIDS true
+
+  create feature F -p whole_genome "fusion glycoprotein"
+  feature F set metatag OWN_CODON_NUMBERING true
+  feature F set metatag INCLUDE_IN_SUMMARY true
+  feature F set metatag CODES_AMINO_ACIDS true
+
+  create feature M2 -p whole_genome "matrix protein 2"
+  feature M2 set metatag OWN_CODON_NUMBERING true
+  feature M2 set metatag INCLUDE_IN_SUMMARY true
+  feature M2 set metatag CODES_AMINO_ACIDS true
+
+  create feature L -p whole_genome "delta antigen"
+  feature L set metatag OWN_CODON_NUMBERING true
+  feature L set metatag INCLUDE_IN_SUMMARY true
+  feature L set metatag CODES_AMINO_ACIDS true
+  
+  

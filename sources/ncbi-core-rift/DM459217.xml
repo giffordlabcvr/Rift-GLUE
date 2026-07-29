@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DM459217</GBSeq_locus>
+    <GBSeq_length>257</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>19-NOV-2009</GBSeq_update-date>
+    <GBSeq_create-date>19-NOV-2009</GBSeq_create-date>
+    <GBSeq_definition>DIFFERENTIAL AMPLIFICATION OF MUTANT NUCLEIC ACIDS BY PCR IN A MIXTURE OF NUCLEIC ACIDS</GBSeq_definition>
+    <GBSeq_primary-accession>DM459217</GBSeq_primary-accession>
+    <GBSeq_accession-version>DM459217.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DM459217.1|</GBSeqid>
+      <GBSeqid>pat|JP|2009524412|26</GBSeqid>
+      <GBSeqid>gi|269268484</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2009524412-A/26</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..257</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wen-obuson,S.</GBAuthor>
+          <GBAuthor>Varutanian,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>DIFFERENTIAL AMPLIFICATION OF MUTANT NUCLEIC ACIDS BY PCR IN A MIXTURE OF NUCLEIC ACIDS</GBReference_title>
+        <GBReference_journal>JP2009524412-A 26 02-JUL-2009 INSTITUT PASTEUR</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Rift Valley fever virus~PN JP 2009524412-A/26~PD 02-JUL-2009~PF 28-DEC-2006 JP 2008548048~PR 30-DEC-2005 US 11/321048~PI simon wen-obuson,jean-pierre varutanian~CC The type of this sequence is wrong in the original data. It is CC automatically modified by the JPO.~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..257</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>257</GBInterval_to>
+            <GBInterval_accession>DM459217.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgaagagaacctttgataaatcatagtctttgctggagcaccgacctgtttctagaactttcctaactgaggctctccccatcttagaaatagcataatcaacaaacttatccattaagggatgagcaatcattgataatgaactgatgtccttgtaatgggctggcccaaagagattgacatcagatgtatcaaaagattccatctcgtaaggaccactaacatccaactctatgcaattaacaacatgactgaat</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>RVFMPRVAC</GBSeq_locus>
+    <GBSeq_length>3885</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-SEP-1994</GBSeq_update-date>
+    <GBSeq_create-date>04-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus (vaccine strain ZH-548M12) M protein RNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>M25276</GBSeq_primary-accession>
+    <GBSeq_accession-version>M25276.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M25276.1|RVFMPRVAC</GBSeqid>
+      <GBSeqid>gi|538444</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>M protein</GBKeyword>
+      <GBKeyword>glycoprotein G1</GBKeyword>
+      <GBKeyword>glycoprotein G2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3885</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Takehara,K.</GBAuthor>
+          <GBAuthor>Min,M.K.</GBAuthor>
+          <GBAuthor>Battles,J.K.</GBAuthor>
+          <GBAuthor>Sugiyama,K.</GBAuthor>
+          <GBAuthor>Emery,V.C.</GBAuthor>
+          <GBAuthor>Dalrymple,J.M.</GBAuthor>
+          <GBAuthor>Bishop,D.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of mutations in the M RNA of a candidate vaccine strain of Rift Valley fever virus</GBReference_title>
+        <GBReference_journal>Virology 169 (2), 452-457 (1989)</GBReference_journal>
+        <GBReference_pubmed>2705307</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Sep 17, 1994 this sequence version replaced gi:341320.; Original source text: Rift Valley fever virus (strain vaccine strain ZH-548M12) cDNA to genomic RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3885</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3885</GBInterval_to>
+            <GBInterval_accession>M25276.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>vaccine strain ZH-548M12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>21..3614</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>3614</GBInterval_to>
+            <GBInterval_accession>M25276.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>M protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA47449.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MYVLLTILTSVLVCEAIIRVSLSSTREETCFGDSTNPEMIEGAWDSLREEEMPEELSCSISGIREVKTSSQELYRALKAIIAADGLNNITCHGKDPEDKISLIKGPPHKKRVGIVRCERRRDAKQIGRKTMAGIAMTVLPALAVFALAPVVFAEDPHLRNRPGKGHNYIDGMTQEDATCKPVTYAGACSSFDVLLEKGKFPLFQSYAHHRTLLEAVHDTIIAKADPPSCDLLSAHGNPCMKEKLVMKTHCPNDYQSAHHLNNDGKMASVKCPPKYELTEDCNFCRQMTGASLKKGSYPLQDLFCQSSEDDGSKLKTKMKGVCEVGVQALKKCDGQLSTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFEHKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTAQYANAYCSHANGSGIVQIQVSGVWKKPLCVGYERVVVKRELSAKPIQRVEPCTTCITKCEPHGLVVRSTGFKISSAVACASGVCVTGSQSPSTEITLKYPGISQSSGGDIGVHMAHDDQSVSSKIVAHCPPQDPCLVHDCIVCAHGLINYQCHTALSAFVVVFVFSSIAIICLAILYRVLKCLKIAPRKVLNPLMWITAFIRWIYKKMVARVADNINQVNREIGWMEGGQLVLGNPAPIPRHAPIPRYSTYLMLLLIVSYASACSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKLKTVSSELSCREGQSYWTGSFSPKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREAGGESTVVNPKSGSWNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLGGTGLSKMWLAATKKAS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acacaaagatggtgcattaaatgtatgttttattaacaattctaacctcggttctggtgtgtgaagcgattattagagtgtctctaagctccacaagagaagagacctgctttggtgactccactaacccagagatgattgaaggagcttgggattcactcagagaggaggagatgccggaggagctctcctgttctatatcaggcataagagaggttaagacctcaagccaggagttatacagggcattaaaagccatcattgctgctgatggcttgaacaacatcacctgccatggtaaggatcctgaggacaagatttccctcataaagggtcctcctcacaaaaagcgggtggggatagttcggtgtgagagacgaagagatgctaagcaaatagggagaaaaaccatggcagggattgcaatgacagtccttccagccttagcagtttttgctttggcacctgttgtttttgctgaagacccccatctcagaaacagaccagggaaggggcacaactacattgacgggatgactcaggaggatgccacatgcaaacctgtgacatatgctggggcatgtagcagttttgatgtcttgcttgaaaagggaaaatttccccttttccagtcgtatgctcatcatagaactctactagaggcagttcacgacaccatcattgcaaaggctgatccacctagctgtgaccttctgagtgctcatgggaacccctgcatgaaagagaaactcgtgatgaagacacactgtccaaatgactaccagtcagctcatcacctcaacaatgacgggaaaatggcttcagtcaagtgccctcctaagtatgagctcactgaagactgcaacttttgtaggcagatgacaggtgctagcctgaagaaggggtcttatcctctccaagacttgttttgtcagtcaagtgaggatgatggatcaaaattaaaaacaaaaatgaaaggggtctgcgaagtgggggttcaagcactcaaaaagtgtgatggccaactcagcactgcacatgaggttgtgccctttgcagtgtttaagaactcaaagaaggtttatcttgataagcttgaccttaagactgaggagaatctgctaccagactcatttgtctgtttcgagcataagggacagtacaaaggaacaatggactctggtcagactaagagggagctcaaaagctttgatatctctcagtgccccaagattggaggacatggtagtaagaagtgcactggggacgcagcattttgctctgcttatgagtgcactgctcagtacgccaatgcctattgttcacatgctaatgggtcagggattgtgcagatacaagtatcaggggtctggaagaagcctttatgtgtagggtatgagagagtggttgtgaagagagaactctctgccaagcccatccagagagttgagccttgcacaacttgtataaccaaatgtgagcctcatggattggttgtccgatcaacagggttcaagatatcatcagcagttgcttgtgctagcggagtttgcgtcacaggatcgcagagtccttccaccgagattacactcaagtatccagggatatcccagtcttctgggggggacataggggttcacatggcacacgatgatcagtcagttagctccaaaatagtagctcactgccctccccaggacccgtgcttagtgcatgactgcatagtgtgtgctcatggcctgataaattaccagtgtcacactgctctcagtgcctttgttgttgtgtttgtattcagttctattgcaataatttgtttagctattctttatagggtgcttaagtgcctgaagattgccccaaggaaagttctgaatccactaatgtggatcacagccttcatcagatggatatataagaagatggttgccagagtggcagacaacattaatcaagtgaacagggaaataggatggatggaaggaggtcagttggttctagggaaccctgcccctattcctcgtcatgccccaatcccacgttatagcacatacctgatgttattattgattgtctcatatgcatcagcatgttcagaactgattcaggcaagctccagaatcaccacttgctctacagagggtgttaacaccaagtgtagactgtctggcacagcattgatcagagcagggtcagttggggcagaggcttgtttgatgttgaagggggtcaaggaagatcaaaccaagttcttaaagttaaaaactgtctcaagtgagctatcatgcagggagggccagagttattggactgggtcctttagccctaaatgtttgagctcaaggagatgccaccttgtcggggaatgccatgtgaataggtgtctgtcttggagggacaatgaaacttcagcagagttttcatttgttggggaaagcacgaccatgcgagagaataagtgttttgagcaatgtggaggatgggggtgtgggtgtttcaatgtgaacccatcttgcttatttgtgcacacgtatctgcagtcagttagaaaagaggcccttagagtttttaactgtatcgactgggtgcataaactcactctagagatcacagactttgatggctctgtttcaacaatagacttgggagcatcatctagccgtttcacaaactggggttcagttagcctctcactggacgcagagggcatttcaggctcaaatagcttttctttcattgagagcccaggcaaagggtatgcaattgttgatgagccattctcagaaattcctcggcaagggttcttgggggagatcaggtgcaattcagagtcctcagtcctgagtgctcatgaatcatgccttagggcaccaaaccttatctcatacaagcccatgatagatcaattggagtgcacaacaaatctgattgatccctttgttgtctttgagaggggttctctgccacagacaaggaatgacaaaacctttgcagcttcaaaaggaaatagaggtgttcaagctttctctaagggctctgtacaagctgatctaactctgatgtttgacaattttgaggtggactttgtgggagcagccgtatcttgtgatgccgccttcttaaatttgacaggttgctattcttgcaatgcaggggccagggtctgcctgtctatcacatccacaggaactggatctctctctgcccacaataaggatgggtctctgcatatagtccttccatcagagaatggaacaaaagaccagtgtcagatactacacttcactgtgcctgaagtagaggaggagtttatgtactcttgtgatggagatgagcggcctctgttggtgaaggggaccctgatagccattgatccatttgatgataggcgggaagcagggggggaatcaacagttgtgaatccaaaatctggatcttggaatttctttgactggttttctggactcatgagttggtttggagggcctcttaaaactatactcctcatttgcctgtatgttgcattatcaattgggctctttttcctccttatatatcttggaggaacaggcctctctaaaatgtggcttgctgccactaagaaggcctcatagatcagtgcgtgtaaaagcaatatgttgaagtaagtagacataagctaacctaattatgtaagtattgtacagataggtcaaattattggaatatccaagcttagaaacttatgcaataatactttagatgtaagcttagttgtaatttggggtggtggggtgaggcagcagcagtctcaagtgcttgtgaatattctagttggcgtaatcgtcttttgccagattagctgggaattaaactaactctttgaagttgcaccggtctttgtgt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MZ513013</GBSeq_locus>
+    <GBSeq_length>6292</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-MAR-2022</GBSeq_update-date>
+    <GBSeq_create-date>04-MAR-2022</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate SH328056 nonfunctional polymerase gene, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MZ513013</GBSeq_primary-accession>
+    <GBSeq_accession-version>MZ513013.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MZ513013.1|</GBSeqid>
+      <GBSeqid>gi|2125449726</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..6292</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bob,N.S.</GBAuthor>
+          <GBAuthor>Barry,M.A.</GBAuthor>
+          <GBAuthor>Diagne,M.M.</GBAuthor>
+          <GBAuthor>Faye,M.</GBAuthor>
+          <GBAuthor>Ndione,M.H.D.</GBAuthor>
+          <GBAuthor>Diallo,A.</GBAuthor>
+          <GBAuthor>Diop,M.</GBAuthor>
+          <GBAuthor>Diop,B.</GBAuthor>
+          <GBAuthor>Faye,O.</GBAuthor>
+          <GBAuthor>Loucoubar,C.</GBAuthor>
+          <GBAuthor>Fall,G.</GBAuthor>
+          <GBAuthor>Faye,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Detection of Rift Valley Fever Virus Lineage H From South Africa Through the Syndromic Sentinel Surveillance Network in Senegal</GBReference_title>
+        <GBReference_journal>Open Forum Infect Dis 9 (3), ofab655 (2021)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/ofid/ofab655</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>35198642</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..6292</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bob,N.S.</GBAuthor>
+          <GBAuthor>Diagne,M.M.</GBAuthor>
+          <GBAuthor>Faye,M.</GBAuthor>
+          <GBAuthor>Ndione,M.H.D.</GBAuthor>
+          <GBAuthor>Diallo,A.</GBAuthor>
+          <GBAuthor>Diop,M.</GBAuthor>
+          <GBAuthor>Loucoubar,C.</GBAuthor>
+          <GBAuthor>Faye,O.</GBAuthor>
+          <GBAuthor>Fall,G.</GBAuthor>
+          <GBAuthor>Faye,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-JUL-2021) Virology, Institut Pasteur de Dakar, 36 Avenue Pasteur, Dakar 221, Senegal</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Bowtie2 v. v2.0.6 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..6292</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>6292</GBInterval_to>
+            <GBInterval_accession>MZ513013.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SH328056</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Senegal</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2020</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>13..6291</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>13</GBInterval_from>
+            <GBInterval_to>6291</GBInterval_to>
+            <GBInterval_accession>MZ513013.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional polymerase due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tatcgcccaatcatggattctatattatcaaaacagctggttgacaagactggttttgttagagtgccaatcaagcattatgactgtacaatgctgactctggcacttccaacatttgatgtttccaagatggtagatagaatcaccattgacttcaatccggatgatatacaaggagcatctgaaataggctcaactttgctaccctccatgncgatagatgtggaagatatggccagatatccccgcgatttcacctttggccacttagctgacaagactgacagactgctaatgcgtgagtttcccatgatgaatgacgggtttgatcatttgagccctgacatgatcattaaaactacatctggcacgtacaacatcgttgagttcaccacctttaggggagatgaaagaggtgcattccaggctgccatgactaaactcgctaagtatgaggtcccttgtgagaacagatctcagggcaagactgttgttctttatgttgttagtgcctatcggcatggtgtatggtccaatttggatctagaggactctgaagcagaggagatggtttataggtacagacttgctcttagtgtgatggatgagctaaggaccttgttcccagaactgtcatccacagatgaggaactagggaagactgagagagagttgctagccatggtctcctccatccaaataaattggtcagtcacagaatctgtgtatccaccttttagcagagaaatgtttgacaggtttagatcctcccctcccgattcagagtatattacgaggattnngagcagatgcctcataaattctcaagagaaactcatcaacaattccttctttgctgaagggaatgataaggctctgagattttcaaagaatgctgaagagtgctccttggcagtggagagagccttaaatcagtacagagcagaagacaaccttagggacctcaatgaccataagtcaactattcagctgcctccctggctgtcctatcacgatgccgatggcaaagatctgtgcccccttcagggattagatgtgagaggggaccatcccatgtgcaacttgtggagggaagtggtcacctctgcaaatctagaggagattgagaggatgcacgatgatgcagcagcagaacttgagtttgccctttcgggagtgaaagataggccagatgagagaaacagataccatagagtccatctaaatatgggctcagatgatagtgtctacatagctgctttaggagttaatggaaagaagcacaaagcagacactttagtgcaacaaatgagagataggagtaaacagcctttctccccagaccatgatgtggatcacatatctgagtttctctctgcatgctctagtgacttgtgggcaacagatgaggacctgtacaaccctctctcttgtgataaagagcttagactggcagcccagataattccagagccatccttgtcagaaaagggtttcaatgagatcataacagagcactacaaattcatgggaagtaggataggttcatggtgccaaatggtcagcttgataggagctgagctatcagcttctgttaaacaacatgtcaagcccaactactttgtgatnnnnngactactgggttctgggattttcttgctaataaagcccacttccagcaaaagctgcagatatctttctttcgcaattaagcgctcttgctgggcctttgatctctccacttccagggttttcaagccctacatagatgctggggatctattagtcactgactttgtttcttataagctaagcaagcttaccaacctctgcaagtgcgtttcattaatggagtcttccttctcattctgggcagaagcatttggaattccaagctggaactttgttggtgacttgttcaggtctgcagacattgcggcaatggatgcctcatacatgggcaagctttctttattaactcttttggaagacaaagcaacaactgaagagttgcagactattgcaagatatataatcatggagggctttgtctcgcccccagaaatcccaaaacctcgcaagatgacctctaagtttcctaaggttctcaggtcagagctgcaggtttacttattaaactgcttatgcagaactatccagagaatagcaggtgagcctttcattctcaaaaagaaagatgggtctatatcttggggtggcatgttcaaccctttttcaggacgtccactgcttgatatgcaaccactcatcagctgttgttacaatggttactttaaaaataaagaagaagagactgagccttcgtccctttctgggatgtataagaaaattatagagcttgagcaccttagaccacagtcagatgccttcttgggttacaaagatccagaactgcctagaatgcatgagttcagtgtttcctacttgaaggaagcttgcaatcatgctaagctagtcttaaggagcctctatggacagaatttcatggagcaaatagataaccagattattcgagagctcagcgggttgactctagaaagattggccacacttaaggccacaagcaactttaatgagaattggtatgtctataaggatgtggcagacaagaactacacaagggataaattattagtgaagatgtcaaaatatgcctctgagggaaagagcctggctatccagaagtttgaggattgtatgaggcagattgagtcacaaggatgcatgcatatttgtttgtttaagaaacaacagcatggaggtctgagagagatctatgtgatgggtgcagaagaaagaattgttcaatcggtggtggagacaatagccaggtccatagggaagttctttgcttctgacaccctctgtaacccccccaacaaagtgaaaattcctgaaacacatggcatcagggctcggaagcaatgtaagggacctgtgtggacttgtgcaacatcagatgatgcaaggaagtggaaccaaggccatttcgttacaaagtttgccctcatgctatgtgagttcacctctcctaaatggtggccactgatcattaggggatgttcaatgttcaccaggaagaggatgatgatgaatttgaattatcttaagatcctggatggtcatcgggagcttgatattagagatgactttgtgatggatctcttcaaagcttatcatggtgaggcagaagttccgtgggcttttaaaggcaaaacatatctggaaaccacaacagggatgatgcagggaatactgcattatacttcttcactattacacaccattcatcaagaatacatccggtccttgtccttcaaaatattcaacctgaaggttgctcctgagatgagcaagagcctggtttgtgacatgatgcaaggatcagatgatagtagcatgctaatcagcttcccagctgatgatgagaaggttctcaccagatgcaaagtggccgcagccatatgcttccgcatgaagaaggaactgggagtgtaccttgccatttacccttcagagaagtccacagcaaacacagattttgtgatggagtacaattctgaattttatttccacacccagcatgttagaccaacgatcaggtggattgcagcatgttgcagcctgccagaagtggaaacactagtggcccgccaggaagaggcctctaacctaatgacttcagttactgaggggggnnnnnngttctccttagctgcaatgattcagcaagctcagtgcactctccattacatgctgatgggcatgggggtgtctgagctattcttggagtataagaaggcagtgctgaagtggaatgaccctggcctgggtttcttcctgcttgacaatccttatgcgtgcgggttgggaggttttagattcaatcttttcaaagctatcaccagaactgatttgcagaagctatatgctttcttcatgaagaaggtcaaaggctcagctgctagggactgggcagatgaagatgtcaccatcccagaaacgtgtagcgtgagcccaggtggcgctcaaaatcttagctcctctctaaagtggggatctaggaagaagtttcagaaactgagagaccgtttgaacataccagagaactggattgaactaataaatgagaatccagaggtgctctatcgggctcccagaacaggcccagaaatattgttgcgcattgcagagaaagtccatagcccaggtgttgtgtcatcattgtcttctggcaatgcagtttgtaaagtcatggcctcagccgtatacttcttgtcagcaacaatttttgaagacactggacgccctgagttcaacttcttggaggattctaagtacagcttactacaaaagatggctgcatattctggctttcatggcttcaatgatatggagccagaagatatattattcttattcccgaatattgaggaattagaatcactggattctatagtttacaacaagggagaaatagacatcatcccaagagttaacattagggatgcaacccaaaccagggtcactatttttaatgagcagaagaccctccgaacatctccagagaagttggtgtcagataagtggtttgggactcagaagagtaggataggcaaaacaaccttcctggccgaatgggaaaagctaaagaaaattgtgaagtggttggaagacactccagaagcaactctggctcacaccccactgaataaccatattcaagtcaggaatttctttgctaggatggaaagcaagcctagaacagtcagaataacaggagcaccagtaaagaagaggtcaggagttagtaagatagctatggttatccgtgataatttctcccggatgggccatcttcgaggtgtagaagaccttgctggtttcactcgtagtgtatcagctgaaattctcaagcactttctattctgcatactacaaggtccatacagtgagagctataagctacagctaatctacagagtcttgagctcagtatcaaacgttgagataaaggaatcagatggtaagacaaaaacaaacttaattgggatccttcagagatttctagatggtgatcacgttgtccccataattgaagagatgggagctggaacagagggtnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngctctgatatcgagttgggatttggagaggcttcatggatggatatcaggtccatcttgagatagaaaatgacataggacagcccccaaggcttaggaatattacaaccaactgtcagagcagcccatgggacctgagtattccaataaggcaatgggcagaagacatgggggtcacaaacaaccaggattattcctctaaatctagcagaggggccagatattggaggcattcattcaggatgcagggacctagcaagccatttggatgcccagtttatattattaagggtgacatgtcagatgtcatcagactgagaaaggannnnnnnnnnnnnnnnnnnnnaggctctactctcaacttgtacaccaagcactattctcatcaggacctacacantctatcttacactgcatcagacaatgatctcagtccaggcattttcaagtcaatatcagatatccgggtggctcaagccctgcaattatttgagagggagccaagcaactgctgggtgagatgtgagtctgtagctccaaaatttatatcanccatacttgagatatgtgaggggaagagacagataaagggaattaacaaaaccagactctcagagattgtgagaatttgttctgaatcttccctaagatcaaaagtcgggtcaatgttctcatttgtcgccaatgtcgaggaggcccatgatgttgattatgatgcgctaatggatctaatgatagaagatgccaagaacaatgcattcagtcatgttgtcaactgcatagagttggatgttagtggtccttacgagatggagtcttttgacacatctgatgtcaatctctttgggccagctcattacaaggacatcagttcattatccatgattgctcatcccttaatggataagtttgttgattatgctatttctaagatggggagagcctcagttaggaaagttctagaaacaggtcggtgctccagcaaagactatgatttatcaaaggttctcttcagggctctgcagagaccagaagaaagcattaggatagatgatctggagttatatgaggagatatctgcagcagatgacatgctaggctaag</GBSeq_sequence>
+  </GBSeq>

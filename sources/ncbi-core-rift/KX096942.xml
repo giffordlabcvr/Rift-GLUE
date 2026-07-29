@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX096942</GBSeq_locus>
+    <GBSeq_length>3885</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-JUL-2016</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus strain SA01-1322 segment M, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KX096942</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX096942.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX096942.1|</GBSeqid>
+      <GBSeqid>gi|1042782291</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3885</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Shivanna,V.</GBAuthor>
+          <GBAuthor>McDowell,C.D.</GBAuthor>
+          <GBAuthor>Wilson,W.C.</GBAuthor>
+          <GBAuthor>Richt,J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete Genome Sequence of Rift Valley Fever Virus Strains isolated from Outbreaks in Saudi Arabia (2001) and Kenya (2006-07)</GBReference_title>
+        <GBReference_journal>Genome Announc (2016) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3885</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Shivanna,V.</GBAuthor>
+          <GBAuthor>McDowell,C.</GBAuthor>
+          <GBAuthor>Wilson,W.C.</GBAuthor>
+          <GBAuthor>Richt,J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-APR-2016) Diagnostic Medicine and Pathobiology, Kansas State University, 1800 Denison Ave Mosier Hall, Manhattan, KS 66506, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank Accession Numbers KX096941-KX096943 represent sequences from the 3 segments of Rift Valley fever virus strain SA01-1322.; ##Assembly-Data-START## ; Assembly Method :: CLC Genomic Workbench v. 7.5.2 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3885</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3885</GBInterval_to>
+            <GBInterval_accession>KX096942.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>SA01-1322</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Aedes vexans arabiensis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>M</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Saudi Arabia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2001</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>B. R. Miller</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>21..3614</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>3614</GBInterval_to>
+            <GBInterval_accession>KX096942.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ANQ47153.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MYVLLTILISVLVCEAVIRVSLSSTREETCFGDSTNPEMIEGAWDSLREEEMPEELSCSVSGIREVKTSSQELYRALKAIIAADGLNNITCHGKNPEDKISLIKGPPHKKRVGIVRCGRRRDTKQIGRETMAGIAMTVLPALAVFALAPVVFAEDPHLRNRPGKGHNYIDGMTQEDATCKPVTYAGACSSFDVLLEKGKFPLFQSYAHHRTLLEAVHDTIIAKADPPSCDLQSAHGNPCMKEKLVMKTHCPNDYQSAHYLNNDGKMASVKCPPKYELTEDCNFCRQMTGASLKKGSYPLQDLFCQSSEDDGSKLKTKMKGVCEVGVQALKKCDGQLSTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFEHKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTAQYANAFCSHANGSGIVQIQVSGVWKKPLCVGYERVVVKRELSAKPIQRVEPCTTCITKCEPHGLVVRSTGFKISSAVACASGVCVTGSQSPSTEITLKYPGISQSSGGDIGVHMAHDDQSVSSKIVAHCPPQDPCLVHGCIVCAHGLINYQCHTALSAFVVVFVFSSIAIICLAILYRVLKCLKIAPRKVLNPLMWITAFIRWVYKKMVARVADNINQVNREIGWMEGGQLVLGDPAPIPRHAPIPRYSTYLMLLLIISYASACSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNEKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGTLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREAGGESTVVNPKSGSWNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKKAS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acacaaagacggtgcattaaatgtatgttttattgacaattctaatctcggttctggtgtgtgaagcagttattagagtatctctaagctccacaagagaggagacctgttttggtgactccaccaacccagagatgattgaaggagcttgggattcactcagagaggaggagatgccagaggagctctcctgctctgtatcaggcataagggaggttaagacctcaagccaggagttatacagagcattaaaagccatcattgctgctgatggcttgaacaacatcacctgccatggtaagaatcctgaggacaagatttctctcataaagggtcctcctcacaaaaagcgggtggggatagtccggtgtgggagacgaagagatactaagcaaatagggagagaaaccatggcagggattgcgatgacagtccttccagccttagcagtttttgctttggcacctgttgtttttgctgaagacccccatctcagaaacagaccagggaaggggcacaactacattgacgggatgactcaggaggatgccacatgcaaacctgtgacatatgctggggcatgtagcagttttgatgtcttgcttgaaaaggggaaatttcctcttttccagtcatatgctcatcatagaactctactagaggcagttcacgacaccatcattgcaaaggctgatccacctagctgtgaccttcagagtgctcatgggaatccctgtatgaaagagaaacttgtgatgaagacacattgtccaaatgactaccagtcagctcattacctcaacaatgacgggaaaatggcttcagtcaagtgcccacctaagtatgagctcactgaggactgcaacttttgtaggcagatgacaggtgctagcctgaagaaggggtcttatcctctccaagacttattttgtcagtcaagtgaggatgatggatcaaaattgaaaacaaaaatgaaaggggtctgcgaagtaggagttcaagcactcaaaaagtgtgatggccaactcagcactgcacatgaggttgtgccctttgcagtgtttaagaactcaaagaaggtttatcttgataagcttgacctcaagactgaggagaatctgctaccagactcatttgtctgcttcgagcataagggacagtataaaggaacaatggactctggccagaccaagagggagctcaaaagctttgatatctctcagtgccccaagattggagggcatggtagtaagaagtgcactggggacgcagcattttgctctgcttatgaatgcactgctcagtatgccaatgccttttgttcacatgctaatgggtcagggattgtgcagattcaagtatcaggggtctggaagaagcctttatgtgtagggtatgagagagtggttgtgaagagagaactctctgccaaacccatccagagagttgagccttgcacaacttgtataaccaaatgtgaacctcatggattggttgtccgatcaacagggttcaagatatcatctgcagttgcttgtgctagcggagtttgcgtcacagggtcgcagagtccttctactgagattacactcaagtatccagggatatcccagtcctctgggggggacataggggttcacatggcacatgatgatcagtcagttagctccaaaatagtagctcactgccctccccaggacccgtgcttagtgcatggctgcatagtgtgtgctcatggcctgataaattaccagtgtcacactgctctcagtgcctttgttgttgtatttgtattcagttctattgcaataatttgcttagctattctttatagggtgctcaagtgcctaaagattgccccaaggaaagttctgaatccattaatgtggattacagccttcatcagatgggtgtataagaagatggttgctagagtggcggacaatattaatcaagtgaacagggaaataggatggatggaaggaggtcagttggttctaggggaccctgcccctattcctcgtcatgccccaatcccacgttatagcacatacctaatgctgctattgattatctcatatgcatcagcatgttcagaactgattcaggcaagctccagaatcaccacttgctccacagagggtgtcaacaccaagtgtagactgtctggcacagcattgatcagggcagggtcagttggggcagaggcttgtttgatgttgaagggagtcaaggaagatcaaaccaagttcttaaagataaaaactgtctctagtgagctatcgtgcagggagggccagagctattggactgggtcctttagccccaagtgtctgagctcaaggagatgccatcttgtcggggaatgtcatgtgaataggtgtctgtcttggagggacaatgaaacttcagcagagttttcatttgttggggaaagcacaaccatgcgagagaataagtgttttgagcagtgtggaggatgggggtgtggatgtttcaatgtgaacccatcttgcttatttgtgcacacgtatctgcagtcagttagaaaagaggcccttagagtttttaactgtatcgactgggtgcataaactcactctagagatcacagactttgatggctctgtttcaacaatagacttaggagcatcatctagccgtttcacaaactggggttcagttagcctctcactggacgcagagggcatttcaggctcaaatagcttttcttttattgagagcccaggtaaagggtatgcaattgttgatgagccattctcagaaattcctcggcaagggttcttgggggagatcaggtgcaattcagagtcctcagtcctgagtgctcatgaatcatgccttagggcaccaaaccttatctcgtacaagcccatgatagatcaattggagtgcactacaaatctgattgatccctttgttgtctttgagaggggttctctgccacagacaaggaatgaaaaaacctttgcagcttcaaaaggaaatagaggtgttcaggctttctctaagggctctgtacaagctgatctgactctgatgtttgataattttgaggtggactttgtgggagcagccgtgtcttgtgatgccgccttcttgaatttgacaggttgttattcctgcaatgcaggggccagagtctgcctgtctatcacatccacaggaactggaactctctctgcccacaataaggacgggtctctgcatatagttctcccatcagagaatgggacaaaagatcagtgtcagatactacatttcactgtgcctgaagtagaagaggagtttatgtactcttgtgatggagatgagcggcctctgttagtgaaagggaccctgatagctattgacccatttgatgataggcgggaagcagggggggaatcaacagttgtgaatccaaaatctggatcttggaatttctttgactggttttctggacttatgagttggtttggagggccgcttaaaactatactcctcatttgcctgtatgttgcattatcaattgggctcttcttcctccttatatatcttggaagaacaggcctctctaaaatgtggcttgccgctactaagaaggcctcatagatcagtacgtgtaggagcaatatgtagaaataagtagacataagcaaaccaaattatgtaaatattgtacagataggtcaaattattgggatatccaagcttagaaacttatgcgataatacattagatgtaggcttagttgtaatttggggtggtggggtgaggcagcagcagtctcaagtgctagtgaatatactagttggcgtgattgtcttttgccagattagttgggaattaaactaactctttgaagttgcaccggtctttgtgt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HM587040</GBSeq_locus>
+    <GBSeq_length>490</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-DEC-2011</GBSeq_update-date>
+    <GBSeq_create-date>30-JUN-2011</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate MgH824 segment M glycoprotein G2 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>HM587040</GBSeq_primary-accession>
+    <GBSeq_accession-version>HM587040.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HM587040.1|</GBSeqid>
+      <GBSeqid>gi|302122655</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..490</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Grobbelaar,A.A.</GBAuthor>
+          <GBAuthor>Weyer,J.</GBAuthor>
+          <GBAuthor>Leman,P.A.</GBAuthor>
+          <GBAuthor>Kemp,A.</GBAuthor>
+          <GBAuthor>Paweska,J.T.</GBAuthor>
+          <GBAuthor>Swanepoel,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular epidemiology of Rift Valley fever virus</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 17 (12), 2270-2276 (2011)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid1712.111035</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22172568</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..490</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Grobbelaar,A.</GBAuthor>
+          <GBAuthor>Swanepoel,R.</GBAuthor>
+          <GBAuthor>Paweska,J.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-JUN-2010) NICD, 1 Modderfontein Road, Johannesburg 2131, South Africa</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..490</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>490</GBInterval_to>
+            <GBInterval_accession>HM587040.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MgH824</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>M</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Madagascar</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>1979</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;490</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>490</GBInterval_to>
+            <GBInterval_accession>HM587040.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein G2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADK92994.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASVKCPPKYELTEDCNFCRQMTGASLKKGSYPLQDLFCQSSEDDGSKLKTKMKGVCEVGVQALKKCDGQLSTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFERKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTTQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggcttcagtcaagtgccctcctaagtatgagctcactgaggactgcaacttttgtaggcagatgacaggtgctagcctgaagaaggggtcttatcctctccaagacttgttttgtcagtcaagtgaggatgatggatcaaaattaaaaacaaaaatgaaaggggtctgcgaagtgggggttcaagcactcaaaaagtgtgatggccaactcagcactgcacatgaggttgtgccctttgcagtgtttaagaactcaaagaaggtttatcttgataagcttgaccttaagactgaggagaatctgctaccagactcatttgtctgtttcgagcgtaagggacagtacaaaggaacaatggactctggtcagactaagagggagctcaaaagctttgatatctctcagtgccccaagattggaggacatggtagtaagaagtgcactggggacgcagcattttgctctgcttatgagtgcactactcagt</GBSeq_sequence>
+  </GBSeq>

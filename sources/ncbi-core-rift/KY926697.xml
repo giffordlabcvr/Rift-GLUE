@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY926697</GBSeq_locus>
+    <GBSeq_length>1147</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>SYN</GBSeq_division>
+    <GBSeq_update-date>23-MAR-2018</GBSeq_update-date>
+    <GBSeq_create-date>23-MAR-2018</GBSeq_create-date>
+    <GBSeq_definition>Mutant Rift Valley fever virus strain rMP12-*NSs16/198 N protein and truncated NSs protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KY926697</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY926697.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY926697.1|</GBSeqid>
+      <GBSeqid>gi|1369066235</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1147</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lokugamage,N.</GBAuthor>
+          <GBAuthor>Ikegami,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic stability of Rift Valley fever virus MP-12 vaccine during serial passages in culture cells</GBReference_title>
+        <GBReference_journal>NPJ Vaccines 2 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/s41541-017-0021-9</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29167748</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1147</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lokugamage,N.</GBAuthor>
+          <GBAuthor>Ikegami,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-APR-2017) Pathology, The University of Texas Medical Branch at Galveston, 301 University Blvd., Galveston, TX 77555, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: CLC Genomics Workbench v. 7.5.2. ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1147</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1147</GBInterval_to>
+            <GBInterval_accession>KY926697.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>rMP12-*NSs16/198</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>MP-12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>Vero cells</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>10-Apr-2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>39..776</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>39</GBInterval_from>
+            <GBInterval_to>776</GBInterval_to>
+            <GBInterval_accession>KY926697.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>N protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVP74164.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQYGGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTLSRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPGDYLRAILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFGLVDSNGKPSAAVMAAAQAYKTAA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(859..1113)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1113</GBInterval_from>
+            <GBInterval_to>859</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>KY926697.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>truncated NSs protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVP74165.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDYFPVISVDLQSGRDVQAAKEDISNAVVPNSALIVLMEESLMLRSSLPSMMGRNNWIPVIPPIPDVEMESEEESDDDGFVEVD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acacaaagctccctagagatacaaacactattacaataatggacaactatcaagagcttgcgatccagtttgctgctcaagcagtggaccgcaatgagattgaacagtgggtccgagagtttgcttatcaagggtttgatgcccgtagagttatcgaactcttaaagcagtatggtggggctgactgggagaaggatgccaagaaaatgattgttctggctctaactcgtggcaacaagcccaggaggatgatgatgaaaatgtcgaaagaaggcaaagcaactgtggaggctctcatcaacaagtataagctaaaggaagggaatccttcccgggatgagttgactctatcacgagttgctgccgccttggctggctggacatgccaggctttggtcgtcttgagtgagtggcttcctgtcactgggactaccatggacggcctatcccctgcatacccgaggcatatgatgcaccccagctttgctggcatggtggatccttctctaccaggagactatctaagggcaatattagatgctcactctctgtatctgctgcagttctcccgggtcatcaacccaaacctccgaggtagaacaaaagaggaggttgctgcaacgttcacgcagccaatgaatgcagcagtgaatagcaactttataagccatgagaagaggagagaattcttgaaagcctttggacttgtggattccaatgggaagccgtcagctgctgtcatggcagccgctcaggcttacaagacagcagcctaagtggctgcccagggggttggggggaaggggagttggggttacggtcgggattagggggtggggggtggggcagccttaacctctaatcaacctcaacaaatccatcatcatcactctcctcctctgattccatctcaacatctgggattggaggaataactggaatccagttgtttctccccatcatgctgggaagtgatgagcgcagcatcaggctctcctccataagaacaatgagggctgagtttggaactacagcattagaaatgtcctcttttgctgcttggacgtcacgaccactctgcaaatcaacagatatcacaggaaagtaatccatgatatacttgataagcactagggggtctttgtgt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OR972328</GBSeq_locus>
+    <GBSeq_length>1684</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-DEC-2023</GBSeq_update-date>
+    <GBSeq_create-date>25-DEC-2023</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate AFI-MGT-989 segment S, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>OR972328</GBSeq_primary-accession>
+    <GBSeq_accession-version>OR972328.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OR972328.1|</GBSeqid>
+      <GBSeqid>gi|2637815505</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1684</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kimita,G.</GBAuthor>
+          <GBAuthor>Lemtudo,A.P.</GBAuthor>
+          <GBAuthor>Awinda,G.O.</GBAuthor>
+          <GBAuthor>Mutai,B.K.</GBAuthor>
+          <GBAuthor>Waitumbi,J.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-DEC-2023) Basic Science Laboratory, WRAIR-Africa, Kisumu - Kakamega Highway, Kisumu 40100, Kenya</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: ngs_mapper v. 1.4.2 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1684</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1684</GBInterval_to>
+            <GBInterval_accession>OR972328.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>AFI-MGT-989</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Kenya: Baringo, Marigat, Sintaan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018-07-16</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>lineage C</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>34..831</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>34</GBInterval_from>
+            <GBInterval_to>831</GBInterval_to>
+            <GBInterval_accession>OR972328.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WQL07856.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDYFPVISVDLQSGRRVVSVEYIKGDGPPRIPFSMVGPCCVFLMHHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRFPNLKEAISWPLGEPSLAFFDLSSTRVHRSDDIRRDQIATLAMRSCKIANDLEDSFVGLHRMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEESLMLRSSLPSMMGRNNWIPVVPPIPDVEMESGEESDDDGFVEVD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(914..1651)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1651</GBInterval_from>
+            <GBInterval_to>914</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>OR972328.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleocapsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WQL07857.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQYGGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTLSRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLRAILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFGLVDSNGKPSAAVMAAAQAYKTAA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cacaaagaccccctagtgcttatcaagtatatcatggattactttcctgtgatatctgttgatttgcagagtggtcgtcgtgttgtgtcagtggagtacattaaaggtgatggtcctcccaggatacctttttctatggttgggccctgttgtgtctttctcatgcaccatcgtcctagtcacgaggttcgcttgcggttctctgatttctacaatgtcggagaattcccataccgagtcggacttggagactttgcatcaaacgttgcacctccaccagcaaagccttttcagagacttattgatctaataggccatatgactcttagtgatttcacaaggttccccaatctaaaagaagccatatcctggcctcttggagaaccctcactggctttctttgacctaagctctactagagtgcacaggagtgacgacattaggagggatcagattgctactctagcaatgaggagctgcaagattgccaatgatctagaggactcctttgttggcttacataggatgatagtgaccgaggctatcctcagagggattgacctgtgcctgttgccaggctttgacctcatgtatgaggttgctcacgtgcagtgtgttcggctcctgcaggcagcaaaagaggacatttctaatgctgtagttccaaattcagcccttattgctcttatggaggagagcctgatgctgcgctcatcacttcctagcatgatgggaagaaacaactggatcccagttgttcccccaatcccagatgttgagatggaatcaggggaagagagtgatgatgatggatttgttgaggttgattagaggttaaggctgccccaccccccaccccccaatcccgaccgkaaccycaayccccatttccccamcccccctgggcagtcacttaggctgctgtcttgtaggcctgagcagctgccatgacagcagctgacggcttcccattagaatccacaagcccaaaagctttcaagaattctctcctcttctcatggctaatgaagttgctattcactgctgcattcattggctgcgtgaacgttgcagcgacctcctcctttgttctacctcggaggtttgggttgatgacccgggagaactgcagcagatacagagagtgagcatctaatattgcccttagatagtcttctggtagagaagggtccaccatgccagcaaagctgggatgcatcatgtgccttgggtatgcaggggataggccgtccatggttgtcccagtgacaggaagccactcactcaagacgaccaaagcctggcatgtccagccagccagggcagcagcaactcgtgatagagtcagctcatcccgggaaggattcccctcctttagcttgtacttgttgatgagagcctctacagttgctttgccttctttcgacattttcatcatcatcctccggggcttgttgccacgagtcagagccagaacaatcattttcttggcatccttctcccagtcagccccaccatactgctttaagagctcgataaccctacgggcatcaaacccttgataagcaaactctcggacccactgttcaatctcattgcggtccactgcttgagcagcaaactggatcgcaagctcttgatagttgtccattattgtaatagtgtttgtatctctagggagcgt</GBSeq_sequence>
+  </GBSeq>

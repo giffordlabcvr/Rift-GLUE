@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PP746330</GBSeq_locus>
+    <GBSeq_length>5924</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>22-AUG-2024</GBSeq_update-date>
+    <GBSeq_create-date>22-AUG-2024</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus strain Rwanda2022P66 polymerase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>PP746330</GBSeq_primary-accession>
+    <GBSeq_accession-version>PP746330.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PP746330.1|</GBSeqid>
+      <GBSeqid>gi|2725918466</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5924</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nsengimana,I.</GBAuthor>
+          <GBAuthor>Juma,J.</GBAuthor>
+          <GBAuthor>Roesel,K.</GBAuthor>
+          <GBAuthor>Gasana,M.N.</GBAuthor>
+          <GBAuthor>Ndayisenga,F.</GBAuthor>
+          <GBAuthor>Muvunyi,C.M.</GBAuthor>
+          <GBAuthor>Hakizimana,E.</GBAuthor>
+          <GBAuthor>Hakizimana,J.N.</GBAuthor>
+          <GBAuthor>Eastwood,G.</GBAuthor>
+          <GBAuthor>Chengula,A.A.</GBAuthor>
+          <GBAuthor>Bett,B.</GBAuthor>
+          <GBAuthor>Kasanga,C.J.</GBAuthor>
+          <GBAuthor>Oyola,S.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genomic Epidemiology of Rift Valley Fever Virus Involved in the 2018 and 2022 Outbreaks in Livestock in Rwanda</GBReference_title>
+        <GBReference_journal>Viruses 16 (7), 1148 (2024)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/v16071148</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>39066310</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..5924</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Juma,J.A.</GBAuthor>
+          <GBAuthor>Nsengimana,I.</GBAuthor>
+          <GBAuthor>Mwangi,R.</GBAuthor>
+          <GBAuthor>Nyamota,R.</GBAuthor>
+          <GBAuthor>Konongoi,S.L.</GBAuthor>
+          <GBAuthor>Roesel,K.</GBAuthor>
+          <GBAuthor>Gasana,M.N.</GBAuthor>
+          <GBAuthor>Ingabire,A.</GBAuthor>
+          <GBAuthor>Uwibambe,E.</GBAuthor>
+          <GBAuthor>Ndayisenga,F.</GBAuthor>
+          <GBAuthor>Mavunyi,C.M.</GBAuthor>
+          <GBAuthor>Hazikimana,E.</GBAuthor>
+          <GBAuthor>Hazikimana,J.N.</GBAuthor>
+          <GBAuthor>Eastwood,G.</GBAuthor>
+          <GBAuthor>Chengula,A.</GBAuthor>
+          <GBAuthor>Kasanga,C.J.</GBAuthor>
+          <GBAuthor>Bett,B.</GBAuthor>
+          <GBAuthor>Oyola,S.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-APR-2024) Animal and Human Health, International Livestock Research Institute, Naivasha Road, Nairobi P. O. Box 30709-00100, Kenya</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: bwa v. 0.7.15 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5924</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5924</GBInterval_to>
+            <GBInterval_accession>PP746330.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Rwanda2022P66</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Bos taurus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Rwanda</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2022-06-22</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;5924</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5924</GBInterval_to>
+            <GBInterval_accession>PP746330.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XAJ10969.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IKTTSGMYNIVEFTTFRGDERGAFQAAMTKLAKYEVPCENRSQGRTVVLYVVSAYRHGVWSNLELEDSEAEEMVYRYRLALSVMDELRTLFPELSSTDEELGKTERELLAMVSSIQINWSVTESVFPPFSREMFDKFRSSPPDSEYITRIVSRCLINSQEKLINDSFFAEGNDKVLRFSKNAEECSLAIERALNQYRAEDNLRDLNDHKSTIQLPPWLSYHDVDGKDLCPLQGLDIRGDHPMCNLWREVVTSANLEEIERMHDDAAAELEFALSGVKDRPDERNRYHRVHLNMGSDDNVYIAALGVNGKKHKADTLVQQMRDRSKQPFSPDHBVDHISEFLSACSSDLWATDEDLYNPLSCDKELRLAAQRIHQPSLSERGFNEIITEHYKFMGSRIGSWCQMVSLIGAELSASVKQHVKPNYFVIKRLLGSGIFLLIKPTSSKSHIFVSFAIKRSCWAFDLSTSRVFKPYIDAGDLLVTDFVSYKLSKLTNLCKCVSLMESSFSFWAEAFGIPSWNFVGDLFRSSDSAAMDASYMGKLSLLTLLEDKATTEELQTIARYIIMEGFVSPPEIPKPHKMTSKFPKVLRSELQVYLLNCLCRTIQRIAGEPFILKKKDGSISWGGMFNPFSGRPLLDMQPLISCCYNGYFKNKEEETEPSSLSGMYKKIIELEHLRPQSDAFLGYKDPELPRMHEFSVSYLKEACNHAKLVLRSLYGQNFMEQIDNQIIRELSGLTLERLATLKATSNFNENWYVYKDVADKNYTRDKLLVKMSKYASEGKSLAIQKFEDCMRQIESQGCMHICLFKKQQHGGLREIYVMGAEERIVQSVVETIARSIGKFFASDTLCNPPNKVKIPETHGIRARKQCKGPVWTCATSDDARKWNQGHFVTKFALMLCEFTSPKWWPLIIRGCSMFTRKRMMMNLNYLKILDGHRELDIRDDFVMDLFKAYHGEAEVPWAFKGKTYLETTTGMMQGILHYTSSLLHTIHQEYIRSLSFKIFNLKVAPEMSKSLVCDMMQGSDDSSMLISFPADDEKVLTRCKVAAAICFRMKKELGVYLAIYPSEKSTANTDFVMEYNSEFYFHTQHVRPTIRWIAACCSLPEVETLVARQEEASNLMTSVTEGGGSFSLAAMIQQAQCTLHYMLMGMGVSELFLEYKKAVLKWNDPGLGFFLLDNPYACGLGGFRFNLFKAITRTDLQKLYAFFMKKVKGSAARDWADEDITIPETCSVSPGGALILSSSLKWGSRKKFQKLRDRLNIPENWIELINENPEVLYRAPRTGPEILLRIAEKVHSPGVVSSLSSGNAVCKVMASAVYFLSATIFEDTGRPEFNFLEDSKYSLLQKMAAYSGFHGFNDMEPEDILFLFPNIEELESLDSIVYNKGEIDIIPRVNIRDATQTRVTIFNEQKTLRTSPEKLVSDKWFGTQKSRIGKTTFLAEWEKLKKIVKWLEDTPEATLAHTPLNNHIQVRNFFARMESKPRTVRITGAPVKKRSGVSKIAMVIRDNFSRMGHLRGVEDLAGFTRSVSAEILKHFLFCILQGPYSESYKLQLIYRVLSSVSNVEIKESDGKTKTNLIGILQRFLDGDHVVPIIEEMGAGTVGGFIKRQQSKVVQNKVVYYGVGIWRGFMDGYQVHLEIENDIGQPPRLRNVTTNCQSSPWDLSVPIRQWAEDMGVTNNQDYSSKSSRGARYWMHSFRMQGPSKPFGCPVYIIKGDMSDVIRLRKEEVEMKVRGSTLNLYTKHHSHQDLHILSYTASDNDLSPGIFKSISDEGVAQALQLFEREPSNCWVRCESVAPRFISAILEICEGKRQIKGINRTRLSEIVRICSESSLRSKVGSMFSFVANVEEAHDVDYDALMDLMIEDAKNNAFSRVVNCIELDVSGPYEMESFDTSDVNLFGPAHYKDISSLSMIAHPLMDKFVDYAISKMGRASVRKVLETGRCSSKDYDLSKVLFRTLQRPEESIRIDDLELYEETDVA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcattaaaaccacatctggcatgtacaacatcgttgagttcaccacctttaggggagatgaaagaggtgcattccaggctgccatgactaaactcgctaagtatgaggttccttgtgagaacagatctcagggcaggactgttgttctttacgttgttagcgcctatcggcatggtgtatggtctaatttggagctagaggactctgaagcagaggagatggtttataggtacagacttgctcttagtgtgatggatgagctaagaaccttatttccagaactgtcttccacagatgaggaactagggaagactgagagagagttgctagccatggtctcctccatccaaataaattggtcagtcacagaatctgtgtttccaccctttagcagagagatgtttgacaagtttagatcctcccctcccgattcagagtatatcacaaggatagtgagcagatgcctcataaattctcaagagaaactcatcaatgattctttctttgctgaagggaatgacaaagttctgagattttcaaaaaacgctgaagagtgttccttggcaatagagagagccttaaatcagtatagagcagaagacaaccttagggacctcaatgaccacaagtcaactattcagctgcctccctggctgtcttatcacgatgttgatggcaaagacctatgccctcttcagggattagatataagaggggaccatcccatgtgcaacctgtggagggaagtggtcacctctgcaaatctagaggagattgagaggatgcacgatgatgcagcagcagaacttgagtttgccctttcgggagtaaaggacaggccagatgagagaaacagataccatagagtccatctaaatatgggctcagatgataatgtctacatagctgctttaggagttaatggaaagaagcacaaagcagacactttagtgcagcaaatgagagataggagtaagcagcctttctccccagatcatratgtggatcacatatctgaatttctctctgcatgctctagtgacttgtgggcaacagatgaggatctatacaaccctctctcttgtgataaagagcttagattggcagcccagaggattcatcagccatccttgtcagaaaggggcttcaatgaaatcataacagagcattacaaatttatgggaagtaggataggttcatggtgccaaatggtcagyttgataggagctgagctatcagcttctgttaagcaacatgtcaagcctaactattttgtgattaaacgactactaggttctgggattttcttgctaatcaagcccacttccagcaaaagccacatatttgtgtctttcgcaattaagcgctcttgctgggcctttgatctctccacttccagggtcttcaagccctacatagatgctggggatctgttggttactgactttgtttcctataagctaagcaagcttactaacctctgcaagtgcgtttcattaatggagtcctccttctcattctgggcagaagcatttggaattccaagctggaactttgttggtgacttgttcaggtcctcagactctgcagcaatggatgcctcatacatgggcaaactttctttattaacccttttggaagacaaagcaacaactgaagagttacagactattgcaagatatataatcatggagggctttgtctcacccccggaaatcccaaaacctcacaagatgacctctaagtttcccaaggttctcaggtcagagctgcaggtttacttattaaactgcttgtgcagaactatccagagaatagcaggtgagcctttcattcttaagaaaaaggatggatctatatcctggggtggcatgttcaatcctttttcaggrcgtccactgcttgatatgcaaccactcatcagctgttgttacaatggttactttaaaaacaaagaagaggagaccgagccttcatccctttctgggatgtataagaaaattatagaacttgagcaccttagaccacagtcagatgctttcttgggttataaagatccagaactgcctagaatgcatgagtttagtgtttcttacttgaaggaggcttgcaatcatgctaagctagtcttaaggagcctctatggacagaattttatggagcaaatagacaatcagattatacgagagcttagtgggttgactctagaaaggttagccacacttaaggccacaagcaacttcaatgagaattggtatgtctataaggatgtggcagacaagaactacacaagggataaattattagtgaagatgtcaaaatatgcctctgagggaaagagtctagctatccagaagtttgaggattgtatgaggcagatagagtcacaaggatgcatgcatatttgtttgtttaagaaacaacagcatggaggtttgagagaaatctatgtgatgggtgcagaggagagaattgttcaatcggtggtggagacaatagccaggtccatagggaagttctttgcttctgataccctctgtaacccccccaataaagtgaaaattcctgagacacatggcatcagggctcggaagcaatgtaaggggcctgtgtggacttgtgcaacatcagatgatgcaaggaagtggaaccaaggccattttgttacaaagtttgccctcatgctatgtgagttcacctctcctaaatggtggccactgatcattaggggatgctcaatgtttaccaggaagaggatgatgatgaatttgaattatcttaagatcctggatggtcatcgggagcttgatattagagatgactttgtgatggatctcttcaaagcttatcatggtgaggcagaagttccatgggcctttaaaggcaaaacatatttggaaaccacaacagggatgatgcagggaatattgcattacacttcctcactattacacaccattcatcaggaatatatccggtccttgtcctttaaaatattcaacctgaaagttgctcctgagatgagcaagagcctggtttgtgacatgatgcaaggatcagatgatagtagcatgctaatcagcttcccagctgatgatgagaaggttctcaccagatgcaaagtggccgcagccatatgcttccgcatgaagaaggagctgggagtgtaccttgccatttacccctcagagaagtccacagcaaacacagattttgtaatggaatacaactctgaattttatttccacacccagcatgttagaccaacgatcagatggattgcagcatgttgcagcctaccagaagtggaaacactagtggcccgtcaggaagaggcctctaacctaatgacttcagtcactgaggggggtgggtcattctccttagctgcaatgattcagcaagctcagtgcactctccattacatgctgatgggcatgggagtgtctgagctattcttagaatacaagaaggcagtgttgaagtggaatgaccctggcctgggtttcttcctgcttgacaacccttatgcgtgcgggttgggaggtttcagatttaatctcttcaaagctatcaccagaactgatttgcagaagctatatgctttcttcatgaagaaggtcaaaggctcagctgctagggactgggcagatgaagatatcaccatcccagaaacatgtagcgtgagcccaggtggcgctctaattcttagctcttctctaaagtggggatctaggaagaaatttcagaaactaagagaccgtctgaacataccagagaactggattgaactaataaatgagaatccagaggtgctctatcgggctcctagaacaggcccagaaatattgttgcgcattgcagagaaagtccatagcccaggtgttgtgtcatcattgtcttctggcaatgcagtctgtaaagtcatggcctcagctgtatacttcttatcagcaacaatttttgaggacactggacgtcctgagttcaacttcttggaggattctaagtacagcttgctacaaaagatggctgcatattctggctttcatggtttcaatgatatggagccggaagatatattattcttatttccgaatattgaggaattagaatcactggattctatagtttacaacaagggagaaatagacatcatcccaagagtcaacatcagggatgcaacccaaaccagggtcaccatctttaatgagcagaagaccctccgaacatctccagagaagttggtttcagacaagtggtttgggactcagaagagtaggataggcaaaacaaccttcctggctgaatgggagaagctaaagaaaattgtgaagtggttagaagatactccagaagcaactctagctcacaccccactgaataaccatatccaagttaggaatttctttgctagaatggaaagcaagcccagaacagtcagaataacaggagcccctgtaaagaagaggtcaggggtcagtaagatagccatggttatccgtgacaatttctcccggatgggccatctccgaggtgtagaagaccttgctggcttcactcgtagtgtgtcagctgaaattctcaagcactttctgttctgtatactacagggtccatacagtgagagctataagctacagctaatctacagagtcctaagctcagtgtcaaacgttgagataaaggaatcagatggtaagactaaaacaaatttgattgggatccttcagagatttctagatggtgatcacgttgtccccattattgaagagatgggagccggaacagtgggtggatttatcaagagacaacaatctaaagttgtgcaaaacaaagtggtttattatggagttgggatctggagaggcttcatggacggatatcaggtccatctcgagatagaaaatgacataggacagcccccaaggcttaggaatgtcacaactaactgtcagagcagcccatgggacctgagtgttccaataaggcagtgggcagaagacatgggggtcacaaacaaccaggattattcttctaaatctagcagaggagccagatattggatgcattcatttaggatgcaaggacctagcaaaccatttggatgcccagtttatattattaagggtgatatgtcagatgtcatcagactgagaaaggaagaggtggagatgaaagtacggggctctactctcaatttgtacaccaagcaccattctcatcaggacctacacattttatcttacactgcatcagacaatgatctcagtccaggcattttcaagtcaatatcagatgaaggggtagctcaagccctgcaattatttgagagggagccaagcaactgctgggtgagatgtgagtctgtggctccaagatttatatcagccatccttgagatatgtgaggggaagagacagataaaaggaattaacagaaccagactctcagagattgtgagaatttgttctgaatcttccctgagatcaaaagtcggatctatgttctcatttgtcgccaatgtcgaggaggcccatgatgttgattatgatgcgttgatggatctaatgatagaagatgccaagaacaatgcatttagtcgtgtcgttaattgcatagagttggatgttagtggtccttacgagatggagtcttttgatacatctgatgtcaatctctttgggccagcccactacaaggacatcagttcattgtctatgattgctcaccccttgatggataagtttgttgattatgccatttctaagatggggagagcctcagttaggaaagttctagaaacaggtcggtgctctagcaaagattatgatttatcaaaggttctcttcagaactctacagagaccagaagaaagcatcaggatagatgatctggagttatatgaggagacagatgtggcg</GBSeq_sequence>
+  </GBSeq>

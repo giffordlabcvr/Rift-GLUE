@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GM828154</GBSeq_locus>
+    <GBSeq_length>257</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>17-DEC-2008</GBSeq_update-date>
+    <GBSeq_create-date>17-DEC-2008</GBSeq_create-date>
+    <GBSeq_definition>Sequence 28 from Patent WO2007091125</GBSeq_definition>
+    <GBSeq_primary-accession>GM828154</GBSeq_primary-accession>
+    <GBSeq_accession-version>GM828154.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|GM828154.1|</GBSeqid>
+      <GBSeqid>pat|WO|2007091125|28</GBSeqid>
+      <GBSeqid>gi|218387846</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..257</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wain-Hobson,S.</GBAuthor>
+          <GBAuthor>Vartanian,J.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Differential amplification of mutant nucleic acids by pcr in a mixture of nucleic acids</GBReference_title>
+        <GBReference_journal>WO2007091125-A2 28 16-AUG-2007 INSTITUT PASTEUR (FR)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..257</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>257</GBInterval_to>
+            <GBInterval_accession>GM828154.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgaagagaacctttgataaatcatagtctttgctggagcaccgacctgtttctagaactttcctaactgaggctctccccatcttagaaatagcataatcaacaaacttatccattaagggatgagcaatcattgataatgaactgatgtccttgtaatgggctggcccaaagagattgacatcagatgtatcaaaagattccatctcgtaaggaccactaacatccaactctatgcaattaacaacatgactgaat</GBSeq_sequence>
+  </GBSeq>

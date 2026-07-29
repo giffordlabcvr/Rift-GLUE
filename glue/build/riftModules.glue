@@ -1,0 +1,7 @@
+  # create modules from files
+
+  create module -f modules/tabularUtilityCsv.xml
+  create module -f modules/tabularUtilityTab.xml
+
+  create module --fileName modules/riftGenbankXmlPopulator.xml
+

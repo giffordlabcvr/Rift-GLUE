@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OK415596</GBSeq_locus>
+    <GBSeq_length>232</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-APR-2022</GBSeq_update-date>
+    <GBSeq_create-date>30-APR-2022</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate 2018/MRT/4 nonfunctional glycoprotein gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>OK415596</GBSeq_primary-accession>
+    <GBSeq_accession-version>OK415596.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OK415596.1|</GBSeqid>
+      <GBSeqid>gi|2230207495</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..232</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stoek,F.</GBAuthor>
+          <GBAuthor>Barry,Y.</GBAuthor>
+          <GBAuthor>Ba,A.</GBAuthor>
+          <GBAuthor>Schulz,A.</GBAuthor>
+          <GBAuthor>Rissmann,M.</GBAuthor>
+          <GBAuthor>Wylezich,C.</GBAuthor>
+          <GBAuthor>Sadeghi,B.</GBAuthor>
+          <GBAuthor>Beyit,A.D.</GBAuthor>
+          <GBAuthor>Eisenbarth,A.</GBAuthor>
+          <GBAuthor>N'diaye,F.B.</GBAuthor>
+          <GBAuthor>Haki,M.L.</GBAuthor>
+          <GBAuthor>Doumbia,B.A.</GBAuthor>
+          <GBAuthor>Gueya,M.B.</GBAuthor>
+          <GBAuthor>Bah,M.Y.</GBAuthor>
+          <GBAuthor>Eiden,M.</GBAuthor>
+          <GBAuthor>Groschup,M.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Mosquito survey in Mauritania: Detection of Rift Valley fever virus and dengue virus and the determination of feeding patterns</GBReference_title>
+        <GBReference_journal>PLoS Negl Trop Dis 16 (4), e0010203 (2022)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1371/journal.pntd.0010203</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>35427361</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..232</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Stoek,F.</GBAuthor>
+          <GBAuthor>Barry,Y.</GBAuthor>
+          <GBAuthor>Sadeghi,B.</GBAuthor>
+          <GBAuthor>Wylezich,C.</GBAuthor>
+          <GBAuthor>Ba,A.</GBAuthor>
+          <GBAuthor>Schulz,A.</GBAuthor>
+          <GBAuthor>Rissmann,M.</GBAuthor>
+          <GBAuthor>Beyit,A.D.</GBAuthor>
+          <GBAuthor>Eisenbarth,A.</GBAuthor>
+          <GBAuthor>N'diaye,F.B.</GBAuthor>
+          <GBAuthor>Haki,M.L.</GBAuthor>
+          <GBAuthor>Doumbia,A.B.</GBAuthor>
+          <GBAuthor>Gueya,M.B.</GBAuthor>
+          <GBAuthor>Ould Bah,M.Y.</GBAuthor>
+          <GBAuthor>Eiden,M.</GBAuthor>
+          <GBAuthor>Groschup,M.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-SEP-2021) Institute of Novel and Emerging Infectious Diseases, Friedrich-Loeffler-Institut, Sudufer 10, Greifswald, Mecklenburg-Vorpommern 17493, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious Prime v. 2021.0.1 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..232</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>232</GBInterval_to>
+            <GBInterval_accession>OK415596.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>2018/MRT/4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>mosquito</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>M</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Mauritania</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>complement(&lt;1..&gt;232)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>232</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>OK415596.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional glycoprotein due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctactaagaaggcctcatagatcagtacgtgtagaagcaatatgtagaaataagtagacataagcaaacctaattatgtaaatattgtacagataggacaaattattgggatatccaggcttagaaacttatgcaataatactttagatgtaagcttagttgtaatttggggtggtggggtgaggcagcagcagtctcaagtgcttgtgaatattctagttggcgtgattgt</GBSeq_sequence>
+  </GBSeq>

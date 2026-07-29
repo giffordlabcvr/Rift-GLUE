@@ -1,0 +1,32 @@
+
+delete project rift
+
+create project rift "A GLUE project for Rift Valley fever virus (RFV)" --minVersion 0.1.151
+
+# Define project-specific DB schema extensions
+schema-project rift
+  run file schema/riftSchemaExtensions.glue
+exit
+ 
+project rift
+
+  run file glue/build/riftProjectSettings.glue  
+  run file glue/build/riftModules.glue
+
+  # Set up M49 standard for country & region data
+  run file glue/build/m49_countries/populateM49All.glue
+  
+  #import source sources/ncbi-refseqs-rift 
+  import source sources/ncbi-core-rift
+
+  #run file glue/build/riftFeatures.glue
+  #run file glue/build/riftMasterReferences.glue
+  
+  run script glue/build/riftLoadIsolateDataNuccore.js
+  module riftGenbankXmlPopulator populate
+  
+  # import unconstrained alignment  
+  #module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/rift.fna
+
+  validate
+  

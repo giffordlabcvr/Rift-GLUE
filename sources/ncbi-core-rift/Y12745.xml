@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Y12745</GBSeq_locus>
+    <GBSeq_length>601</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>31-MAR-1998</GBSeq_create-date>
+    <GBSeq_definition>Rift valley fever virus NSs gene, partial, strain Ar Mg811</GBSeq_definition>
+    <GBSeq_primary-accession>Y12745</GBSeq_primary-accession>
+    <GBSeq_accession-version>Y12745.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Y12745.1|</GBSeqid>
+      <GBSeqid>gi|3006097</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>NSs gene</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..601</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sall,A.A.</GBAuthor>
+          <GBAuthor>de A Zanotto,P.M.</GBAuthor>
+          <GBAuthor>Zeller,H.G.</GBAuthor>
+          <GBAuthor>Digoutte,J.P.</GBAuthor>
+          <GBAuthor>Thiongane,Y.</GBAuthor>
+          <GBAuthor>Bouloy,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Variability of the NS(S) protein among Rift Valley fever virus isolates</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 78 (PT 11), 2853-2858 (1997)</GBReference_journal>
+        <GBReference_pubmed>9367372</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..601</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Prehaud,C.J.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-APR-1997) C.J.N. Prehaud, Institut Pasteur, Laboratoire des Bunyavirides, 75724 Paris Cedex 15, 75724, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..601</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>601</GBInterval_to>
+            <GBInterval_accession>Y12745.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Ar Mg811</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;601</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>601</GBInterval_to>
+            <GBInterval_accession>Y12745.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NSs</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;601</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>601</GBInterval_to>
+            <GBInterval_accession>Y12745.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NSs</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA73279.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:O73541</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>YIRGDGPPRIPYSMVGPCCVFLMHHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRFPNLKEAISWPLGEPSPGFLDLSSTRVHRNHDIRRDQIATLAMRSCKITNDLEDSFVGLHRMIATEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtacattagaggagatggtcctcccaggataccttattctatggttgggccctgttgtgtctttctcatgcaccatcgtcctagtcacgaggttcgcttgcgattctctgacttctacaatgtcggagaattcccataccgagtcggacttggagactttgcatcaaacgttgcacctccaccagcgaagccttttcagagacttattgatctaataggccatatgactcttagtgatttcacaaggttccccaatctgaaagaagccatatcctggcctcttggagaaccctcacctggctttcttgacctaagctctactagagtgcataggaatcatgacattagaagggatcagattgccactctagcaatgaggagttgcaagatcaccaatgatctagaggactcctttgttggcttacacaggatgatagcgactgaggctatcctcagagggattgacctgtgcctgttgccaggctttgatctcatgtatgaggttgctcacgtacagtgcgttcggcttctgcaagcagcaaaagaggacatttctaatgctgtagttccaaactcagccctcattgctcttatggaggag</GBSeq_sequence>
+  </GBSeq>

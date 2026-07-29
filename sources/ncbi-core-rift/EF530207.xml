@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF530207</GBSeq_locus>
+    <GBSeq_length>738</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-APR-2007</GBSeq_update-date>
+    <GBSeq_create-date>29-APR-2007</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate OV 35/74 segment S nucleoprotein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF530207</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF530207.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF530207.1|</GBSeqid>
+      <GBSeqid>gi|145687756</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..738</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Potgieter,A.C. Sr.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A rapid immunochromatographic test to detect Rift Valley fever virus antibodies in humans and livestock</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..738</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Potgieter,A.C. Sr.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-MAR-2007) Virology, Onderstepoort Veterinary Institute, 100 Old Soutpan Road, Onderstepoort, Gauteng 0110, South Africa</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..738</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>738</GBInterval_to>
+            <GBInterval_accession>EF530207.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>OV 35/74</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>infected mouse brain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>South Africa</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..738</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>738</GBInterval_to>
+            <GBInterval_accession>EF530207.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABP88854.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQYGGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTLSRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLRAILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFGLVDSNGKPSAAVMAAAQAYKTAA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggacaactatcaagagcttgcgatccagtttgctgctcaagcagtggaccgcaatgagattgaacagtgggtccgagagtttgcttatcaaggatttgatgcccgtagggttatcgaactcttaaagcagtatggtggggctgactgggagaaggatgccaagaaaatgattgttctggctctgactcgtggcaacaagccccggaggatgatgatgaaaatgtcgaaagaaggcaaagcaactgtggaggctctcatcaacaagtataagctaaaggaggggaatccttcccgggatgagttgactctatcacgagttgctgctgccctggctggctggacttgccaggctttggtcgtcttgagtgagtggcttcctgtcactgggaccaccatggatggcctatcccctgcatacccaaggcatatgatgcaccccagctttgctggcatggtggacccttctctaccagaagactatctaagggcaatattggatgctcactctctgtatctgctgcagttctcccgggtcatcaacccaaacctccgaggtagaacaaaggaggaggttgccgcaacgttcacgcagccaatgaatgcagcagtgaatagcaactttataagccatgagaagaggagagaattcttgaaagcttttgggcttgtggattccaatgggaagccgtcagcagctgtcatggcagctgctcaggcgtacaagacagcagcctaa</GBSeq_sequence>
+  </GBSeq>

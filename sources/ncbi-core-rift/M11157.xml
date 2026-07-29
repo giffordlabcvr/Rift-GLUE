@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>RVFMRNA</GBSeq_locus>
+    <GBSeq_length>3884</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-SEP-1988</GBSeq_update-date>
+    <GBSeq_create-date>03-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus (phlebovirus, RVFV) M RNA segment, complete sequence, encoding glycoproteins G1 and G2</GBSeq_definition>
+    <GBSeq_primary-accession>M11157</GBSeq_primary-accession>
+    <GBSeq_accession-version>M11157.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M11157.1|RVFMRNA</GBSeqid>
+      <GBSeqid>gi|334024</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>glycoprotein</GBKeyword>
+      <GBKeyword>nonstructural protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3884</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Collett,M.S.</GBAuthor>
+          <GBAuthor>Purchio,A.F.</GBAuthor>
+          <GBAuthor>Keegan,K.</GBAuthor>
+          <GBAuthor>Frazier,S.</GBAuthor>
+          <GBAuthor>Hays,W.</GBAuthor>
+          <GBAuthor>Anderson,D.K.</GBAuthor>
+          <GBAuthor>Parker,M.D.</GBAuthor>
+          <GBAuthor>Schmaljohn,C.</GBAuthor>
+          <GBAuthor>Schmidt,J.</GBAuthor>
+          <GBAuthor>Dalrymple,J.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete nucleotide sequence of the M RNA segment of Rift Valley fever virus</GBReference_title>
+        <GBReference_journal>Virology 144 (1), 228-245 (1985)</GBReference_journal>
+        <GBReference_pubmed>2998042</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Rift Valley fever virus (Strain ZH-501), cDNA to mRNA, passed in Vero cells.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3884</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3884</GBInterval_to>
+            <GBInterval_accession>M11157.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1..479</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>479</GBInterval_to>
+            <GBInterval_accession>M11157.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein (NSm) (put.); putative</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>21..3641</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>21</GBInterval_from>
+            <GBInterval_to>3641</GBInterval_to>
+            <GBInterval_accession>M11157.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>River Valley virus polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA47450.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MYVLLTILISVLVCEAVIRVSLSSTREETCFGDSTNPEMIEGAWDSLREEEMPEELSCSISGIREVKTSSQELYRALKAIIAADGLNNITCHGKDPEDKISLIKGPPHKKRVGIVRCERRRDAKQIGRETMAGIAMTVLPALAVFALAPVVFAEDPHLRNRPGKGHNYIDGMTQEDATCKPVTYAGACSSFDVLLEKGKFPLFQSYAHHRTLLEAVHDTIIAKADPPSCDLQSAHGNPCMKEKLVMKTHCPNDYQSAHYLNNDGKMASVKCPPKYGLTEDCNFCRQMTGASLKKGSYPLQDLFCQSSEDDGSKLKTKMKGVCEVGVQAHKKCDGQLSTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFEHKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTAQYANAYCSHANGSGIVQIQVSGVWKKPLCVGYERVVVKRELSAKPIQRVEPCTTCITKCEPHGLVVRSTGFKISSAVACASGVCVTGSQSPSTEITLKYPGISQSSGGDIGVHMAHDDQSVSSKIVAHCPPQDPCLVHGCIVCAHGLINYQCHTALSAFVVVFVFSSIAIICLAVLYRVLKCLKIAPRKVLNPLMWITAFIRWIYKKMVARVAHNINQVNREIGWMEGGQLVLGNPAPIPRHAPIPRYSTYLMLLLIVSYASACSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSISPKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPSKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREAGGESTVVNPKSGSWNFFDWFSGLMSWFGGPLKLYSSFACMLHYQLGSFSSLYILEEQASLKCGLLPLRRPHRSVRVKVIC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>480..2090</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>480</GBInterval_from>
+            <GBInterval_to>2090</GBInterval_to>
+            <GBInterval_accession>M11157.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein 2 (gp2) (put.); putative</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>EDPHLRNRPGKGHNYIDGMTQEDATCKPVTYAGACSSFDVLLEKGKFPLFQSYAHHRTLLEAVHDTIIAKADPPSCDLQSAHGNPCMKEKLVMKTHCPNDYQSAHYLNNDGKMASVKCPPKYGLTEDCNFCRQMTGASLKKGSYPLQDLFCQSSEDDGSKLKTKMKGVCEVGVQAHKKCDGQLSTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFEHKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTAQYANAYCSHANGSGIVQIQVSGVWKKPLCVGYERVVVKRELSAKPIQRVEPCTTCITKCEPHGLVVRSTGFKISSAVACASGVCVTGSQSPSTEITLKYPGISQSSGGDIGVHMAHDDQSVSSKIVAHCPPQDPCLVHGCIVCAHGLINYQCHTALSAFVVVFVFSSIAIICLAVLYRVLKCLKIAPRKVLNPLMWITAFIRWIYKKMVARVAHNINQVNREIGWMEGGQLVLGNPAPIPRHAPIPRYSTYLMLLLIVSYASA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>2091..3638</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2091</GBInterval_from>
+            <GBInterval_to>3638</GBInterval_to>
+            <GBInterval_accession>M11157.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein 1 (gp1) (put.); putative</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSISPKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPSKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREAGGESTVVNPKSGSWNFFDWFSGLMSWFGGPLKLYSSFACMLHYQLGSFSSLYILEEQASLKCGLLPLRRPHRSVRVKVIC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acacaaagacggtgcattaaatgtatgttttattaacaattctaatctcggttctggtgtgtgaagcggttattagagtgtctctaagctccacaagagaagagacctgctttggtgactccactaacccagagatgattgaaggagcttgggattcactcagagaggaggagatgccggaggagctctcctgttctatatcaggcataagagaggttaagacctcaagccaggagttatacagggcattaaaagccatcattgctgctgatggcttgaacaacatcacctgccatggtaaggatcctgaggacaagatttccctcataaagggtcctcctcacaaaaagcgggtggggatagttcggtgtgagagacgaagagatgctaagcaaatagggagagaaaccatggcagggattgcaatgacagtccttccagccttagcagtttttgctttggcacctgttgtttttgctgaagacccccatctcagaaacagaccagggaaggggcacaactacattgacgggatgactcaggaggatgccacatgcaaacctgtgacatatgctggggcatgtagcagttttgatgtcttgcttgaaaagggaaaatttccccttttccagtcgtatgctcatcatagaactctactagaggcagttcacgacaccatcattgcaaaggctgatccacctagctgtgaccttcagagtgctcatgggaacccctgcatgaaagagaaactcgtgatgaagacacactgtccaaatgactaccagtcagctcattacctcaacaatgacgggaaaatggcttcagtcaagtgccctcctaagtatgggctcactgaggactgcaacttttgtaggcagatgacaggtgctagcctgaagaaggggtcttatcctctccaagacttgttttgtcagtcaagtgaggatgatggatcaaaattaaaaacaaaaatgaaaggggtctgcgaagtgggggttcaagcacacaaaaagtgtgatggccaactcagcactgcacatgaggttgtgccctttgcagtgtttaagaactcaaagaaggtttatcttgataagcttgaccttaagactgaggagaatctgctaccagactcatttgtctgtttcgagcataagggacagtacaaaggaacaatggactctggtcagactaagagggagctcaaaagctttgatatctctcagtgccccaagattggaggacatggtagtaagaagtgcactggggacgcagcattttgctctgcttatgagtgcactgctcagtacgccaatgcctattgttcacatgctaatgggtcagggattgtgcagatacaagtatcaggggtctggaagaagcctttatgtgtagggtatgagagagtggttgtgaagagagaactctctgccaagcccatccagagagttgagccttgcacaacttgtataaccaaatgtgagcctcatggattggttgtccgatcaacagggttcaagatatcatcagcagttgcttgtgctagcggagtttgcgtcacaggatcgcagagtccttccaccgagattacactcaagtatccagggatatcccagtcttctgggggggacataggggttcacatggcacacgatgatcagtcagttagctccaaaatagtagctcactgccctccccaggacccgtgtttagtgcatggctgcatagtgtgtgctcatggcctgataaattaccagtgtcacactgctctcagtgcctttgttgttgtgtttgtattcagttctattgcaataatttgtttagctgttctttatagggtgcttaagtgcctgaagattgccccaaggaaagttctgaatccactaatgtggatcacagccttcatcagatggatatataagaagatggttgccagagtggcacacaacattaatcaagtgaacagggaaataggatggatggaaggaggtcagttggttctagggaaccctgcccctattcctcgtcatgccccaatcccacgttatagcacatacctgatgttattattgattgtctcatatgcatcagcatgttcagaactgattcaggcaagctccagaatcaccacttgctctacagagggtgttaacaccaagtgtagactgtctggcacagcattgatcagagcagggtcagttggggcagaggcttgtttgatgttgaagggggtcaaggaagatcaaaccaagttcttaaagataaaaactgtctcaagtgagctatcatgcagggagggccagagttattggactgggtccattagccctaaatgtttgagctcaaggagatgccaccttgtcggggaatgccatgtgaataggtgtctgtcttggagggacaatgaaacttcagcagagttttcatttgttggggaaagcacgaccatgcgagagaataagtgttttgagcaatgtggaggatgggggtgtgggtgtttcaatgtgaacccatcttgcttatttgtgcacacgtatctgcagtcagttagaaaagaggcccttagagtttttaactgtatcgactgggtgcataaactcactctagagatcacagactttgatggctctgtttcaacaatagacttgggagcatcatctagccgtttcacaaactggggttcagttagcctctcactggacgcagagggcatctcaggctcaaatagcttttctttcattgagagcccaagcaaagggtatgcaattgttgatgagccattctcagaaattcctcggcaagggttcttgggggagatcaggtgcaattcagagtcctcagtcctgagtgctcatgaatcatgccttagggcaccaaaccttatctcatacaagcccatgatagatcaattggagtgcacaacaaatctgattgatccctttgttgtctttgagaggggttctctgccacagacaaggaatgataaaacctttgcagcttcaaaaggaaatagaggtgttcaagctttctctaagggctctgtacaagctgatctaactctgatgtttgacaattttgaggtggactttgtgggagcagccgtatcttgtgatgccgccttcttaaatttgacaggttgctattcttgcaatgcaggggccagggtctgcctgtctatcacatccacaggaactggatctctctctgcccacaataaggatgggtctctgcatatagtccttccatcagagaatggaacaaaagaccagtgtcagatactacacttcactgtgcctgaagtagaggaggagtttatgtactcttgtgatggagatgagcggcctctgttggtgaaggggaccctgatagccattgatccatttgatgataggcgggaagcagggggggaatcaacagttgtgaatccaaaatctggatcttggaatttctttgactggttttctggactcatgagttggtttggagggcctcttaaactatactcctcatttgcctgtatgttgcattatcaattgggctctttttcctccttatatatcttggaagaacaggcctctctaaaatgtggcttgctgccactaagaaggcctcatagatcagtacgtgtaaaagtaatatgttgaaataagtagacacaagcaaacctaattatgtaagtgttgtacagataggtcaaattattggaatatccaagcttagaaacttatgcaataatactttagatgtaagcttagttgtaatttggggtggtggggtgaggcagcagcagtctcaagtgcttgtgaatattctagttggcgtaatcgtcttttgccagattagctgggaattaaactaactctttgaagttgcaccggtctttgtgt</GBSeq_sequence>
+  </GBSeq>

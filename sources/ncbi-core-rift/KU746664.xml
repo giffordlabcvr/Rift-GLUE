@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KU746664</GBSeq_locus>
+    <GBSeq_length>219</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-SEP-2017</GBSeq_update-date>
+    <GBSeq_create-date>02-SEP-2017</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Rift Valley fever virus strain Sudan-1 segment S genomic sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KU746664</GBSeq_primary-accession>
+    <GBSeq_accession-version>KU746664.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KU746664.1|</GBSeqid>
+      <GBSeqid>gi|1061432259</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..219</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hussien,H.A.</GBAuthor>
+          <GBAuthor>Eldegail,M.H.</GBAuthor>
+          <GBAuthor>Ahmed,M.E.</GBAuthor>
+          <GBAuthor>Bilal,N.E.</GBAuthor>
+          <GBAuthor>Aradaib,I.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular Characterization of Rift Valley Fever Virus Strains recovered from infected patients in Central Sudan</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..219</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hussien,H.A.</GBAuthor>
+          <GBAuthor>Eldegail,M.H.</GBAuthor>
+          <GBAuthor>Ahmed,M.E.</GBAuthor>
+          <GBAuthor>Bilal,N.E.</GBAuthor>
+          <GBAuthor>Aradaib,I.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-FEB-2016) Veterinary Medicine, University of Khartoum, P.O.Box 32, Khartoum North 11111, Sudan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..219</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>219</GBInterval_to>
+            <GBInterval_accession>KU746664.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Sudan-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Sudan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>20-Oct-2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggaggttaagtctgccccaccccccaccccccaatcccgaccgtaaccccaacccccatcttccccaacccccctgggcagccacttaggctgctgtcttgtaggcctgagcagctgccatgactgaggctagacggcgcgtctgcaagtgtagaatccacaagccgcaaaagctgagcgatagaagctcctcttctcatggcttataaagttgctatt</GBSeq_sequence>
+  </GBSeq>

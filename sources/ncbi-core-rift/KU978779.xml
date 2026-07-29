@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KU978779</GBSeq_locus>
+    <GBSeq_length>6453</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>25-MAR-2017</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate ZINGA J83 R1 segment L, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KU978779</GBSeq_primary-accession>
+    <GBSeq_accession-version>KU978779.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KU978779.1|</GBSeqid>
+      <GBSeqid>gi|1020216148</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA257008</GBSeq_project>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..6453</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rossi,S.L.</GBAuthor>
+          <GBAuthor>Forrester,N.L.</GBAuthor>
+          <GBAuthor>Ksiazek,T.</GBAuthor>
+          <GBAuthor>Guerbois,M.</GBAuthor>
+          <GBAuthor>Lin,D.</GBAuthor>
+          <GBAuthor>Hari,K.</GBAuthor>
+          <GBAuthor>Weaver,S.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_consortium>Consortium for Microbial Forensics and Genomics (microFORGE)</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-MAR-2016) Microbiology and Immunology, University of Texas Medical Branch, 301 University Boulevard, Galveston, TX 77555, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank Accession Numbers KU978773, KU978776, KU978779 represent sequences from the 3 segments of Rift Valley fever virus ZINGA J83 R1.; nan.; ##Genome-Assembly-Data-START## ; Assembly Method :: Trimmomatic v. 0.32; SGA v. 0.10.13; iMetAMOS v. 1.5; samtools v1.1; FastQC v. 0.10.0; Spades v. 3.1.1; idba v1.1.1; Pilon v. 1.8; Quast v. 2.2; Prokka v. 1.7 ; Assembly Name :: RVFV001-SEQ-1-ASM-1 ; Genome Coverage :: 7622.03x ; Sequencing Technology :: illumina HiSeq1500 ; ##Genome-Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..6453</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>6453</GBInterval_to>
+            <GBInterval_accession>KU978779.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ZINGA J83 R1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Central African Republic</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Jan-1969</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>41..6319</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>41</GBInterval_from>
+            <GBInterval_to>6319</GBInterval_to>
+            <GBInterval_accession>KU978779.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>AM555_00001</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>41..6319</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>41</GBInterval_from>
+            <GBInterval_to>6319</GBInterval_to>
+            <GBInterval_accession>KU978779.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>AM555_00001</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>ab initio prediction:Prodigal:2.60</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AMZ00430.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDSILSKQLVDKTGFVRVPIKHYDCTMLTLALPTFDVSKMVDRITIDFNLDDIQGASEIGSTLLPSMSIDVEDMANFVHDFTFGHLADKTDRLLMREFPMMNDGFDHLSPDMIIKTTSGMYNIVEFTTFRGDERGAFQAAMTKLAKYEVPCENRSQGRTVVLYVVSAYRHGVWSNLELEDSEAEEMVYRYRLALSVMDELRTLFPELSSTDEELGKTERELLAMVSSIQINWSVTESVFPPFSREMFDRFRSSPPDSEYITRIVSRCLINSQEKLINNSFFAEGNDKVLRFSKNAEECSLAIERALNQYRAEDNLRDLNDHKSTIQLPPWLSYHDVDGKDLCPLQGLDVRGDHPMSNLWREVVTSANLEEIERMHDDAAAELEFALSGVKDRPDERNRYHRVHLNMGSDDGVYIAALGVNGKKHKADTLVQQMRDRSKQPFSPDHDVDHISEFLSACSSDLWATDEDLYNPLSCDKELRLAAQRIHQPSLSERGFNEIITEHYKFMGSRIGSWCQMVSLIGAELSASVKQHVKPNYFVIKRLLGSGIFLLIKPTSSKSHIFVSFAIKRSCWAFDLSTSRVFKPYIDAGDLLVTDFVSYKLSKLTNLCKCVSLMESSFSFWAEAFGIPSWNFVGDLFRSSDSAAMDASYMGKLSLLTLLEDKATTEELQTIARYIIMEGFVSPPEIPKPHKMTSKFPKVLRSELQVYLLNCLCRTIQRIAGEPFILKKKDGSISWGGMFNPFSGRPLLDMQPLISCCYNGYFKNKEEETEPSSLSGMYKKIIELEHLRPQSDAFLGYKDPELPRMHEFSVSYLKEACNHAKLVLRSLYGQNFMEQIDNQIIRELSGLTLERLATLKATSNFNENWYVYKDVADKNYTRDKLLVKMSKYASEGKSLAIQKFEDCMRQIESQGCMHICLFKKQQHGGLREIYVMGAEERIVQSVVETIARSIGKFFASDTLCNPPNKVKIPETHGIRARKQCKGPVWTCATSDDARKWNQGHFVTKFALMLCEFTSPKWWPLIIRGCSMFTRKRMMMNLNYLKILDGHRELDIRDDFVMDLFKAYHGEAEVPWAFKGKTYLETTTGMMQGILHYTSSLLHTIHQEYIRSLSFKIFNLKVAPEMSKSLVCDMMQGSDDSSMLISFPADDEKVLTRCKVAAAICFRMKKELGVYLAIYPSEKSTANTDFVMEYNSEFYFHTQHVRPTIRWIAACCSLPEVETLVARQEEASNLMTSVTEGGGSFSLAAMIQQAQCTLHYMLMGMGVSELFLEYKKAVLKWNDPGLGFFLLDNPYACGLGGFRFNLFKAITRTDLQKLYAFFMKKVKGSAARDWADEDITIPETCSVSPGGALILSSSLKWGSRKKFQKLRDRLNIPENWIELINENPEVLYRAPRTGPEILLRIAEKVHSPGVVSSLSSGNAVCKVMASAVYFLSATIFEDTGRPEFNFLEDSKYSLLQKMAAYSGFHGFNDMEPEDILFLFPNIEELESLDSIVYNKGEIDIIPRVNIRDATQTRVTIFNEQKTLRTSPEKLVSDKWFGTQKSRIGKTTFLAEWEKLKKIVKWLEDTPEATLAHTPLNNHIQVRNFFARMESKPRTVRITGAPVKKRSGVSKIAMVIRDNFSRMGHLRGVEDLAGFTRSVSAEILKHFLFCILQGPYSESYKLQLIYRVLSSVSNVEIKESDGKTKTNLIGILQRFLDGDHVVPIIEEMGAGTVGGFIKRQQSKVVQNKVVYYGVGIWRGFMDGYQVHLEIENDIGQPPRLRNVTTNCQSSPWDLSVPIRQWAEDMGVTNNQDYSSKSSRGARYWMHSFRMQGPSKPFGCPVYIIKGDMSDVIRLRKEEVEMKVRGSTLNLYTKHHSHQDLHILSYTASDNDLSPGIFKSISDEGVAQALQLFEREPSNCWVRCESVAPKFISAILEICEGKRQIKGINRTRLSEIVRICSESSLRSKVGSMFSFVANVEEAHDVDYDALMDLMIEDAKNNAFSHVVNCIELDVSGPYEMESFDTSDVNLFGPAHYKDISSLSMIAHPLMDKFVDYAISKMGRASVRKVLETGRCSSKDYDLSKVLFRTLQRPEESIRIDDLELYEETDVADDMLG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctcagcttcccgagtagctgggattacaggcgcccaatcatggattctatattatcaaaacagctggttgacaaaactggttttgttagagtgccaatcaagcattatgactgtacaatgctaactctggcacttccaacatttgatgtttccaagatggtagatagaattaccatagacttcaatctggatgatatacaaggagcatctgaaataggctcaactttgctaccctccatgtcgatagatgtggaagatatggccaattttgttcacgatttcacctttggccacttagctgacaaaactgacagactgttaatgcgtgagtttcccatgatgaatgacgggtttgatcatttgagccctgacatgataattaaaactacatctggcatgtacaacatcgttgagttcaccacctttaggggagatgaaagaggtgcattccaggctgccatgactaagctcgctaagtatgaggttccctgtgagaacagatctcagggcaggactgttgttctttatgttgttagcgcctatcggcatggtgtatggtctaatttggagctagaggactctgaagcagaggagatggtttatagatacagacttgctcttagtgtgatggatgagctaaggaccttgttcccagaactgtcatccacagatgaggaattagggaagactgagagagagttgctagccatggtctcctccatccaaataaattggtcagtcacagaatctgtgtttccaccctttagcagagaaatgtttgacaggtttagatcctcccctcccgactcagagtatatcacgaggatagtgagcagatgcctcataaattctcaagagaaactcatcaataattccttctttgctgaagggaatgataaagttctgagattttcaaaaaacgctgaagagtgttccttggcaatagagagagccttaaatcagtatagagcagaagacaaccttagggacctcaatgaccacaagtcaactattcagctgcctccctggctgtcctaccacgatgtcgatggcaaagatctgtgccctcttcagggattagatgtgagaggggaccatcccatgagcaacctgtggagggaagtggtcacctctgcaaatctagaggaaattgagaggatgcacgatgatgcagcagcagaacttgagtttgccctttcgggagtaaaggacaggccagatgagagaaacagataccatagagtccatctaaatatgggctcagatgatggtgtctacatagctgctttaggagttaatggaaagaagcataaagcagacactttagtgcaacaaatgagagacaggagtaaacagcctttctccccagatcatgatgtggatcacatatctgaatttctctctgcatgctctagtgacttgtgggcaacagatgaggacctgtacaaccctctctcttgtgataaagagcttagattagcagcccagaggattcatcagccatccttatcagaaaggggctttaatgagatcataacagagcactacaaatttatgggaagtaggataggatcatggtgccaaatggtcagtttgataggagctgagctatcagcttctgttaagcaacatgtcaagcctaactattttgtgattaaacgactactaggttctgggattttcttgctaatcaagcccacttccagcaaaagccatatattcgtatctttcgcaattaagcgctcttgctgggcctttgacctctccacttccagggttttcaagccttatatagatgctggggatctgttagttactgactttgtttcttataagctaagcaagcttactaacctctgcaagtgcgtttcattaatggagtcctccttctcattctgggcagaagcatttggaattccaagctggaactttgttggtgacttgttcagatcttcagactctgcagcaatggatgcctcatacatgggcaaactttctttattaacccttttggaagacaaagcaacaactgaagagttacagactatagcaagatatataatcatggagggctttgtctcgcccccagaaatcccaaaacctcacaagatgacctctaagtttcccaaggttctcaggtcagagctgcaggtttacttattaaactgcttatgcagaactatccagagaatagcaggtgagcccttcattcttaagaagaaggatgggtctatatcctggggtggcatgtttaatcctttttcagggcgtccactgcttgatatgcagcctctcatcagctgttgttacaatggttactttaaaaataaagaagaagagactgagccttcgtccctttctgggatgtataagaaaattatagaacttgagcaccttagaccacagtcagatgccttcttgggttataaagatccagaactgcctagaatgcatgagttcagtgtttcctacttgaaggaggcttgcaatcatgctaagctagtcttaaggagcctctatggacagaatttcatggagcaaatagacaaccagattattcgagagctcagtgggttgactctagaaaggctagccacacttaaggccacaagcaactttaatgagaattggtatgtctataaggatgtggcagacaagaactatacaagggataaattattagtgaagatgtcaaaatatgcctctgagggaaagagcctagccatccagaagtttgaggattgtatgaggcagatagagtcacaaggatgtatgcatatttgtttgtttaagaaacaacagcatggaggtctgagagagatctatgtgatgggtgcagaggaaagaattgttcaatcggtggtggagacaatagccaggtccatagggaagttctttgcttctgataccctctgtaacccccccaataaagtgaaaattcctgagacacatggcatcagggctcggaagcaatgtaaggggcctgtgtggacttgtgcaacatcagatgatgcaaggaagtggaaccaaggccattttgttacaaagtttgccctcatgctatgtgagttcacctctcctaaatggtggccactgatcattaggggatgttcaatgtttaccaggaaaaggatgatgatgaatttgaattatcttaagatcctggatggtcatcgggagcttgatattagagatgactttgtgatggatctcttcaaagcttatcatggtgaggcagaagttccatgggcctttaaaggcaaaacatatttggaaaccacaacagggatgatgcagggaatactgcattacacttcctcactattacacaccattcatcaagaatacatccggtccttgtcctttaaaatattcaacctgaaggttgctcctgagatgagcaagagcctggtttgtgacatgatgcaaggatcagatgatagtagcatgctaatcagcttcccagctgatgatgagaaggttcttaccagatgcaaagtggccgcagccatatgcttccgcatgaagaaggagctaggagtgtaccttgccatttacccctcagagaagtccacagcaaacacagattttgtgatggagtacaattctgaattttatttccacacccagcatgttagaccaacgatcaggtggattgcagcatgttgcagcctgccagaagtggaaacactagtagcccgtcaggaagaggcctctaacctaatgacttcagttactgaggggggtgggtcattctccttagccgcaatgattcagcaagctcagtgcactctccattacatgctgatgggcatgggagtgtctgagctattcttagagtataagaaggcagtgctgaagtggaatgaccctggcctgggtttcttcctgcttgacaatccttatgcgtgcgggctgggaggttttagatttaatctcttcaaagctatcaccagaactgatttgcagaagctatatgctttcttcatgaagaaggtcaagggctcagctgctagggactgggcagatgaagatatcaccatcccagaaacgtgtagcgtgagcccaggtggtgctctaattcttagctcctctctaaagtggggatctaggaagaagtttcagaaactgagagaccgtttgaatataccagagaactggattgaactaataaatgagaatccagaggtgctctatcgggctcccagaacaggcccagaaatattgttgcgcattgcagagaaagtccatagcccaggtgttgtgtcatcattgtcttctggcaatgcagtctgtaaagtcatggcctcagctgtatacttcttatcagcaacaatttttgaggacactggacgtcctgagttcaacttcttggaggactctaagtacagcttgctacaaaagatggctgcatattctggctttcatggtttcaatgatatggagccagaagatatattattcctattcccgaatattgaggaattagaatcactggattctatagtttacaacaagggagaaatagacatcatcccaagagtcaacatcagggatgcaacccaaaccagagtcactatctttaatgagcagaagaccctccgaacatctccagagaagttggtgtcagacaagtggtttgggactcagaagagtaggataggcaaaacaaccttcctggctgaatgggaaaagctaaagaaaattgtgaagtggttggaagacactccagaagcaactctagctcacactccactgaataaccatattcaagttaggaatttctttgctagaatggaaagcaagcctagaacagtcagaataacaggagcccctgtaaagaagaggtcaggagttagcaagatagctatggttatccgtgacaatttctcccggatgggccatcttcgaggtgtagaagaccttgctggcttcactcgtagtgtgtcagctgaaattctcaagcactttctgttctgtatactacagggtccatacagtgagagctataagctacagctaatctacagagtcctaagctcagtatcaaacgttgagataaaggaatcagatggtaagacaaaaaccaatttgattgggatccttcagagatttctagatggtgatcacgttgtccccataattgaagagatgggagccggaacagtgggtggatttatcaagagacaacaatctaaagtcgtgcaaaacaaagtggtctattatggagttgggatctggagaggcttcatggatggatatcaggtccatcttgagatagaaaatgacataggacagcccccaaggcttaggaatgtcacaactaattgtcagagcagcccatgggacctgagtgttccaataaggcagtgggcagaagacatgggggtcacaaacaaccaggattattcctctaaatctagcagaggggccagatattggatgcattcattcaggatgcaaggacctagcaagccatttggatgcccagtttatattattaagggtgacatgtcagatgtcatcagactgagaaaagaggaggtggagatgaaagtacggggctctactctcaacttgtacaccaagcaccattctcatcaggacctacacattttatcttacactgcatcagacaatgatctcagcccaggcattttcaagtcaatatcagatgagggagtagctcaagccctgcaattatttgagagggagccaagcaactgctgggtgagatgtgagtctgtagctccaaaatttatatcagccatccttgagatatgtgaagggaagagacagataaaaggaattaacagaaccagactctcagagattgtgagaatttgttctgaatcttccctaagatcaaaagtcggatctatgttctcatttgtcgccaatgtcgaggaggcccatgatgttgactatgatgcattaatggatctaatgatagaagatgctaagaacaatgcattcagtcatgttgttaactgcatagagttggatgttagtggtccttacgagatggagtcttttgatacatctgatgtcaatctctttgggccagcccattacaaggacatcagttcattatctatgattgctcatcccttaatggataagtttgttgattatgctatttctaagatggggagagcctcagttaggaaagttctagaaacaggtcggtgctccagcaaagactatgatttatcaaaggttctcttcagaactctacagagaccagaagaaagcattaggatagatgatctggagttatatgaggagacagatgtggcggatgacatgctaggctaagaccaacaagcaaagtcaggcttagatttagggacactatgctagtattggaatccatgtgggttctgatactagcatagtgctacaatattgggcggtctttgtttgttggtcttagcctagcatgtcatccg</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA257008</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN04017540</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GQ443147</GBSeq_locus>
+    <GBSeq_length>627</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>01-JUN-2010</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus strain 0850-08 segment S nonstructural protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>GQ443147</GBSeq_primary-accession>
+    <GBSeq_accession-version>GQ443147.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GQ443147.1|</GBSeqid>
+      <GBSeqid>gi|296936798</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..627</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Andriamandimby,S.F.</GBAuthor>
+          <GBAuthor>Randrianarivo-Solofoniaina,A.E.</GBAuthor>
+          <GBAuthor>Jeanmaire,E.M.</GBAuthor>
+          <GBAuthor>Ravololomanana,L.</GBAuthor>
+          <GBAuthor>Razafimanantsoa,L.T.</GBAuthor>
+          <GBAuthor>Rakotojoelinandrasana,T.</GBAuthor>
+          <GBAuthor>Razainirina,J.</GBAuthor>
+          <GBAuthor>Hoffmann,J.</GBAuthor>
+          <GBAuthor>Ravalohery,J.P.</GBAuthor>
+          <GBAuthor>Rafisandratantsoa,J.T.</GBAuthor>
+          <GBAuthor>Rollin,P.E.</GBAuthor>
+          <GBAuthor>Reynes,J.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Rift Valley fever during rainy seasons, Madagascar, 2008 and 2009</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 16 (6), 963-970 (2010)</GBReference_journal>
+        <GBReference_pubmed>20507747</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..627</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Reynes,J.-M.</GBAuthor>
+          <GBAuthor>Andriamandimby,S.F.</GBAuthor>
+          <GBAuthor>Razainirina,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-AUG-2009) Centre National de Reference Pour les Arbovirus et Virus Responsables de Fievres Hemorragiques, Institut Pasteur de Madagascar, Route de L'institut Pasteur, Antananarivo 101, Madagascar</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..627</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>627</GBInterval_to>
+            <GBInterval_accession>GQ443147.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>0850-08</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Madagascar</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>23-Mar-2008</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;627</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>627</GBInterval_to>
+            <GBInterval_accession>GQ443147.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NSs</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ADH94439.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VVSVEYIKGDGPPRIPYSMVGPCCVFLMHHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRFPNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQISTLAMRSCKITNDLEDSFVGLHRMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAREDISNAVVPNSALIALMEESLML</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttgtgtcagtggagtacattaaaggtgatggtcctcccaggataccttattctatggttgggccctgttgtgtctttctcatgcaccatcgtcctagtcacgaggttcgcttgcgattctctgatttctacaatgtcggagaattcccataccgagtcggacttggagactttgcatcaaacgttgcacctccaccagcaaagccttttcagagacttattgatctaataggccatatgactcttagtgatttcacaaggttccccaatctaaaagaagccatatcctggcctcttggagaaccctcactagctttctttgacctaagctctactagagtgcacaggaatgatgacattagaagggatcagatttctactctagcaatgaggagctgcaagattaccaatgatttagaagactcctttgttggcttacacaggatgatagtgaccgaggctatcctcagagggattgacctgtgcctgttgccaggctttgacctcatgtatgaggttgctcacgtacagtgtgttcggctcctgcaggcagcaagagaggacatttctaatgctgtagttccaaactcagccctcattgctcttatggaggagagcctgatgctg</GBSeq_sequence>
+  </GBSeq>

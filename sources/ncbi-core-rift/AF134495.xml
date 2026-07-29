@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF134495</GBSeq_locus>
+    <GBSeq_length>738</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>26-SEP-1999</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus H D47311 M segment G2 (G2) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF134495</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF134495.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF134495.1|</GBSeqid>
+      <GBSeqid>gi|5923752</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..738</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sall,A.A.</GBAuthor>
+          <GBAuthor>Zanotto,P.M.</GBAuthor>
+          <GBAuthor>Sene,O.K.</GBAuthor>
+          <GBAuthor>Zeller,H.G.</GBAuthor>
+          <GBAuthor>Digoutte,J.P.</GBAuthor>
+          <GBAuthor>Thiongane,Y.</GBAuthor>
+          <GBAuthor>Bouloy,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic reassortment of Rift Valley fever virus in nature</GBReference_title>
+        <GBReference_journal>J. Virol. 73 (10), 8196-8200 (1999)</GBReference_journal>
+        <GBReference_pubmed>10482570</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..738</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sall,A.A.</GBAuthor>
+          <GBAuthor>de A. Zanotto,P.M.</GBAuthor>
+          <GBAuthor>Sene,O.K.</GBAuthor>
+          <GBAuthor>Zeller,H.D.</GBAuthor>
+          <GBAuthor>Digoutte,J.P.</GBAuthor>
+          <GBAuthor>Thiongane,Y.</GBAuthor>
+          <GBAuthor>Bouloy,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-MAR-1999) Laboratoire des Bunyavirides, Institute Pateur de Dakar, BP 220, Dakar, Senegal</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..738</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>738</GBInterval_to>
+            <GBInterval_accession>AF134495.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>H D47311</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>M segment</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;738</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>738</GBInterval_to>
+            <GBInterval_accession>AF134495.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>G2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;738</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>738</GBInterval_to>
+            <GBInterval_accession>AF134495.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>G2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>G2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD56342.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASVKCPPKYELTEDCNFCRQMTGASLKKGSYPLQDLFCQSSEDDGSKLKTKMKGVCEVGVQALKKCDGQLSTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFEHKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTAQYANAYCSHANGSGVVQIQVSGVWKKPLCVGYERVVVKRELSAKPIQRVEPCTTCITKCEPHGLVVRSTGFKISSAVACASGVC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggcctcagtcaagtgccctcctaagtatgagctcactgaggactgcaacttttgtaggcagatgacaggtgctagcctgaagaaggggtcttatcctctccaggacttattttgtcagtcaagtgaggatgatggatcaaaattaaaaacaaaaatgaaaggggtctgcgaagtgggggttcaggcactcaaaaagtgtgatggccagctcagcactgcacatgaggttgtgccctttgcagtgtttaagaactcaaagaaggtttatcttgacaagcttgacctcaaaactgaagaaaatctgctaccagactcatttgtctgcttcgagcataagggacagtataaaggaacaatggactctggtcaaactaagagggagctcaaaagctttgatatctctcagtgccccaagattggaggacatggtagcaagaagtgcactggggacgcagcattttgctctgcttatgagtgcactgctcaatacgccaatgcctattgttcacatgctaatgggtcaggagttgtgcagatacaagtatccggggtctggaagaaacctttatgtgtagggtatgagagagtggttgtgaagagagaactctctgccaaacccatccagagagttgagccttgcacaacctgtataaccaaatgtgagcctcatggattggttgtccgatcaacagggttcaagatatcatctgcagttgcatgtgctagcggagtttgt</GBSeq_sequence>
+  </GBSeq>

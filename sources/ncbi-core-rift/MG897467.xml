@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG897467</GBSeq_locus>
+    <GBSeq_length>550</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-NOV-2018</GBSeq_update-date>
+    <GBSeq_create-date>25-NOV-2018</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus strain Niger 1 glycoprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG897467</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG897467.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG897467.1|</GBSeqid>
+      <GBSeqid>gi|1518073582</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..550</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lagare,A.</GBAuthor>
+          <GBAuthor>Fall,G.</GBAuthor>
+          <GBAuthor>Ibrahim,A.</GBAuthor>
+          <GBAuthor>Ousmane,S.</GBAuthor>
+          <GBAuthor>Sadio,B.</GBAuthor>
+          <GBAuthor>Abdoulaye,M.</GBAuthor>
+          <GBAuthor>Alhassane,A.</GBAuthor>
+          <GBAuthor>Mahaman,A.E.</GBAuthor>
+          <GBAuthor>Issaka,B.</GBAuthor>
+          <GBAuthor>Sidikou,F.</GBAuthor>
+          <GBAuthor>Zaneidou,M.</GBAuthor>
+          <GBAuthor>Bienvenue,B.</GBAuthor>
+          <GBAuthor>Djingarey Mamoudou,H.</GBAuthor>
+          <GBAuthor>Bailo Diallo,A.</GBAuthor>
+          <GBAuthor>Kadade,G.</GBAuthor>
+          <GBAuthor>Testa,J.</GBAuthor>
+          <GBAuthor>Boubacar Mainassara,H.</GBAuthor>
+          <GBAuthor>Faye,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First occurrence of Rift Valley fever outbreak in Niger, 2016</GBReference_title>
+        <GBReference_journal>Vet Med Sci (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/vms3.135</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30411868</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..550</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lagare,A.</GBAuthor>
+          <GBAuthor>Fall,G.</GBAuthor>
+          <GBAuthor>Ibrahim,A.</GBAuthor>
+          <GBAuthor>Ousmane,S.</GBAuthor>
+          <GBAuthor>Sadio,B.</GBAuthor>
+          <GBAuthor>Louis Padonou,M.</GBAuthor>
+          <GBAuthor>Alhassane,A.</GBAuthor>
+          <GBAuthor>Elh Mahaman,A.</GBAuthor>
+          <GBAuthor>Issaka,B.</GBAuthor>
+          <GBAuthor>Maman,Z.</GBAuthor>
+          <GBAuthor>Baruani,B.</GBAuthor>
+          <GBAuthor>Djingarey,M.</GBAuthor>
+          <GBAuthor>Diallo,A.</GBAuthor>
+          <GBAuthor>Goumbi,K.</GBAuthor>
+          <GBAuthor>Mainassara,H.</GBAuthor>
+          <GBAuthor>Faye,O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-FEB-2018) Pole Virologie, Institut Pasteur de Dakar, 36 Avenue Pasteur, Dakar, Sen BP220, Senegal</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..550</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>550</GBInterval_to>
+            <GBInterval_accession>MG897467.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Niger 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>M</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Niger</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;550</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>550</GBInterval_to>
+            <GBInterval_accession>MG897467.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AYX41419.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KKCDGQLTTAHEVVPFAVFKNSKKVYLDKLDLKTEENLLPDSFVCFEHKGQYKGTMDSGQTKRELKSFDISQCPKIGGHGSKKCTGDAAFCSAYECTAQYANAYCSHANGSGVVQIQVSGVWKKPLCVGYERVVVKRELSAKPIQRVEPCTTCITKCEPHGLVVRSTGFKISSAVACASGVCV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaaagtgtgatggccaactcaccactgcacatgaggttgtgccctttgcagtgtttaagaactcaaagaaggtttatcttgataagcttgacctcaagactgaggagaatctgctaccagactcatttgtctgcttcgagcataaggggcagtataaaggtacaatggactctggtcagactaagagggagctcaaaagctttgatatctctcagtgccccaagattggaggacatggtagtaagaagtgcactggggacgcagcattttgctctgcttatgagtgcactgctcagtacgccaatgcctattgttcacatgctaatgggtcaggggttgtgcagatacaagtatcaggggtctggaagaagcctctatgtgtggggtatgagagagtggttgtgaagagagaactctctgccaagcccatccagagggttgagccttgcacaacttgtataaccaaatgtgagcctcatggattggttgtccgatcaacagggttcaagatatcatctgcagttgcttgtgctagcggagtttgcgtca</GBSeq_sequence>
+  </GBSeq>

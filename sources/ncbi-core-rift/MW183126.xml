@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW183126</GBSeq_locus>
+    <GBSeq_length>3562</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-DEC-2021</GBSeq_update-date>
+    <GBSeq_create-date>25-DEC-2021</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus polymerase (L) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MW183126</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW183126.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW183126.1|</GBSeqid>
+      <GBSeqid>gi|2168432169</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3562</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van den Bergh,C.</GBAuthor>
+          <GBAuthor>Thompson,P.N.</GBAuthor>
+          <GBAuthor>Swanepoel,R.</GBAuthor>
+          <GBAuthor>Almeida,A.P.G.</GBAuthor>
+          <GBAuthor>Paweska,J.T.</GBAuthor>
+          <GBAuthor>Janse van Vuuren,P.</GBAuthor>
+          <GBAuthor>Wilson,W.C.</GBAuthor>
+          <GBAuthor>Allen,K.</GBAuthor>
+          <GBAuthor>Venter,E.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Detection of Rift Valley fever virus in a pool of Aedes (Aedimorphus) durbanensis, South Africa</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3562</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van den Bergh,C.</GBAuthor>
+          <GBAuthor>Thompson,P.N.</GBAuthor>
+          <GBAuthor>Swanepoel,R.</GBAuthor>
+          <GBAuthor>Almeida,A.P.G.</GBAuthor>
+          <GBAuthor>Paweska,J.T.</GBAuthor>
+          <GBAuthor>Janse van Vuuren,P.</GBAuthor>
+          <GBAuthor>Wilson,W.C.</GBAuthor>
+          <GBAuthor>Allen,K.</GBAuthor>
+          <GBAuthor>Venter,E.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-OCT-2020) Department of Veterinary Tropical Diseases, Faculty of Veterinary Science, Ou Soutpans road, Pretoria 0083, South Africa</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Genious v. 10.2.3 ; Assembly Name :: RVFV L segment/Aed_durbanensis/2017/Ndumo_South_Africa ; Coverage :: 3562 ; Sequencing Technology :: MinIon ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3562</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3562</GBInterval_to>
+            <GBInterval_accession>MW183126.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Ndumo_2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Aedes durbanensis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>South Africa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..3455</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3455</GBInterval_to>
+            <GBInterval_accession>MW183126.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..3455</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3455</GBInterval_to>
+            <GBInterval_accession>MW183126.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>UHH89984.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>ETIARSIGKFFASDTLCNPPNKVKIPETHGIRARKQCKGPVWTCATSDDARKWNQGHFVTKFALMLCEFTSPKWWPLIIRGCSMFTRKRMMMNLNYLKILDGHRELDIRDDFVMDLFKAYHGEAEVPWAFXGKTYLETTTGMMQGILHYTSSLLHTIHQEYIRSLSFKIFNLKVAPEMSKSLVCDMMQGSDDSSMLISFPADDEKVLTRCKVAAAICFRMKKELGVYLAIYPSEKSTANTDFVMEYNSEFYFHTQHVRPTIRWIAACCSLPEVETLVARQEEASNLMTSVTXGGGSFSLAAMIQQAQCTLHYMLMGMGVSELFLEYKKAVLKWNDPGLGFFLLDNPYACGLGGFRFNLFKAITRTDLQKLYAFFMKKVKGSAARDWADEDITIPETCSVSPGGALILSSSLKWGSRKKFQKLRDRLNIPENWIELINENPEVLYRAPRTGPEIXLRIAEKVHSPGVVSSLSSGNAVCKVMASAVYFLSATIFEDTGRPEFNFLEDSKYSLLQKMAAYSGFHGFNDMEPEDILFLFPNIEELESLDSIVYNKGEIDIIPRVNIRDATQTRVTIFNEQKTLRTSPEKLVSDKWFGTQKSRIGKTTFLAEWEKLKKIVKWLEDTPEATLAHTPLNNHIQVRNFFARMESKPRTVRITGAPVKKRSGVSKIAMVIRDNFSRMGYLRGVEDLAGFTRSVSAEILKHFLFCILQGPYSESYKLQLIYRVLSSVSNVEIKESDGKTKTNLIGILQRFLDGDHVVPIIEEMGAGTVGGFIKRQQSKVVQNKVVYYGVGIWRGFMDGYQVHLEIENDIGQPPRLRNVTTNCQSSPWDLSIPIRQWAEDMGVTNNQDYSSKSSRGARYWMHSFRMQGPSKPFGCPVYIIKGDMSDVIRLRKEEVEMKVRGSTLNLYTKHHSYQDLHILSYTASDNDLSPGIFKSISDEGXAQALQLFEREPSNCWVRCESVAPKFISAILEICEGKRQIKGINRTRLSEIVRICSESSLRSKVGSMFSFVANVEEAHDVDYDALMDLMIEDAKNNAFSHVVNCIELDVXGPCEMESFDTSDVNLFGPAHYKDISSLSMIAHPLMDKFVDYTISKMGRASVRKVLETGRCSSKDYDLSKVLFRTLQRPEESIRIDDLELYEETDVADDMLG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcgagacaatagccaggtctatagggaagttctttgcttctgataccctctgtaacccccccaataaggtgaaaattcctgagacacatggcattagggctcggaagcaatgcaaagggcctgtgtggacttgtgcgacatcagatgatgcaaggaagtggaaccaaggccattttgttacaaagtttgcccttatgctatgtgagttcacctctcctaaatggtggccactgatcattagggggtgttcaatgtttaccaggaaaaggatgatgatgaatttgaattatcttaagatcctggatggtcatcgggagcttgatattagagatgactttgtgatggatctcttcaaagcttatcatggtgaggcagaagttccatgggcctttragggcaaaacatatttggaaaccacaacagggatgatgcaggggatattacattatacttcctcactactgcacaccattcatcaagaatacatccggtccttgtcctttaaaatattcaacctgaaggttgctcctgagatgagcaagagcctagtttgtgacatgatgcaaggatcagatgatagtagcatgctaatcagcttcccagctgatgacgagaaggttctcaccagatgcaaagtggccgcagccatatgcttccgcatgaagaaggagctgggagtgtaccttgccatttacccctcagagaagtccacagcaaacacagattttgtgatggagtacaattctgagttttatttccacacccagcatgtcagaccaacgatcaggtggattgcagcatgttgcagcttgccagaagtggaaacactagtagcccgccaggaagaggcctctaatctaatgacttcagttactgangggggtgggtcattctccttagctgcaatgattcagcaagctcagtgcactctccattacatgctgatgggcatgggagtgtctgagctattcttagagtataagaaggcagtgctgaagtggaatgaccctggcctgggtttcttcctgcttgacaatccttatgcatgcgggttgggaggttttagatttaatctcttcaaagctatcaccagaactgatttgcagaagctatatgctttcttcatgaagaaggtcaagggctcagctgctagggactgggcagacgaagacatcaccatcccagaaacgtgtagcgtgagcccaggtggcgctctaattcttagctcctctctaaagtggggatctaggaagaagtttcagaaactgagagaccgtttgaacataccagagaactggattgaactaataaatgagaatccagaggtgctctatcgggctcccagaacaggcccagaaatantattgcgcattgcagagaaagtccatagcccaggtgttgtgtcatcattgtcttctggcaatgcagtctgtaaagtcatggcctcagctgtttacttcttatcagcaacaatttttgaagacactggacgtcctgaattcaacttcttggaggattctaagtacagcttgctacaaaagatggctgcctattctggctttcatggtttcaatgatatggagccagaagatatattattcctattcccgaatattgaggaattagaatcactggattctatagtttacaacaagggagaaatagacatcatcccaagagtcaatatcagggatgcaacccaaaccagggtcactatcttcaatgagcagaagaccctccgaacatctccagagaagttggtgtcagacaagtggtttgggactcagaagagtaggataggtaaaacaaccttcctagctgaatgggaaaagctaaagaaaattgtgaagtggttggaagatactccagaagcaactctagctcacactccactgaataatcatattcaagttaggaatttctttgctagaatggaaagcaagcctagaacggtcagaataacaggagctcctgtaaagaagagatcaggggttagcaagatagctatggttatccgtgacaatttctcccggatgggctatcttcgaggtgtggaagacctcgctggcttcactcgtagtgtgtcagctgaaatcctcaagcactttctgttctgtatactacagggtccatatagtgagagctataagctacagctaatctacagagtcctaagctcagtgtcaaacgttgagataaaggaatcagatggtaagacaaaaaccaatttgattgggatccttcagagatttctcgatggtgatcacgttgtccccataattgaagagatgggagccggaacagtgggtggatttatcaagagacaacagtctaaagttgtgcaaaacaaagtggtctattatggagttgggatctggagaggcttcatggatggatatcaggtccatcttgagatagaaaatgacataggacagcccccaaggcttaggaatgtcacaactaactgtcagagcagcccatgggacctgagtattccaataaggcagtgggcagaagacatgggggtcacaaacaaccaggattattcctctaaatctagcagaggagccaggtattggatgcattcatttaggatgcaaggacctagcaagccatttggatgcccagtctatattattaagggtgacatgtcagatgtcatcagactgagaaaagaggaggtagagatgaaagtacggggctctactctcaacttgtacaccaagcaccattcttatcaggacctacacattttatcttacacagcatcagacaatgatctcagtccaggcattttcaagtcaatatcagatgaggggktagctcaagccctgcaattatttgagagggagccaagcaactgctgggtgaggtgtgagtctgtagctccaaaatttatatcagccatccttgagatatgtgaggggaagagacagataaaaggaattaacagaacccgactctcagagattgtgagaatttgttctgaatcttccctgagatcaaaagtcggatctatgttctcatttgtcgccaatgtcgaggaggcccatgatgttgattatgatgcgttgatggatctaatgatagaagatgccaagaacaatgcattcagtcatgttgtcaattgcatagagttggatgttrgtggtccttgcgagatggagtcttttgatacatcagatgtcaatctctttgggccagcccattacaaggacatcagttcattatctatgattgctcaccccttgatggataagtttgttgattatactatttctaaaatggggagagcctcagttaggaaagttctagagacaggtcggtgctccagcaaagactatgacttatcaaaggttctcttcagaactctacagagaccagaagagagcattaggatagatgatctggagttgtatgaggagacagatgtggcggatgacatgctaggctaagaccagtaagcaaagtcaggcttagatttagggatactatgctagtattggaatccatgtgggttctgatactagcatagtgctacaatattgggcggtctttgtgt</GBSeq_sequence>
+  </GBSeq>

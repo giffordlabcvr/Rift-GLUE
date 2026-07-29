@@ -1,0 +1,126 @@
+  #### HDV reference sequence
+   
+  create reference REF_MASTER_RSV_A ncbi-refseqs-rsv NC_038235  
+  
+  reference REF_MASTER_RSV_A
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 15222
+      exit
+
+    add feature-location NS1
+    feature-location NS1
+      add segment 99 518
+      exit
+
+    add feature-location NS2
+    feature-location NS2
+      add segment 628 1002
+      exit
+
+    add feature-location N
+    feature-location N
+      add segment 1140 2315
+      exit
+
+    add feature-location P
+    feature-location P
+      add segment 2346 3071
+      exit
+
+    add feature-location M
+    feature-location M
+      add segment 3261 4031
+      exit
+
+    add feature-location SH
+    feature-location SH
+      add segment 4303 4497
+      exit
+
+    add feature-location G
+    feature-location G
+      add segment 4688 5584
+      exit
+
+    add feature-location F
+    feature-location F
+      add segment 5661 7385
+      exit
+
+    add feature-location M2
+    feature-location M2
+      add segment 8159 8431
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 8498 14995
+      exit
+
+  exit 
+
+
+  create reference REF_MASTER_RSV_B ncbi-refseqs-rsv NC_001781  
+  
+  reference REF_MASTER_RSV_B
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 15222
+      exit
+
+    add feature-location NS1
+    feature-location NS1
+      add segment 99 518
+      exit
+
+    add feature-location NS2
+    feature-location NS2
+      add segment 626 1000
+      exit
+
+    add feature-location N
+    feature-location N
+      add segment 1125 2327
+      exit
+
+    add feature-location P
+    feature-location P
+      add segment 2348 3073
+      exit
+
+    add feature-location M
+    feature-location M
+      add segment 3254 4198
+      exit
+
+    add feature-location SH
+    feature-location SH
+      add segment 4303 4500
+      exit
+
+    add feature-location G
+    feature-location G
+      add segment 4690 5589
+      exit
+
+    add feature-location F
+    feature-location F
+      add segment 5666 7390
+      exit
+
+    add feature-location M2
+    feature-location M2
+      add segment 7618 8205
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 8509 15009
+      exit
+
+  exit 
+
+

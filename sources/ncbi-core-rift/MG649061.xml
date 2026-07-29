@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG649061</GBSeq_locus>
+    <GBSeq_length>1690</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-DEC-2018</GBSeq_update-date>
+    <GBSeq_create-date>30-DEC-2018</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate RVFV-BJ01-Urine-11d/2016 segment S, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MG649061</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG649061.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG649061.1|</GBSeqid>
+      <GBSeqid>gi|1354060533</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1690</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bi,Y.</GBAuthor>
+          <GBAuthor>Gary,W.</GBAuthor>
+          <GBAuthor>Wang,B.</GBAuthor>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Zeng,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>RVFV and YFV live viruses in urine - a potential source of infection</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1690</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bi,Y.</GBAuthor>
+          <GBAuthor>Gary,W.</GBAuthor>
+          <GBAuthor>Wang,B.</GBAuthor>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Zeng,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-DEC-2017) CAS Key Laboratory of Pathogenic Microbiology and Immunology, Institute of Microbiology, Center for Influenza Research and Early-warning (CASCIRE), Chinese Academy of Sciences, No. 1 West Beichen Road, Beijing 100101, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Re-sequence procedure (in-house pipeline) v. 18-Mar-2016 ; Sequencing Technology :: BGISEQ-500 ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1690</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1690</GBInterval_to>
+            <GBInterval_accession>MG649061.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>RVFV-BJ01-Urine-11d/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>urine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>China: Beijing</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>26-Jun-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>passage history: Vero cell - P1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>38..775</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>38</GBInterval_from>
+            <GBInterval_to>775</GBInterval_to>
+            <GBInterval_accession>MG649061.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleocapsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVK51668.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQYGGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTLSRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLRAILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFGLVDSNGKPSAAVMAAAQAYKTAA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(859..1656)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1656</GBInterval_from>
+            <GBInterval_to>859</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>MG649061.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NSs protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVK51669.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDYFPVISVDLQSGRRVVSVEYIRGDGPPRIPYSMVGPCCVFLMHHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRFPNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFVGLHRMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEESLMLRSSLPSMMGRNNWIPVVPPIPDVEMESEEESDDDGFVEID</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cacaaagctccctagagatacaaacactattacaataatggacaactatcaagagcttgcgatccagtttgctgctcaagcagtggaccgcaatgagattgaacagtgggtccgagagtttgcttatcaaggatttgatgcccgtagggttatcgaactcttgaagcagtatggtggggccgactgggagaaggatgccaagaaaatgattgttctggctctaactcgtggcaacaagccccggaggatgatgatgaaaatgtcaaaagagggcaaggctactgtggaggctctcatcaacaagtacaagctgaaggaggggaatccctcccgggatgagttgactctatcacgagtcgctgccgccctggctggctggacatgccaggccttggtcgtcttaagtgagtggcttcctgtcactgggaccaccatggatggcctatcccctgcatacccaaggcatatgatgcaccccagctttgctggcatggtggacccttctctgccagaagactatctaagggcgatattggatgctcactctctgtatctgctgcagttctctcgggtcatcaacccaaacctccgaggtagaacaaaggaggaagttgctgcaacgttcacgcagccaatgaatgcagcagtgaatagcaactttataagccatgagaagaggagagaattcctgaaagcttttgggcttgtggattctaatgggaagccgtcagcggctgtcatggcagctgctcaggcgtacaagacagcagcctaagtggctgcccaggggtttgggggaaaggggtggttggggttacggtcgggattagggggtggggggtggggcagccttaacctctagtcaatctcaacaaatccatcatcatcactctcctcctctgattccatctcaacatctgggattggaggaacaactggaatccagttgtttctccccatcatgctaggaagtgatgagcgcagcatcaggctctcctccataagagcaatgagggctgagtttggaactacagcattagaaatgtcctcttttgctgcctgcagaagccgaacacactggacgtgagcaacctcatacatgaggtcaaagcctggcaacaggcacagatcaatccctctgagaatagcctcagtcactatcatcctgtgtaagccaacaaaggagtcttccagatcattggtaatcttgcagctcctcattgctagagtggcaatctgatcccttctaatgtcatcattcctgtgcactctagtagagcttaggtcaaagaaggccagggagggttctccaagaggccaggatatggcttctttcagattggggaatcttgtgaaatcactaagagtcatatggcctattagatcaataagtctctgaaaaggctttgctggtggaggtgcaacgtttgatgcaaagtctccaagtccgactcggtacgggaattctccgacattgtagaaatcagaaaatcgcaagcgaacctcgtgactaggacgatggtgcatgagaaagacacaacagggcccaaccatagaataaggtatcctgggaggaccatcacctctaatgtactccactgacacaacacgacgaccactctgcaaatcaacagatatcacaggaaagtaatccatgatatacttgataagcactagggggtctttgtgt</GBSeq_sequence>
+  </GBSeq>

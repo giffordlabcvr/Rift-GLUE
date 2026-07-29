@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OR780614</GBSeq_locus>
+    <GBSeq_length>1636</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-DEC-2023</GBSeq_update-date>
+    <GBSeq_create-date>06-DEC-2023</GBSeq_create-date>
+    <GBSeq_definition>Rift Valley fever virus isolate BDI0003 nonstructural protein and nucleocapsid genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>OR780614</GBSeq_primary-accession>
+    <GBSeq_accession-version>OR780614.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OR780614.1|</GBSeqid>
+      <GBSeqid>gi|2624781264</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rift Valley fever virus</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1636</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Juma,J.A.</GBAuthor>
+          <GBAuthor>Nkundwanayo,C.</GBAuthor>
+          <GBAuthor>Nyabongo,L.</GBAuthor>
+          <GBAuthor>Niyokwizera,P.</GBAuthor>
+          <GBAuthor>Ntirandekura,B.</GBAuthor>
+          <GBAuthor>Ntuwuyankira,N.</GBAuthor>
+          <GBAuthor>Nyamota,R.</GBAuthor>
+          <GBAuthor>Konongoi,S.L.</GBAuthor>
+          <GBAuthor>Roesel,K.</GBAuthor>
+          <GBAuthor>Bett,B.K.</GBAuthor>
+          <GBAuthor>Oyola,S.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First outbreak reports of Rift Valley fever in Burundi</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1636</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Juma,J.A.</GBAuthor>
+          <GBAuthor>Nkundwanayo,C.</GBAuthor>
+          <GBAuthor>Nyabongo,L.</GBAuthor>
+          <GBAuthor>Niyokwizera,P.</GBAuthor>
+          <GBAuthor>Ntirandekura,B.</GBAuthor>
+          <GBAuthor>Ntuwuyankira,N.</GBAuthor>
+          <GBAuthor>Nyamota,R.</GBAuthor>
+          <GBAuthor>Konongoi,S.L.</GBAuthor>
+          <GBAuthor>Roesel,K.</GBAuthor>
+          <GBAuthor>Bett,B.K.</GBAuthor>
+          <GBAuthor>Oyola,S.O.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-NOV-2023) Animal and Human Health, International Livestock Research Institute, Naivasha Road, Nairobi P. O. Box 30709-00100, Kenya</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: iVar v. 1.3.1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1636</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1636</GBInterval_to>
+            <GBInterval_accession>OR780614.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BDI0003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Burundi: Ngozi</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>17-May-2022</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>13..810</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>13</GBInterval_from>
+            <GBInterval_to>810</GBInterval_to>
+            <GBInterval_accession>OR780614.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WPN08135.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDYFPVISVDLQSGRRVVSVEYIKGDGPPRIPFSMVGPCCVFLMHHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFTRFPNLKEAISWPLGEPSLAFFDLSSTRVHRSDDIRRDQIATLAMRSCKIANDLEDSFVGLHRMIVTEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIALMEESLMLRSSLPSMMGRNNWIPVVPPIPDVEMESGEESDDDGFVEVD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>complement(893..1630)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1630</GBInterval_from>
+            <GBInterval_to>893</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>OR780614.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleocapsid</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WPN08136.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDNYQELAIQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQYGGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDELTLSRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPEDYLRAILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFLKAFGLVDSNGKPSAAVMAAAQAYKTAA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atcaagtatatcatggattactttcctgtgatatctgttgatttgcagagtggtcgtcgtgttgtgtcagtggagtacattaaaggtgatggtcctcccaggatacctttttctatggttgggccctgttgtgtctttctcatgcaccatcgtcctagtcacgaggttcgcttgcgattctctgatttctacaacgtcggagaattcccataccgagtcggacttggagactttgcatcaaatgttgcacctccaccagcaaagccttttcagagacttattgatctaataggccatatgactcttagtgatttcacaaggttccccaatctaaaagaagccatatcctggcctcttggagaaccctcactggctttctttgacctaagctctactagagtgcacaggagtgacgacattaggagggatcagattgctactctagcaatgaggagctgcaagattgccaatgatctagaggactcctttgttggtttacataggatgatagtgaccgaggctatcctcagagggattgacctgtgcctgttgccaggctttgacctcatgtatgaggttgctcacgtgcagtgtgttcggctcctgcaggcagcaaaagaggacatttctaatgctgtagttccaaattcagcccttattgctcttatggaggagagcttgatgctgcgctcatcacttcctagcatgatgggaagaaacaactggatcccagttgttcccccaatcccagatgttgagatggaatcaggggaagagagtgatgatgatggatttgttgaggttgattagaggttaaggctgccccaccccccacnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnncnanccccctgggcagtcacttaggctgctgttttgtaggcctgagcagctgccatgacagcagctgacggcttcccattagaatccacaagcccaaaagctttcaagaattctctcctcttctcatggctaatgaagttgctattcactgctgcattcattggctgcgtgaacgttgcagcgacctcctcctttgttctacctcggaggtttgggttgatgacccgggagaactgcagcagatacagagagtgagcatctaatattgcccttagatagtcttctggtagagaaggatccaccatgccagcaaagctgggatgcatcatgtgccttgggtatgcaggggataggccgtccatggttgtcccagtgacaggaagccactcactcaagacgaccaaagcctggcatgtccagccagccagggcagcagcaactcgtgatagagtcagctcatcccgggaaggattcccctcctttagcttgtacttgttgatgagagcctctacagttgctttgccttctttcgacattttcatcatcatcctccggggcttgttgccacgagtcagagccagaacaatcattttcttggcatccttctcccagtcagccccaccatactgctttaagagctcgataaccctacgggcatcaaacccttgataagcaaactctcggacccactgttcaatctcattgcggtccactgcttgagcagcaaactggatcgcaagctcttgatagttgtccattattgt</GBSeq_sequence>
+  </GBSeq>

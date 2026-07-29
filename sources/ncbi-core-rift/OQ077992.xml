@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OQ077992</GBSeq_locus>
+    <GBSeq_length>324</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>ENV</GBSeq_division>
+    <GBSeq_update-date>01-FEB-2023</GBSeq_update-date>
+    <GBSeq_create-date>01-FEB-2023</GBSeq_create-date>
+    <GBSeq_definition>MAG: Rift Valley fever virus isolate Ug2012-CVR1 segment L, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>OQ077992</GBSeq_primary-accession>
+    <GBSeq_accession-version>OQ077992.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OQ077992.1|</GBSeqid>
+      <GBSeqid>gi|2432630279</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>ENV</GBKeyword>
+      <GBKeyword>Metagenome Assembled Genome</GBKeyword>
+      <GBKeyword>MAG</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Rift Valley fever virus (blood metagenome)</GBSeq_source>
+    <GBSeq_organism>Rift Valley fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae; Phlebovirus; Phlebovirus riftense</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..324</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ashraf,S.</GBAuthor>
+          <GBAuthor>Jerome,H.</GBAuthor>
+          <GBAuthor>Bugembe,D.L.</GBAuthor>
+          <GBAuthor>Ssemwanga,D.</GBAuthor>
+          <GBAuthor>Byaruhanga,T.</GBAuthor>
+          <GBAuthor>Kayiwa,J.T.</GBAuthor>
+          <GBAuthor>Downing,R.</GBAuthor>
+          <GBAuthor>Salazar-Gonzalez,J.F.</GBAuthor>
+          <GBAuthor>Salazar,M.G.</GBAuthor>
+          <GBAuthor>Shepherd,J.G.</GBAuthor>
+          <GBAuthor>Davis,C.</GBAuthor>
+          <GBAuthor>Logan,N.</GBAuthor>
+          <GBAuthor>Sreenu,V.B.</GBAuthor>
+          <GBAuthor>Wilkie,G.S.</GBAuthor>
+          <GBAuthor>da Silva Filipe,A.</GBAuthor>
+          <GBAuthor>Ssekagiri,A.</GBAuthor>
+          <GBAuthor>Namuwulya,P.</GBAuthor>
+          <GBAuthor>Bukenya,H.</GBAuthor>
+          <GBAuthor>Kigozi,B.</GBAuthor>
+          <GBAuthor>McConnell,W.W.</GBAuthor>
+          <GBAuthor>Willett,B.J.</GBAuthor>
+          <GBAuthor>Balinandi,S.</GBAuthor>
+          <GBAuthor>Lutwama,J.</GBAuthor>
+          <GBAuthor>Kaleebu,P.</GBAuthor>
+          <GBAuthor>Bwogi,J.</GBAuthor>
+          <GBAuthor>Thomson,E.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Emerging viruses are an underestimated cause of undiagnosed febrile illness in Uganda</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..324</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ashraf,S.</GBAuthor>
+          <GBAuthor>Jerome,H.</GBAuthor>
+          <GBAuthor>Bugembe,D.L.</GBAuthor>
+          <GBAuthor>Ssemwanga,D.</GBAuthor>
+          <GBAuthor>Byaruhanga,T.</GBAuthor>
+          <GBAuthor>Kayiwa,J.T.</GBAuthor>
+          <GBAuthor>Downing,R.</GBAuthor>
+          <GBAuthor>Salazar-Gonzalez,J.F.</GBAuthor>
+          <GBAuthor>Salazar,M.G.</GBAuthor>
+          <GBAuthor>Shepherd,J.G.</GBAuthor>
+          <GBAuthor>Davis,C.</GBAuthor>
+          <GBAuthor>Logan,N.</GBAuthor>
+          <GBAuthor>Sreenu,V.B.</GBAuthor>
+          <GBAuthor>Wilkie,G.S.</GBAuthor>
+          <GBAuthor>da Silva Filipe,A.</GBAuthor>
+          <GBAuthor>Ssekagiri,A.</GBAuthor>
+          <GBAuthor>Namuwulya,P.</GBAuthor>
+          <GBAuthor>Bukenya,H.</GBAuthor>
+          <GBAuthor>Kigozi,B.</GBAuthor>
+          <GBAuthor>McConnell,W.W.</GBAuthor>
+          <GBAuthor>Willett,B.J.</GBAuthor>
+          <GBAuthor>Balinandi,S.</GBAuthor>
+          <GBAuthor>Lutwama,J.</GBAuthor>
+          <GBAuthor>Kaleebu,P.</GBAuthor>
+          <GBAuthor>Bwogi,J.</GBAuthor>
+          <GBAuthor>Thomson,E.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-DEC-2022) MRC Centre for Virus Research, University of Glasgow, 464 Bearsden Road, Glasgow G61 1QH, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>The raw reads used to assemble these viruse sequences were not deposited in the SRA database because of current ethical guidelines from the Uganda Virus Research Institute. The raw reads may theoretically contain information that could be used to identify the host.; ##Assembly-Data-START## ; Assembly Method :: IDBA_UD v. 1.1.3; SPAdes v. 3.11.1; Tanoti v. 1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..324</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>324</GBInterval_to>
+            <GBInterval_accession>OQ077992.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rift Valley fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Ug2012-CVR1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11588</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>environmental_sample</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Uganda</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2012</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>metagenome_source</GBQualifier_name>
+            <GBQualifier_value>blood metagenome</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>metagenomic</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;324</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>324</GBInterval_to>
+            <GBInterval_accession>OQ077992.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WCD55368.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VTSANLEEIERMHDDAAAELEFALSGVKDRPDERNRYHRVHLNMGSDDNVXXXXXXXXGKKHKADTLVQQMRDRSKQPFSPDHNVDHISEFLSACSSDLWATDEDLYN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>152..174</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>152</GBInterval_from>
+            <GBInterval_to>174</GBInterval_to>
+            <GBInterval_accession>OQ077992.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>23</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtcacctctgcaaatctagaggagattgagaggatgcacgatgatgcagcagcagaacttgagtttgccctttcgggagtaaaggacaggccagatgagaggaacagataccatagagtccatctaaatatgggctcagatgataatgtctnnnnnnnnnnnnnnnnnnnnnnnggaaagaagcacaaagcagacactttagtgcagcaaatgagagacaggagtaagcagcctttctccccagatcataatgtggatcacatatctgaatttctctctgcatgctctagtgacttgtgggcaacagatgaggacctatacaac</GBSeq_sequence>
+  </GBSeq>
