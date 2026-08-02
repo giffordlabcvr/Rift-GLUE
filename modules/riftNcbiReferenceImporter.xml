@@ -1,10 +1,11 @@
 <ncbiImporter>
-  <sourceName>ncbi-refseqs-rsv</sourceName>
+  <sourceName>ncbi-refseqs-rift</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
    
-	<primaryAccession>NC_038235</primaryAccession>
-	<primaryAccession>NC_001781</primaryAccession>
+	<primaryAccession>NC_014395</primaryAccession>
+	<primaryAccession>NC_014396</primaryAccession>
+	<primaryAccession>NC_014397</primaryAccession>
 	
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
