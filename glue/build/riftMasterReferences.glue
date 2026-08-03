@@ -1,124 +1,58 @@
-  #### HDV reference sequence
-   
-  create reference REF_MASTER_RSV_A ncbi-refseqs-rsv NC_038235  
+  #~#~# Rift segment S reference sequence   
+ 
+  create reference REF_MASTER_SegS ncbi-refseqs-rift NC_014395  
   
-  reference REF_MASTER_RSV_A
+  reference REF_MASTER_SegS
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 15222
+      add segment 1 1690
       exit
 
-    add feature-location NS1
-    feature-location NS1
+    add feature-location NSs
+    feature-location NSs
       add segment 99 518
       exit
 
-    add feature-location NS2
-    feature-location NS2
-      add segment 628 1002
-      exit
-
-    add feature-location N
-    feature-location N
-      add segment 1140 2315
-      exit
-
-    add feature-location P
-    feature-location P
-      add segment 2346 3071
-      exit
-
-    add feature-location M
-    feature-location M
-      add segment 3261 4031
-      exit
-
-    add feature-location SH
-    feature-location SH
-      add segment 4303 4497
-      exit
-
-    add feature-location G
-    feature-location G
-      add segment 4688 5584
-      exit
-
-    add feature-location F
-    feature-location F
-      add segment 5661 7385
-      exit
-
-    add feature-location M2
-    feature-location M2
-      add segment 8159 8431
-      exit
-
-    add feature-location L
-    feature-location L
-      add segment 8498 14995
+    add feature-location NP
+    feature-location NP
+      add segment 915 1652
       exit
 
   exit 
 
-
-  create reference REF_MASTER_RSV_B ncbi-refseqs-rsv NC_001781  
+  #~#~# Rift segment M reference sequence   
+ 
+  create reference REF_MASTER_SegM ncbi-refseqs-rift NC_014396  
   
-  reference REF_MASTER_RSV_B
+  reference REF_MASTER_SegM
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 15222
+      add segment 1 3885
       exit
 
-    add feature-location NS1
-    feature-location NS1
-      add segment 99 518
+    add feature-location Gn
+    feature-location Gn
+      add segment 21 3614
       exit
 
-    add feature-location NS2
-    feature-location NS2
-      add segment 626 1000
-      exit
+  exit 
 
-    add feature-location N
-    feature-location N
-      add segment 1125 2327
-      exit
+  #~#~# Rift segment L reference sequence   
+ 
+  create reference REF_MASTER_SegL ncbi-refseqs-rift NC_014397  
+  
+  reference REF_MASTER_SegL
 
-    add feature-location P
-    feature-location P
-      add segment 2348 3073
-      exit
-
-    add feature-location M
-    feature-location M
-      add segment 3254 4198
-      exit
-
-    add feature-location SH
-    feature-location SH
-      add segment 4303 4500
-      exit
-
-    add feature-location G
-    feature-location G
-      add segment 4690 5589
-      exit
-
-    add feature-location F
-    feature-location F
-      add segment 5666 7390
-      exit
-
-    add feature-location M2
-    feature-location M2
-      add segment 7618 8205
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 6404
       exit
 
     add feature-location L
     feature-location L
-      add segment 8509 15009
+      add segment 19 6297
       exit
 
   exit 
