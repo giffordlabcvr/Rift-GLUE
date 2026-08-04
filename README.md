@@ -131,6 +131,6 @@ Citation
 Acknowledgements
 ----------------
 
-Rift-GLUE is developed at the **Centre for Epidemic Response and Innovation (CERI), Stellenbosch University**, as part of ongoing efforts to strengthen genomic surveillance resources for neglected and emerging viral pathogens.
+Rift-GLUE is developed by the **[Gifford lab](https://github.com/giffordlabcvr)** at the **[Centre for Epidemic Response and Innovation (CERI), Stellenbosch University](https://ceri.africa)**, as part of ongoing efforts to strengthen genomic surveillance resources for neglected and emerging viral pathogens.
 
 * * * * *
