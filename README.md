@@ -8,7 +8,7 @@ Overview
 
 Rift-GLUE is an open bioinformatics resource for the integration, analysis and interpretation of **Rift Valley fever virus (RVFV)** genome sequences.
 
-Built using the **Genes Linked by Underlying Evolution (GLUE)** framework, Rift-GLUE provides a curated genomic reference dataset together with associated phylogenetic, geographical and epidemiological information. Rather than functioning as a simple sequence database or analysis pipeline, Rift-GLUE is designed as an evolving **genomic knowledge base** that supports comparative analyses of RVFV diversity and facilitates interpretation of newly generated virus genomes.
+Built using the **[Genes Linked by Underlying Evolution (GLUE)](https://github.com/giffordlabcvr/gluetools)** framework, Rift-GLUE provides a curated genomic reference dataset together with associated phylogenetic, geographical and epidemiological information. Rather than functioning as a simple sequence database or analysis pipeline, Rift-GLUE is designed as an evolving **genomic knowledge base** that supports comparative analyses of RVFV diversity and facilitates interpretation of newly generated virus genomes.
 
 The project aims to provide a reproducible and extensible foundation for genomic surveillance of RVFV and to support research into the evolutionary history, emergence and spread of this important zoonotic pathogen.
 
