@@ -6,15 +6,21 @@
 	# GenBank
     create field gb_create_date DATE
     create field gb_update_date DATE
-    create field full_name VARCHAR 100
+    create field full_name      VARCHAR 100
+    create field length         INTEGER
+    create field pubmed_id      INTEGER
+
+    create field segment        VARCHAR 10
+
     create field patent_related BOOLEAN
+    create field lab_construct  BOOLEAN
+
     create field gb_ref_journal VARCHAR 400
-    create field gb_ref_title VARCHAR 500
-    create field gb_ref_doi VARCHAR 60
-    create field length INTEGER
-    create field pubmed_id INTEGER
-    create field subtype    VARCHAR 100 
-    create field genotype   VARCHAR 100 
+    create field gb_ref_title   VARCHAR 500
+    create field gb_ref_doi     VARCHAR 60
+
+    create field subtype        VARCHAR 100 
+    create field genotype       VARCHAR 100 
     exit
 
 
