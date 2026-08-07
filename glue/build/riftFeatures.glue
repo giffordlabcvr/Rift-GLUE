@@ -1,33 +1,42 @@
+ 
+  #~#~# RNA Segments
+ 
+  create feature segment_s "Segment S"
+  feature segment_s set field displayName "Segment S"
+  feature segment_s set metatag INCLUDE_IN_SUMMARY true
   
-  create feature whole_genome "Whole genome"
-  feature whole_genome set field displayName "Whole genome"
-  feature whole_genome set metatag INCLUDE_IN_SUMMARY true
-
-
-  #~#~# Segment 1
+  create feature segment_m "Segment M"
+  feature segment_m set field displayName "Segment M"
+  feature segment_m set metatag INCLUDE_IN_SUMMARY true
   
-  create feature NSs -p whole_genome "non-structural protein"
+  create feature segment_l "Segment L"
+  feature segment_l set field displayName "Segment L"
+  feature segment_l set metatag INCLUDE_IN_SUMMARY true
+
+  #~#~# Segment S
+  
+  create feature NSs -p segment_s "non-structural protein"
   feature NSs set metatag OWN_CODON_NUMBERING true
   feature NSs set metatag INCLUDE_IN_SUMMARY true
   feature NSs set metatag CODES_AMINO_ACIDS true
   
-  create feature NP -p whole_genome "nucleocapsid"
+  create feature NP -p segment_s "nucleocapsid"
   feature NP set metatag OWN_CODON_NUMBERING true
   feature NP set metatag INCLUDE_IN_SUMMARY true
   feature NP set metatag CODES_AMINO_ACIDS true
 
 
-  #~#~# Segment 2
+  #~#~# Segment M
   
-  create feature Gn -p whole_genome "glycoprotein"
+  create feature Gn -p segment_m "glycoprotein"
   feature Gn set metatag OWN_CODON_NUMBERING true
   feature Gn set metatag INCLUDE_IN_SUMMARY true
   feature Gn set metatag CODES_AMINO_ACIDS true
 
 
-  #~#~# Segment 3
+  #~#~# Segment L
   
-  create feature L -p whole_genome "polymerase"
+  create feature L -p segment_l "polymerase"
   feature L set metatag OWN_CODON_NUMBERING true
   feature L set metatag INCLUDE_IN_SUMMARY true
   feature L set metatag CODES_AMINO_ACIDS true

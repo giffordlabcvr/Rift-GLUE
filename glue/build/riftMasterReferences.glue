@@ -4,8 +4,8 @@
   
   reference REF_MASTER_SegS
 
-    add feature-location whole_genome
-    feature-location whole_genome
+    add feature-location segment_s
+    feature-location segment_s
       add segment 1 1690
       exit
 
@@ -27,8 +27,8 @@
   
   reference REF_MASTER_SegM
 
-    add feature-location whole_genome
-    feature-location whole_genome
+    add feature-location segment_m
+    feature-location segment_m
       add segment 1 3885
       exit
 
@@ -45,8 +45,8 @@
   
   reference REF_MASTER_SegL
 
-    add feature-location whole_genome
-    feature-location whole_genome
+    add feature-location segment_l
+    feature-location segment_l
       add segment 1 6404
       exit
 
