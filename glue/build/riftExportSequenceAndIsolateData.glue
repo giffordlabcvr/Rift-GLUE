@@ -1,0 +1,45 @@
+ 
+  #~#~# RNA Segments
+ 
+  create feature segment_s "Segment S"
+  feature segment_s set field displayName "Segment S"
+  feature segment_s set metatag INCLUDE_IN_SUMMARY true
+  
+  create feature segment_m "Segment M"
+  feature segment_m set field displayName "Segment M"
+  feature segment_m set metatag INCLUDE_IN_SUMMARY true
+  
+  create feature segment_l "Segment L"
+  feature segment_l set field displayName "Segment L"
+  feature segment_l set metatag INCLUDE_IN_SUMMARY true
+
+  #~#~# Segment S
+  
+  create feature NSs -p segment_s "non-structural protein"
+  feature NSs set metatag OWN_CODON_NUMBERING true
+  feature NSs set metatag INCLUDE_IN_SUMMARY true
+  feature NSs set metatag CODES_AMINO_ACIDS true
+  
+  create feature NP -p segment_s "nucleocapsid"
+  feature NP set metatag OWN_CODON_NUMBERING true
+  feature NP set metatag INCLUDE_IN_SUMMARY true
+  feature NP set metatag CODES_AMINO_ACIDS true
+
+
+  #~#~# Segment M
+  
+  create feature Gn -p segment_m "glycoprotein"
+  feature Gn set metatag OWN_CODON_NUMBERING true
+  feature Gn set metatag INCLUDE_IN_SUMMARY true
+  feature Gn set metatag CODES_AMINO_ACIDS true
+
+
+  #~#~# Segment L
+  
+  create feature L -p segment_l "polymerase"
+  feature L set metatag OWN_CODON_NUMBERING true
+  feature L set metatag INCLUDE_IN_SUMMARY true
+  feature L set metatag CODES_AMINO_ACIDS true
+
+
+

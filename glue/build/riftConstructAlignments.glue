@@ -1,0 +1,19 @@
+delete module riftCompoundAlignerSegS
+delete module riftCompoundAlignerSegM
+delete module riftCompoundAlignerSegL
+
+create module -f modules/riftCompoundAlignerSegS.xml
+create module -f modules/riftCompoundAlignerSegM.xml
+create module -f modules/riftCompoundAlignerSegL.xml
+
+create alignment AL_ROOT_SegS -r REF_MASTER_SegS
+create alignment AL_ROOT_SegM -r REF_MASTER_SegM
+create alignment AL_ROOT_SegL -r REF_MASTER_SegL
+
+alignment AL_ROOT_SegS add member -w "segment = 'S'"
+alignment AL_ROOT_SegM add member -w "segment = 'M'"
+alignment AL_ROOT_SegL add member -w "segment = 'L'"
+
+compute alignment AL_ROOT_SegS riftCompoundAlignerSegS
+compute alignment AL_ROOT_SegM riftCompoundAlignerSegM
+compute alignment AL_ROOT_SegL riftCompoundAlignerSegL

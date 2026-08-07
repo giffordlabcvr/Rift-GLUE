@@ -25,8 +25,9 @@ project rift
   run script glue/build/riftLoadIsolateDataNuccore.js
   module riftGenbankXmlPopulator populate
   
-  # import unconstrained alignment  
-  #module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/rift.fna
+  # Construct constrained alignment
+  run file glue/build/riftConstructAlignments.glue
+  run file glue/build/riftExportAlignments.glue
 
   validate
   
