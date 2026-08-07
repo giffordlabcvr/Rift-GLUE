@@ -1,3 +1,4 @@
+create module -t fastaAlignmentExporter
 
 module fastaAlignmentExporter export AL_ROOT_SegS -a -o alignments/AL_ROOT_SegS.fna
 module fastaAlignmentExporter export AL_ROOT_SegM -a -o alignments/AL_ROOT_SegM.fna
