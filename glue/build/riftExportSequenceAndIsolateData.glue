@@ -1,45 +1,14 @@
- 
-  #~#~# RNA Segments
- 
-  create feature segment_s "Segment S"
-  feature segment_s set field displayName "Segment S"
-  feature segment_s set metatag INCLUDE_IN_SUMMARY true
-  
-  create feature segment_m "Segment M"
-  feature segment_m set field displayName "Segment M"
-  feature segment_m set metatag INCLUDE_IN_SUMMARY true
-  
-  create feature segment_l "Segment L"
-  feature segment_l set field displayName "Segment L"
-  feature segment_l set metatag INCLUDE_IN_SUMMARY true
 
-  #~#~# Segment S
-  
-  create feature NSs -p segment_s "non-structural protein"
-  feature NSs set metatag OWN_CODON_NUMBERING true
-  feature NSs set metatag INCLUDE_IN_SUMMARY true
-  feature NSs set metatag CODES_AMINO_ACIDS true
-  
-  create feature NP -p segment_s "nucleocapsid"
-  feature NP set metatag OWN_CODON_NUMBERING true
-  feature NP set metatag INCLUDE_IN_SUMMARY true
-  feature NP set metatag CODES_AMINO_ACIDS true
+console set cmd-output-file-format tab
 
+console set next-cmd-output-file tabular/sequenceAndIsolateData.tsv
 
-  #~#~# Segment M
-  
-  create feature Gn -p segment_m "glycoprotein"
-  feature Gn set metatag OWN_CODON_NUMBERING true
-  feature Gn set metatag INCLUDE_IN_SUMMARY true
-  feature Gn set metatag CODES_AMINO_ACIDS true
-
-
-  #~#~# Segment L
-  
-  create feature L -p segment_l "polymerase"
-  feature L set metatag OWN_CODON_NUMBERING true
-  feature L set metatag INCLUDE_IN_SUMMARY true
-  feature L set metatag CODES_AMINO_ACIDS true
-
-
-
+list sequence sequenceID segment pubmed_id length full_name gb_ref_journal gb_ref_title \
+              gb_ref_doi gb_create_date isolate.id isolate.iso_country isolate.iso_region \
+              isolate.iso_year isolate.iso_month isolate.iso_day isolate.origin_type \
+              isolate.sample_type isolate.iso_host isolate.iso_source \
+              isolate.m49_country.id isolate.m49_country.m49_sub_region.id  \
+              isolate.m49_country.m49_intermediate_region.id \
+              isolate.m49_country.m49_sub_region.id \
+              isolate.m49_country.m49_intermediate_region.id \
+              isolate.m49_country.development_status
