@@ -1,0 +1,11 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>Gn</featureName>
+		</codonAwareBlastAligner>	
+		<blastAligner>
+			<featureName>segment_m</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>
+

@@ -1,0 +1,11 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>L</featureName>
+		</codonAwareBlastAligner>	
+		<blastAligner>
+			<featureName>segment_l</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>
+

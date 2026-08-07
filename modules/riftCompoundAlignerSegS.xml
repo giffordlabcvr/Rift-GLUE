@@ -1,0 +1,14 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>NSs</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>NP</featureName>
+		</codonAwareBlastAligner>	
+		<blastAligner>
+			<featureName>segment_s</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>
+
