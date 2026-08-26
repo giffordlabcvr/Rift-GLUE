@@ -5,9 +5,9 @@
  
      <!-- Partition 1 -->
     <nucleotideRegionSelector>
-        <featureName>orf</featureName>
-        <startNt>79</startNt>
-        <endNt>1107</endNt>
+        <featureName>segment_l</featureName>
+        <startNt>1</startNt>
+        <endNt>6404</endNt>
     </nucleotideRegionSelector>
   
 </alignmentColumnsSelector>

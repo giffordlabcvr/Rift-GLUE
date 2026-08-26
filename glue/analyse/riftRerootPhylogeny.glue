@@ -1,13 +1,13 @@
   delete module ervPhyloUtility
   
-  create module -f modules/analyse/oasPhyloUtility.xml
+  create module -f modules/analyse/riftPhyloUtility.xml
 
-  module oasPhyloUtility
+  module riftPhyloUtility
   
 	# midpoint rooting  
 	reroot-phylogeny \
-      --inputFile trees/oas1.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/rift_seg_s.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/oas1Nucs_MidpointRerooted.tre NEWICK_BOOTSTRAPS
+      --outputFile trees/rift_seg_s_midpointrerooted.tre NEWICK_BOOTSTRAPS
 
     exit   

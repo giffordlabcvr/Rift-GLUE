@@ -1,11 +1,25 @@
 
-  delete module oasRaxmlPhylogenyGeneratorNucs
-  delete module oas1SelectorNucs
+  delete module riftRaxmlPhylogenyGeneratorNucs
+  delete module segSselectorNucs
+  delete module segMselectorNucs
+  delete module segLselectorNucs
   
-  create module -f modules/analyse/oasRaxmlPhylogenyGeneratorNucs.xml
-  create module -f modules/analyse/oas1SelectorNucs.xml
+  create module -f modules/analyse/riftRaxmlPhylogenyGeneratorNucs.xml
+  create module -f modules/analyse/segSselectorNucs.xml
+  #create module -f modules/analyse/segMselectorNucs.xml
+  #create module -f modules/analyse/segLselectorNucs.xml
   
-  module oasRaxmlPhylogenyGeneratorNucs \
-	generate nucleotide phylogeny AL_OAS1_Mammals -s oas1SelectorNucs \
-	-a -o trees/oas1.tre \
+  module riftRaxmlPhylogenyGeneratorNucs \
+	generate nucleotide phylogeny AL_ROOT_SegS -s segSselectorNucs \
+	-a -o trees/rift_seg_s.tre \
+	NEWICK_BOOTSTRAPS
+  
+  module riftRaxmlPhylogenyGeneratorNucs \
+	generate nucleotide phylogeny AL_ROOT_SegM -s segMselectorNucs \
+	-a -o trees/rift_seg_m.tre \
+	NEWICK_BOOTSTRAPS
+
+  module riftRaxmlPhylogenyGeneratorNucs \
+	generate nucleotide phylogeny AL_ROOT_SegL -s segLselectorNucs \
+	-a -o trees/rift_seg_l.tre \
 	NEWICK_BOOTSTRAPS

@@ -4,12 +4,7 @@
 		<annotationName>sequenceID</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
-	
-	<figTreeAnnotation>
-		<annotationName>species</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.species')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-	
+
 	<figTreeAnnotation>
 		<annotationName>pubmed_id</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
@@ -19,6 +14,42 @@
 		<annotationName>length</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.length')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>iso_host</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_host')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>iso_host</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>iso_year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.development_status')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>iso_source</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_source')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>sample_type</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.sample_type')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>origin_type</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.origin_type')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>iso_year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
 
 </figTreeAnnotationExporter>
 
