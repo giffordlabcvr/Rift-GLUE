@@ -2,9 +2,9 @@ delete module riftCompoundAlignerSegS
 delete module riftCompoundAlignerSegM
 delete module riftCompoundAlignerSegL
 
-create module -f modules/riftCompoundAlignerSegS.xml
-create module -f modules/riftCompoundAlignerSegM.xml
-create module -f modules/riftCompoundAlignerSegL.xml
+create module -f modules/build/riftCompoundAlignerSegS.xml
+create module -f modules/build/riftCompoundAlignerSegM.xml
+create module -f modules/build/riftCompoundAlignerSegL.xml
 
 create alignment AL_ROOT_SegS -r REF_MASTER_SegS
 create alignment AL_ROOT_SegM -r REF_MASTER_SegM

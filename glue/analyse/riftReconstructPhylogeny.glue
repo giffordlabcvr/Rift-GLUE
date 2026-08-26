@@ -1,0 +1,11 @@
+
+  delete module oasRaxmlPhylogenyGeneratorNucs
+  delete module oas1SelectorNucs
+  
+  create module -f modules/analyse/oasRaxmlPhylogenyGeneratorNucs.xml
+  create module -f modules/analyse/oas1SelectorNucs.xml
+  
+  module oasRaxmlPhylogenyGeneratorNucs \
+	generate nucleotide phylogeny AL_OAS1_Mammals -s oas1SelectorNucs \
+	-a -o trees/oas1.tre \
+	NEWICK_BOOTSTRAPS

@@ -1,0 +1,9 @@
+
+  delete module oasFigTreeAnnotationExporter
+  create module -f modules/analyse/oasFigTreeAnnotationExporter.xml
+  
+  # Export annotations
+  module oasFigTreeAnnotationExporter 
+  	export figtree-annotation AL_OAS1_Mammals -f trees/AL_OAS1_Mammals.annotations.tsv
+    exit   
+

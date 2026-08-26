@@ -1,0 +1,4 @@
+ 
+  run file glue/analyse/oas1ReconstructPhylogeny.glue
+  run file glue/analyse/oas1RerootPhylogeny.glue
+  run file glue/analyse/oas1ExportPhylogenyAnnotations.glue

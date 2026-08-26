@@ -1,0 +1,19 @@
+
+  module rvFeaturePresenceRecorder 
+
+	#~# Segment S
+
+	record feature-presence AL_ROOT_CLADE_I --recursive --featureName whole_genome --descendentFeatures
+
+	#~# Segment M
+
+	record feature-presence AL_ROOT_CLADE_II --recursive --featureName whole_genome --descendentFeatures
+
+	#~# Segment L
+
+	record feature-presence AL_ROOT_CLADE_III --recursive --featureName whole_genome --descendentFeatures
+
+	exit
+	
+	
+	

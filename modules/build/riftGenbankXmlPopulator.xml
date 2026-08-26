@@ -123,8 +123,18 @@
 				
 				<!-- #### Ruminants -->																																									
 				<valueConverter>
-					<matchPattern>.*[sS]eep.*</matchPattern>
+					<matchPattern>.*[sS]heep.*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[gG]oat.*</matchPattern>
+					<outputTemplate>Capra sp.</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[aA]frican buffalo.*</matchPattern>
+					<outputTemplate>Syncerus caffer</outputTemplate>
 				</valueConverter>
 
 									
