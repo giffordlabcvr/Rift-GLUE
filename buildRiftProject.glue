@@ -25,9 +25,14 @@ project rift
   run script glue/build/riftLoadIsolateDataNuccore.js
   module riftGenbankXmlPopulator populate
   
-  # Construct constrained alignment
-  run file glue/build/riftConstructAlignments.glue
-  run file glue/build/riftExportAlignments.glue
+  # Import unconstrained alignment
+  run file glue/build/riftImportUnconstrainedAlignments.glue
+
+  # Derive constrained from unconstrained
+  run file glue/build/riftImportUnconstrainedAlignments.glue
+
+  # Record feature presence
+  run file glue/build/riftRecordFeaturePresence.glue
 
   validate
   
