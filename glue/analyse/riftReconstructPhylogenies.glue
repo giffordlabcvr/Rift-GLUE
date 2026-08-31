@@ -6,24 +6,22 @@
   
   create module -f modules/analyse/riftRaxmlPhylogenyGeneratorNucs.xml
   create module -f modules/analyse/segSselectorNucs.xml
-  #create module -f modules/analyse/segMselectorNucs.xml
-  #create module -f modules/analyse/segLselectorNucs.xml
+  create module -f modules/analyse/segMselectorNucs.xml
+  create module -f modules/analyse/segLselectorNucs.xml
   
-  module riftRaxmlPhylogenyGeneratorNucs \
-	generate nucleotide phylogeny AL_ROOT_SegS -s segSselectorNucs \
-	-w "fLocNotes.featureLoc.feature.name = 'segment_s' and fLocNotes.ref_nt_coverage_pct >= 70" \
-	-o trees/rift_seg_s.tre \
-	NEWICK_BOOTSTRAPS
+  module riftRaxmlPhylogenyGeneratorNucs
   
-  module riftRaxmlPhylogenyGeneratorNucs \
-	generate nucleotide phylogeny AL_ROOT_SegM -s segMselectorNucs \
-	-w "fLocNotes.featureLoc.feature.name = 'segment_m' and fLocNotes.ref_nt_coverage_pct >= 70" \
-	-o trees/rift_seg_m.tre \
-	NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_ROOT_SegS -s segSselectorNucs \
+    -w "fLocNotes.featureLoc.feature.name = 'segment_s' and fLocNotes.ref_nt_coverage_pct >= 70" \
+    -o trees/rift_seg_s.tre NEWICK_BOOTSTRAPS
 
-  module riftRaxmlPhylogenyGeneratorNucs \
-	generate nucleotide phylogeny AL_ROOT_SegL -s segLselectorNucs \
-	-w "fLocNotes.featureLoc.feature.name = 'segment_l' and fLocNotes.ref_nt_coverage_pct >= 70" \	
-	-o trees/rift_seg_l.tre \
-	NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_ROOT_SegM -s segMselectorNucs \
+    -w "fLocNotes.featureLoc.feature.name = 'segment_m' and fLocNotes.ref_nt_coverage_pct >= 70" \
+    -o trees/rift_seg_m.tre NEWICK_BOOTSTRAPS
 
+    generate nucleotide phylogeny AL_ROOT_SegL -s segLselectorNucs  \
+    -w "fLocNotes.featureLoc.feature.name = 'segment_l' and fLocNotes.ref_nt_coverage_pct >= 70"  \
+    -o trees/rift_seg_l.tre NEWICK_BOOTSTRAPS
+  	
+    exit
+   

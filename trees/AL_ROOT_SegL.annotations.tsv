@@ -1,0 +1,449 @@
+taxon	sequenceID	pubmed_id	length	iso_host	m49_country	m49_country_region	m49_country_subregion	development_status	iso_source	sample_type	origin_type	iso_year	combined
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/AF393746	AF393746	-	129	-	-	-	-	-	-	-	-	-	- | - | - | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375395	DQ375395	17192303	6404	-	MRT	africa	sub_saharan_africa	developing	human sera	-	-	1987	sub_saharan_africa | MRT | 1987 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375396	DQ375396	17192303	6404	-	MRT	africa	sub_saharan_africa	developing	human sera	-	-	1987	sub_saharan_africa | MRT | 1987 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375397	DQ375397	17192303	6404	-	MRT	africa	sub_saharan_africa	developing	human sera	-	-	1987	sub_saharan_africa | MRT | 1987 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375398	DQ375398	17192303	6404	-	MRT	africa	sub_saharan_africa	developing	human sera	-	-	1987	sub_saharan_africa | MRT | 1987 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375399	DQ375399	17192303	6404	-	BFA	africa	sub_saharan_africa	developing	Aedes cuminsi	-	-	1983	sub_saharan_africa | BFA | 1983 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375400	DQ375400	17192303	6404	-	KEN	africa	sub_saharan_africa	developing	human sera	-	-	1998	sub_saharan_africa | KEN | 1998 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375401	DQ375401	17192303	6404	-	SAU	asia	western_asia	developing	human sera	-	-	2000	western_asia | SAU | 2000 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375402	DQ375402	17192303	6404	-	KEN	africa	sub_saharan_africa	developing	Aedes macintoshi	-	-	1983	sub_saharan_africa | KEN | 1983 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375403	DQ375403	17192303	6404	-	EGY	africa	northern_africa	developing	human sera	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375404	DQ375404	-	6404	-	EGY	africa	northern_africa	developing	derived from RVFV ZH-548	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375405	DQ375405	-	6404	-	EGY	africa	northern_africa	developing	Aedes taeniorhyncus that fed on gerbil infected with RVFV ZH-501	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375406	DQ375406	17192303	6404	-	EGY	africa	northern_africa	developing	human sera	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375407	DQ375407	-	6404	-	EGY	africa	northern_africa	developing	Culex pipiens that fed on hamster infected with RVFV ZH-501	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375408	DQ375408	-	6404	-	EGY	africa	northern_africa	developing	plaque pick of RVFV ZH-501	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375409	DQ375409	17192303	6404	-	EGY	africa	northern_africa	developing	mosquito	-	-	1978	northern_africa | EGY | 1978 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375410	DQ375410	17192303	6404	-	EGY	africa	northern_africa	developing	ovine	-	-	1979	northern_africa | EGY | 1979 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375411	DQ375411	17192303	6404	-	EGY	africa	northern_africa	developing	human sera	-	-	1978	northern_africa | EGY | 1978 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375412	DQ375412	17192303	6404	-	EGY	africa	northern_africa	developing	bovine	-	-	1978	northern_africa | EGY | 1978 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375413	DQ375413	17192303	6404	-	ZWE	africa	sub_saharan_africa	developing	bovine fetus	-	-	1974	sub_saharan_africa | ZWE | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375414	DQ375414	17192303	6404	-	MDG	africa	sub_saharan_africa	developing	human sera	-	-	1979	sub_saharan_africa | MDG | 1979 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375415	DQ375415	17192303	6404	-	CAF	africa	sub_saharan_africa	developing	human sera	-	-	1974	sub_saharan_africa | CAF | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375416	DQ375416	17192303	6404	-	CAF	africa	sub_saharan_africa	developing	human sera	-	-	1974	sub_saharan_africa | CAF | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375417	DQ375417	-	6404	-	CAF	africa	sub_saharan_africa	developing	derived from RVFV 74HB59	-	-	1974	sub_saharan_africa | CAF | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375418	DQ375418	17192303	6404	-	ZWE	africa	sub_saharan_africa	developing	bovine fetus	-	-	1978	sub_saharan_africa | ZWE | 1978 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375419	DQ375419	17192303	6404	-	CAF	africa	sub_saharan_africa	developing	human sera	-	-	1969	sub_saharan_africa | CAF | 1969 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375420	DQ375420	17192303	6404	-	GIN	africa	sub_saharan_africa	developing	Hipposideros caffer (bat)	-	-	1981	sub_saharan_africa | GIN | 1981 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375421	DQ375421	17192303	6404	-	GIN	africa	sub_saharan_africa	developing	Micropterus pusillus (bat)	-	-	1984	sub_saharan_africa | GIN | 1984 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375422	DQ375422	17192303	6404	-	CAF	africa	sub_saharan_africa	developing	human sera	-	-	1985	sub_saharan_africa | CAF | 1985 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375423	DQ375423	17192303	6404	-	CAF	africa	sub_saharan_africa	developing	human sera	-	-	1985	sub_saharan_africa | CAF | 1985 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375424	DQ375424	17192303	6404	-	ZWE	africa	sub_saharan_africa	developing	bovine fetus	-	-	1978	sub_saharan_africa | ZWE | 1978 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375425	DQ375425	17192303	6404	-	CAF	africa	sub_saharan_africa	developing	human sera	-	-	1973	sub_saharan_africa | CAF | 1973 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375426	DQ375426	17192303	6404	-	ZWE	africa	sub_saharan_africa	developing	bovine fetus	-	-	1970	sub_saharan_africa | ZWE | 1970 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375427	DQ375427	17192303	6404	-	KEN	africa	sub_saharan_africa	developing	bovine	-	-	-	sub_saharan_africa | KEN | - | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375428	DQ375428	17192303	6404	-	ZAF	africa	sub_saharan_africa	developing	human sera	-	-	1975	sub_saharan_africa | ZAF | 1975 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375429	DQ375429	17192303	6404	-	UGA	africa	sub_saharan_africa	developing	mosquito	-	-	1944	sub_saharan_africa | UGA | 1944 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375430	DQ375430	-	6404	-	UGA	africa	sub_saharan_africa	developing	derived from RVFV Entebbe	-	-	1944	sub_saharan_africa | UGA | 1944 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375431	DQ375431	-	6404	-	KEN	africa	sub_saharan_africa	developing	ovine	-	-	1951	sub_saharan_africa | KEN | 1951 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375432	DQ375432	17192303	6404	-	ZWE	africa	sub_saharan_africa	developing	bovine fetus	-	-	1974	sub_saharan_africa | ZWE | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375433	DQ375433	17192303	6404	-	ZAF	africa	sub_saharan_africa	developing	ovine	-	-	1951	sub_saharan_africa | ZAF | 1951 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/DQ375434	DQ375434	17192303	6404	-	ZWE	africa	sub_saharan_africa	developing	bovine	-	-	1974	sub_saharan_africa | ZWE | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574004	EU574004	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574005	EU574005	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574006	EU574006	18786992	6404	ovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574007	EU574007	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574008	EU574008	18786992	6404	Syncerus caffer (buffalo)	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Syncerus caffer (buffalo)
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574009	EU574009	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574010	EU574010	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574011	EU574011	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574012	EU574012	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574013	EU574013	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574014	EU574014	18786992	6404	caprine	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | caprine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574015	EU574015	18786992	6404	caprine	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | caprine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574016	EU574016	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574017	EU574017	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574018	EU574018	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574019	EU574019	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574020	EU574020	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574021	EU574021	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574022	EU574022	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574023	EU574023	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574024	EU574024	18786992	6404	ovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574025	EU574025	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574026	EU574026	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574027	EU574027	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574028	EU574028	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574029	EU574029	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/EU574030	EU574030	18786992	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443176	GQ443176	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443177	GQ443177	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	fetal liver	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443178	GQ443178	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	fetal liver	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443179	GQ443179	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443180	GQ443180	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443181	GQ443181	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443182	GQ443182	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443183	GQ443183	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443184	GQ443184	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443185	GQ443185	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443186	GQ443186	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443187	GQ443187	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443188	GQ443188	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443189	GQ443189	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443190	GQ443190	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443191	GQ443191	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443192	GQ443192	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443193	GQ443193	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443194	GQ443194	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443195	GQ443195	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443196	GQ443196	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443197	GQ443197	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443198	GQ443198	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443199	GQ443199	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443200	GQ443200	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443201	GQ443201	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443202	GQ443202	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443203	GQ443203	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443204	GQ443204	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443205	GQ443205	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443206	GQ443206	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443207	GQ443207	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443208	GQ443208	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443209	GQ443209	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443210	GQ443210	20507747	564	Capra hircus	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Capra hircus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443211	GQ443211	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443212	GQ443212	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443213	GQ443213	20507747	564	Ovis aries	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Ovis aries
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443214	GQ443214	20507747	564	Bos taurus	MDG	africa	sub_saharan_africa	developing	spleen	-	-	2008	sub_saharan_africa | MDG | 2008 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443215	GQ443215	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443216	GQ443216	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GQ443217	GQ443217	20507747	564	Homo sapiens	MDG	africa	sub_saharan_africa	developing	serum	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135848	GU135848	21028960	564	Anopheles coustani	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2008	sub_saharan_africa | MDG | 2008 | Anopheles coustani
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135849	GU135849	21028960	564	Anopheles squamosus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2008	sub_saharan_africa | MDG | 2008 | Anopheles squamosus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135850	GU135850	21028960	564	Anopheles squamosus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2008	sub_saharan_africa | MDG | 2008 | Anopheles squamosus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135851	GU135851	21028960	564	Culex antennatus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2008	sub_saharan_africa | MDG | 2008 | Culex antennatus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135852	GU135852	21028960	564	Culex antennatus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2008	sub_saharan_africa | MDG | 2008 | Culex antennatus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135853	GU135853	21028960	564	Anopheles squamosus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2009	sub_saharan_africa | MDG | 2009 | Anopheles squamosus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135854	GU135854	21028960	564	Anopheles squamosus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2009	sub_saharan_africa | MDG | 2009 | Anopheles squamosus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/GU135855	GU135855	21028960	564	Anopheles squamosus	MDG	africa	sub_saharan_africa	developing	unfed female mosquitos	-	-	2009	sub_saharan_africa | MDG | 2009 | Anopheles squamosus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586953	HM586953	21282193	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586954	HM586954	21282193	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586955	HM586955	21282193	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586956	HM586956	21282193	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586957	HM586957	21282193	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586958	HM586958	21282193	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586959	HM586959	21282193	6404	Homo sapiens	TZA	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | TZA | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586960	HM586960	21282193	6404	Homo sapiens	TZA	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | TZA | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586961	HM586961	21282193	6404	mosquito	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586962	HM586962	21282193	6404	mosquito	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/HM586963	HM586963	21282193	6404	mosquito	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311368	JF311368	21507967	6404	Homo sapiens	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311369	JF311369	21507967	6404	Homo sapiens	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311370	JF311370	21507967	6404	Homo sapiens	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311371	JF311371	21507967	6404	Homo sapiens	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311372	JF311372	21507967	6404	Homo sapiens	MDG	africa	sub_saharan_africa	developing	-	-	-	1991	sub_saharan_africa | MDG | 1991 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311373	JF311373	21507967	6404	bovine	MDG	africa	sub_saharan_africa	developing	-	-	-	1991	sub_saharan_africa | MDG | 1991 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311374	JF311374	21507967	6404	bovine	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311375	JF311375	21507967	6404	bovine	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF311376	JF311376	21507967	6404	bovine	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF326186	JF326186	-	6404	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF326187	JF326187	-	6404	mosquito	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF326188	JF326188	-	6404	mosquito	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF326189	JF326189	-	6404	Homo sapiens	TZA	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | TZA | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF326190	JF326190	-	6404	Homo sapiens	TZA	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | TZA | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JF784386	JF784386	21957302	6404	Ovis aries	ZAF	africa	sub_saharan_africa	developing	liver	-	-	1974	sub_saharan_africa | ZAF | 1974 | Ovis aries
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JQ068144	JQ068144	-	6404	Ovis aries	ZAF	africa	sub_saharan_africa	developing	blood	-	-	2009	sub_saharan_africa | ZAF | 2009 | Ovis aries
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JQ820483	JQ820483	23347790	6397	Homo sapiens	SDN	africa	northern_africa	developing	human sera	-	-	2007	northern_africa | SDN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JQ820484	JQ820484	23347790	6402	Homo sapiens	SDN	africa	northern_africa	developing	human sera	-	-	2010	northern_africa | SDN | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JQ820485	JQ820485	23347790	6404	Homo sapiens	SDN	africa	northern_africa	developing	human sera	-	-	2010	northern_africa | SDN | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/JQ820486	JQ820486	23347790	6400	Homo sapiens	SDN	africa	northern_africa	developing	human sera	-	-	2010	northern_africa | SDN | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KJ782454	KJ782454	-	6404	Homo sapiens	CAF	africa	sub_saharan_africa	developing	sera	-	-	1985	sub_saharan_africa | CAF | 1985 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KJ782457	KJ782457	-	6404	Aedes palpalis	CAF	africa	sub_saharan_africa	developing	-	-	-	1969	sub_saharan_africa | CAF | 1969 | Aedes palpalis
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KU167027	KU167027	27081121	6404	mosquito	UGA	africa	sub_saharan_africa	developing	-	-	-	1955	sub_saharan_africa | UGA | 1955 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KU978779	KU978779	-	6453	Homo sapiens	CAF	africa	sub_saharan_africa	developing	-	-	-	1969	sub_saharan_africa | CAF | 1969 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KU978780	KU978780	-	6431	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	1998	sub_saharan_africa | KEN | 1998 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KU978781	KU978781	-	6441	Homo sapiens	SAU	asia	western_asia	developing	-	-	-	2000	western_asia | SAU | 2000 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX096938	KX096938	-	6404	Aedes ochraceus	KEN	africa	sub_saharan_africa	developing	-	-	-	2006	sub_saharan_africa | KEN | 2006 | Aedes ochraceus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX096941	KX096941	-	6404	Aedes vexans arabiensis	SAU	asia	western_asia	developing	-	-	-	2001	western_asia | SAU | 2001 | Aedes vexans arabiensis
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX609031	KX609031	-	6404	Homo sapiens	CHN	asia	eastern_asia	developing	-	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX611605	KX611605	-	6404	Homo sapiens	CHN	asia	eastern_asia	developing	-	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX632066	KX632066	-	6402	Homo sapiens	AGO	africa	sub_saharan_africa	developing	blood	-	-	2016	sub_saharan_africa | AGO | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX785332	KX785332	-	6404	Homo sapiens	CHN	asia	eastern_asia	developing	-	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944849	KX944849	-	6380	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944850	KX944850	-	6329	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944851	KX944851	-	6404	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944852	KX944852	-	6403	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944853	KX944853	-	6294	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944854	KX944854	-	6373	-	ZAF	africa	sub_saharan_africa	developing	-	-	-	1955	sub_saharan_africa | ZAF | 1955 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944855	KX944855	-	6388	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	1975	sub_saharan_africa | ZAF | 1975 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944856	KX944856	-	6329	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944857	KX944857	-	6390	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944858	KX944858	-	6398	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944859	KX944859	-	6403	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944860	KX944860	-	6390	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944861	KX944861	-	6393	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944862	KX944862	-	6404	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944863	KX944863	-	6404	Buffalo	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | Buffalo
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944864	KX944864	-	6404	Buffalo	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | Buffalo
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944865	KX944865	-	6404	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944866	KX944866	-	6404	bovine	MDG	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | MDG | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944867	KX944867	-	6280	-	ZAF	africa	sub_saharan_africa	developing	-	-	-	1974	sub_saharan_africa | ZAF | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944868	KX944868	-	6333	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944869	KX944869	-	6392	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944870	KX944870	-	6360	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KX944871	KX944871	-	6397	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126665	KY126665	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126666	KY126666	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126667	KY126667	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126668	KY126668	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126669	KY126669	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126670	KY126670	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126671	KY126671	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126672	KY126672	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126673	KY126673	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126674	KY126674	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126675	KY126675	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126676	KY126676	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126677	KY126677	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126678	KY126678	-	6404	Homo sapiens	NAM	africa	sub_saharan_africa	developing	-	-	-	2004	sub_saharan_africa | NAM | 2004 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126679	KY126679	-	6404	Syncerus caffer	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | Syncerus caffer
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126680	KY126680	-	6404	Syncerus caffer	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | Syncerus caffer
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126681	KY126681	-	6404	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126682	KY126682	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2008	sub_saharan_africa | ZAF | 2008 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126683	KY126683	-	6404	bovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126684	KY126684	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2009	sub_saharan_africa | ZAF | 2009 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126685	KY126685	-	6404	Aedes circumluteolus	ZAF	africa	sub_saharan_africa	developing	-	-	-	1955	sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126686	KY126686	-	6404	ovine	ZAF	africa	sub_saharan_africa	developing	-	-	-	1956	sub_saharan_africa | ZAF | 1956 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126687	KY126687	-	6404	Eretmapodites quinquevittatus	ZAF	africa	sub_saharan_africa	developing	-	-	-	1971	sub_saharan_africa | ZAF | 1971 | Eretmapodites quinquevittatus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126688	KY126688	-	6404	Culex zombaensis	ZAF	africa	sub_saharan_africa	developing	-	-	-	1981	sub_saharan_africa | ZAF | 1981 | Culex zombaensis
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY126689	KY126689	-	6404	Syncerus caffer	ZAF	africa	sub_saharan_africa	developing	-	-	-	1999	sub_saharan_africa | ZAF | 1999 | Syncerus caffer
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY366327	KY366327	28638845	6094	Homo sapiens	MRT	africa	sub_saharan_africa	developing	serum	-	-	2015	sub_saharan_africa | MRT | 2015 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY366330	KY366330	28638845	6176	Homo sapiens	MRT	africa	sub_saharan_africa	developing	serum	-	-	2015	sub_saharan_africa | MRT | 2015 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/KY366333	KY366333	28638845	6179	Homo sapiens	MRT	africa	sub_saharan_africa	developing	serum	-	-	2015	sub_saharan_africa | MRT | 2015 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG649050	MG649050	-	6395	Homo sapiens	CHN	asia	eastern_asia	developing	serum	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG649051	MG649051	-	6400	Homo sapiens	CHN	asia	eastern_asia	developing	serum	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG649052	MG649052	-	6402	Homo sapiens	CHN	asia	eastern_asia	developing	serum	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG649053	MG649053	-	6389	Homo sapiens	CHN	asia	eastern_asia	developing	urine	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659819	MG659819	-	6404	Aedes circumluteolus (mosquito)	ZAF	africa	sub_saharan_africa	developing	-	-	-	1955	sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus (mosquito)
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659820	MG659820	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659821	MG659821	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659822	MG659822	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659823	MG659823	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659824	MG659824	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659825	MG659825	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659826	MG659826	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659827	MG659827	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659828	MG659828	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659829	MG659829	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659830	MG659830	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659831	MG659831	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659832	MG659832	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659833	MG659833	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659834	MG659834	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659835	MG659835	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659836	MG659836	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659837	MG659837	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659838	MG659838	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659839	MG659839	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659840	MG659840	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659841	MG659841	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659842	MG659842	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659843	MG659843	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659844	MG659844	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659845	MG659845	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659846	MG659846	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659847	MG659847	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659848	MG659848	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659849	MG659849	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659850	MG659850	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659851	MG659851	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659852	MG659852	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659853	MG659853	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659854	MG659854	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659855	MG659855	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659856	MG659856	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659857	MG659857	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659858	MG659858	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659859	MG659859	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659860	MG659860	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659861	MG659861	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659862	MG659862	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659863	MG659863	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659864	MG659864	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659865	MG659865	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659866	MG659866	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659867	MG659867	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659868	MG659868	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659869	MG659869	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659870	MG659870	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659871	MG659871	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659872	MG659872	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659873	MG659873	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659874	MG659874	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659875	MG659875	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659876	MG659876	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659877	MG659877	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659878	MG659878	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659879	MG659879	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659880	MG659880	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659881	MG659881	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659882	MG659882	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659883	MG659883	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659884	MG659884	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659885	MG659885	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659886	MG659886	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659887	MG659887	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659888	MG659888	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659889	MG659889	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | ZAF | 2010 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659890	MG659890	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659891	MG659891	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659892	MG659892	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659893	MG659893	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659894	MG659894	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659895	MG659895	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659896	MG659896	-	6404	Homo sapiens	ZAF	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | ZAF | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659897	MG659897	-	6404	Homo sapiens	NAM	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | NAM | 2011 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659898	MG659898	-	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	1962	sub_saharan_africa | KEN | 1962 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659899	MG659899	-	6404	ovine	KEN	africa	sub_saharan_africa	developing	-	-	-	1972	sub_saharan_africa | KEN | 1972 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659900	MG659900	-	6404	Homo sapiens	ZWE	africa	sub_saharan_africa	developing	-	-	-	1976	sub_saharan_africa | ZWE | 1976 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659901	MG659901	-	6404	ovine	ZWE	africa	sub_saharan_africa	developing	-	-	-	1978	sub_saharan_africa | ZWE | 1978 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659902	MG659902	-	6404	bovine	ZWE	africa	sub_saharan_africa	developing	-	-	-	1978	sub_saharan_africa | ZWE | 1978 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659903	MG659903	-	6404	Aedes sp. (mosquito)	UGA	africa	sub_saharan_africa	developing	-	-	-	1955	sub_saharan_africa | UGA | 1955 | Aedes sp. (mosquito)
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG659904	MG659904	-	6404	Homo sapiens	SEN	africa	sub_saharan_africa	developing	-	-	-	1975	sub_saharan_africa | SEN | 1975 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG953421	MG953421	30675833	6366	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2016	sub_saharan_africa | UGA | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG953422	MG953422	30675833	6373	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2016	sub_saharan_africa | UGA | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG953423	MG953423	30675833	6227	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2016	sub_saharan_africa | UGA | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG972972	MG972972	-	6321	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | UGA | 2017 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG972975	MG972975	-	6397	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | UGA | 2017 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MG972978	MG972978	-	6332	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | UGA | 2017 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MH175203	MH175203	-	6401	Homo sapiens	-	-	-	-	blood	-	-	-	- | - | - | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MT561461	MT561461	33339456	6404	ovine	NAM	africa	sub_saharan_africa	developing	-	-	-	2010	sub_saharan_africa | NAM | 2010 | ovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MT561464	MT561464	33339456	6345	springbok	NAM	africa	sub_saharan_africa	developing	-	-	-	2011	sub_saharan_africa | NAM | 2011 | springbok
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MW183126	MW183126	-	3562	Aedes durbanensis	ZAF	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | ZAF | 2017 | Aedes durbanensis
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MW316057	MW316057	34041966	314	alpacas	ZAF	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | ZAF | 2018 | alpacas
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MW316058	MW316058	34041966	314	alpacas	ZAF	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | ZAF | 2018 | alpacas
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MZ513011	MZ513011	35198642	6376	Homo sapiens	SEN	africa	sub_saharan_africa	developing	serum	-	-	2020	sub_saharan_africa | SEN | 2020 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MZ513012	MZ513012	35198642	6400	Homo sapiens	SEN	africa	sub_saharan_africa	developing	serum	-	-	2020	sub_saharan_africa | SEN | 2020 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/MZ513013	MZ513013	35198642	6292	Homo sapiens	SEN	africa	sub_saharan_africa	developing	serum	-	-	2020	sub_saharan_africa | SEN | 2020 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/NC_014397	NC_014397	17192303	6404	-	EGY	africa	northern_africa	developing	human sera	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-refseqs-rift/NC_014397	NC_014397	17192303	6404	-	-	-	-	-	-	-	-	-	- | - | - | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OK415591	OK415591	35427361	1940	mosquito	MRT	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | MRT | 2018 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OK415592	OK415592	35427361	4410	mosquito	MRT	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | MRT | 2018 | mosquito
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744375	OM744375	-	6397	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | KEN | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744376	OM744376	-	6399	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | KEN | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744377	OM744377	-	6397	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | KEN | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744378	OM744378	-	6396	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | KEN | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744379	OM744379	-	6400	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | KEN | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744400	OM744400	-	6404	cow	ZAF	africa	sub_saharan_africa	developing	blood	-	-	1974	sub_saharan_africa | ZAF | 1974 | cow
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OM744403	OM744403	33633696	6404	-	ESP	europe	southern_europe	developed	-	-	-	2016	southern_europe | ESP | 2016 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060772	ON060772	-	6392	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2019	sub_saharan_africa | UGA | 2019 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060775	ON060775	-	6391	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060778	ON060778	-	6388	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060781	ON060781	-	6385	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060784	ON060784	-	6388	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | UGA | 2017 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060787	ON060787	-	6320	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060790	ON060790	-	6392	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060793	ON060793	-	6350	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060796	ON060796	-	6389	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060799	ON060799	-	6389	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060802	ON060802	-	6385	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060805	ON060805	-	6388	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060808	ON060808	-	6387	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060811	ON060811	-	6380	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060813	ON060813	-	6388	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060816	ON060816	-	6388	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060819	ON060819	-	6388	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060822	ON060822	-	6222	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060825	ON060825	-	6265	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060828	ON060828	-	6380	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060831	ON060831	-	6392	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060834	ON060834	-	6167	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | UGA | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON060836	ON060836	-	6376	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | UGA | 2017 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/ON211622	ON211622	-	6404	Vero cells	USA	americas	northern_america	developed	-	-	-	2020	northern_america | USA | 2020 | Vero cells
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OP146104	OP146104	-	6404	-	CAF	africa	sub_saharan_africa	developing	-	-	-	1974	sub_saharan_africa | CAF | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OP146107	OP146107	-	6375	-	UGA	africa	sub_saharan_africa	developing	-	-	-	1944	sub_saharan_africa | UGA | 1944 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OP146110	OP146110	-	6404	-	ZAF	africa	sub_saharan_africa	developing	-	-	-	1974	sub_saharan_africa | ZAF | 1974 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OQ077992	OQ077992	-	324	Homo sapiens	UGA	africa	sub_saharan_africa	developing	blood	-	-	2012	sub_saharan_africa | UGA | 2012 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OQ440146	OQ440146	-	6404	Homo sapiens	CHN	asia	eastern_asia	developing	-	-	-	2016	eastern_asia | CHN | 2016 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OQ440150	OQ440150	-	6404	bovine	KEN	africa	sub_saharan_africa	developing	-	-	-	-	sub_saharan_africa | KEN | - | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OQ440154	OQ440154	-	6404	-	EGY	africa	northern_africa	developing	-	-	-	1977	northern_africa | EGY | 1977 | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR780625	OR780625	-	5924	Bos taurus	BDI	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | BDI | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR780626	OR780626	-	6232	Bos taurus	BDI	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | BDI | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR780627	OR780627	-	5924	Bos taurus	BDI	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | BDI | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR780628	OR780628	-	5924	Bos taurus	BDI	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | BDI | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR780629	OR780629	-	5924	Bos taurus	BDI	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | BDI | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR805805	OR805805	-	6404	Homo sapiens	EGY	africa	northern_africa	developing	serum	-	-	1977	northern_africa | EGY | 1977 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR844389	OR844389	-	6404	-	MRT	africa	sub_saharan_africa	developing	placenta	-	-	-	sub_saharan_africa | MRT | - | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR844392	OR844392	-	6404	-	MRT	africa	sub_saharan_africa	developing	-	-	-	-	sub_saharan_africa | MRT | - | -
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/OR972326	OR972326	-	6397	Homo sapiens	KEN	africa	sub_saharan_africa	developing	plasma	-	-	2018	sub_saharan_africa | KEN | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP541453	PP541453	39066182	6315	Homo sapiens	SEN	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | SEN | 2022 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP541456	PP541456	39066182	6397	Homo sapiens	SEN	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | SEN | 2022 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746304	PP746304	39066310	6111	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746305	PP746305	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746306	PP746306	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746307	PP746307	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746308	PP746308	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746309	PP746309	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746310	PP746310	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746311	PP746311	39066310	5936	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746312	PP746312	39066310	5937	Ovis aries	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Ovis aries
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746313	PP746313	39066310	6165	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746314	PP746314	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746315	PP746315	39066310	6243	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746316	PP746316	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746317	PP746317	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746318	PP746318	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746319	PP746319	39066310	6232	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746320	PP746320	39066310	6261	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746321	PP746321	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746322	PP746322	39066310	6232	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746323	PP746323	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746324	PP746324	39066310	5936	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746325	PP746325	39066310	5936	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746326	PP746326	39066310	6234	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746327	PP746327	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746328	PP746328	39066310	6222	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746329	PP746329	39066310	5936	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746330	PP746330	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746331	PP746331	39066310	6221	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746332	PP746332	39066310	6243	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746333	PP746333	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746334	PP746334	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746335	PP746335	39066310	6106	Ovis aries	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Ovis aries
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746336	PP746336	39066310	6223	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746337	PP746337	39066310	6247	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746338	PP746338	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746339	PP746339	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746340	PP746340	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746341	PP746341	39066310	5924	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | RWA | 2022 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746415	PP746415	-	6385	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | KEN | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746416	PP746416	-	6384	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | KEN | 2018 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746417	PP746417	-	6386	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746424	PP746424	-	6331	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | KEN | 2018 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746425	PP746425	-	6232	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746426	PP746426	-	6251	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746427	PP746427	-	6277	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746436	PP746436	-	6232	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746437	PP746437	-	6268	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746438	PP746438	-	6232	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746445	PP746445	-	6391	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2020	sub_saharan_africa | KEN | 2020 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746446	PP746446	-	6399	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	1998	sub_saharan_africa | KEN | 1998 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746447	PP746447	-	6373	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746448	PP746448	-	6387	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746449	PP746449	-	6388	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746450	PP746450	-	6391	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2019	sub_saharan_africa | KEN | 2019 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746451	PP746451	-	6401	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746452	PP746452	-	6396	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2020	sub_saharan_africa | KEN | 2020 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP746469	PP746469	-	6381	Homo sapiens	KEN	africa	sub_saharan_africa	developing	-	-	-	2007	sub_saharan_africa | KEN | 2007 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP747229	PP747229	-	6253	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | KEN | 2018 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP747230	PP747230	-	6232	Bos taurus	KEN	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | KEN | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP747231	PP747231	39066310	6277	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | RWA | 2018 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP747232	PP747232	-	6232	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | RWA | 2018 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PP747233	PP747233	39066310	6256	Bos taurus	RWA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | RWA | 2018 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ436085	PQ436085	-	5850	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | UGA | 2022 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ436086	PQ436086	-	6308	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2022	sub_saharan_africa | UGA | 2022 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ436087	PQ436087	-	6228	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2023	sub_saharan_africa | UGA | 2023 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ436088	PQ436088	-	5834	Homo sapiens	UGA	africa	sub_saharan_africa	developing	-	-	-	2023	sub_saharan_africa | UGA | 2023 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ753146	PQ753146	39861008	494	Anopheles ziemanni	RWA	africa	sub_saharan_africa	developing	whole body	-	-	2022	sub_saharan_africa | RWA | 2022 | Anopheles ziemanni
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ753147	PQ753147	39861008	494	Anopheles ziemanni	RWA	africa	sub_saharan_africa	developing	whole body	-	-	2022	sub_saharan_africa | RWA | 2022 | Anopheles ziemanni
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ753148	PQ753148	39861008	494	Anopheles gambiae s.l.	RWA	africa	sub_saharan_africa	developing	whole body	-	-	2022	sub_saharan_africa | RWA | 2022 | Anopheles gambiae s.l.
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ753149	PQ753149	39861008	494	Culex quinquefasciatus	RWA	africa	sub_saharan_africa	developing	whole body	-	-	2022	sub_saharan_africa | RWA | 2022 | Culex quinquefasciatus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PQ753150	PQ753150	39861008	494	Culex quinquefasciatus	RWA	africa	sub_saharan_africa	developing	whole body	-	-	2022	sub_saharan_africa | RWA | 2022 | Culex quinquefasciatus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PV231438	PV231438	-	6404	caprine	BWA	africa	sub_saharan_africa	developing	-	-	-	2018	sub_saharan_africa | BWA | 2018 | caprine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PV231439	PV231439	-	1071	bovine	BWA	africa	sub_saharan_africa	developing	-	-	-	2014	sub_saharan_africa | BWA | 2014 | bovine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PV231440	PV231440	-	1071	caprine	BWA	africa	sub_saharan_africa	developing	-	-	-	2020	sub_saharan_africa | BWA | 2020 | caprine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PV231441	PV231441	-	1071	caprine	BWA	africa	sub_saharan_africa	developing	-	-	-	2017	sub_saharan_africa | BWA | 2017 | caprine
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PV562147	PV562147	40732766	6395	Bos taurus	UGA	africa	sub_saharan_africa	developing	-	-	-	2021	sub_saharan_africa | UGA | 2021 | Bos taurus
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/PX580510	PX580510	12781023	6352	Homo sapiens	TCD	africa	sub_saharan_africa	developing	-	-	-	2001	sub_saharan_africa | TCD | 2001 | Homo sapiens
+alignment/AL_ROOT_SegL/member/ncbi-core-rift/X56464	X56464	1923828	6606	-	-	-	-	-	-	-	-	-	- | - | - | -

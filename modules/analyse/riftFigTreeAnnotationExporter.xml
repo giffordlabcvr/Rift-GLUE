@@ -21,12 +21,22 @@
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
-		<annotationName>iso_host</annotationName>
+		<annotationName>m49_country</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>iso_year</annotationName>
+		<annotationName>m49_country_region</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.m49_region.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>m49_country_subregion</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>development_status</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.development_status')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
@@ -50,6 +60,12 @@
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
+	<figTreeAnnotation>
+		<annotationName>combined</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+
 
 </figTreeAnnotationExporter>
 

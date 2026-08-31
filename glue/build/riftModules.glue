@@ -5,4 +5,4 @@
 
   create module --fileName modules/build/riftGenbankXmlPopulator.xml
 
-  create module --fileName modules/build/riftFeaturePresenceRecorder.xm
+  create module --fileName modules/build/riftFeaturePresenceRecorder.xml
