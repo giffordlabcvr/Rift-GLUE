@@ -11,15 +11,19 @@
   
   module riftRaxmlPhylogenyGeneratorNucs \
 	generate nucleotide phylogeny AL_ROOT_SegS -s segSselectorNucs \
-	-a -o trees/rift_seg_s.tre \
+	-w "fLocNotes.featureLoc.feature.name = 'segment_s' and fLocNotes.ref_nt_coverage_pct >= 70" \
+	-o trees/rift_seg_s.tre \
 	NEWICK_BOOTSTRAPS
   
   module riftRaxmlPhylogenyGeneratorNucs \
 	generate nucleotide phylogeny AL_ROOT_SegM -s segMselectorNucs \
-	-a -o trees/rift_seg_m.tre \
+	-w "fLocNotes.featureLoc.feature.name = 'segment_m' and fLocNotes.ref_nt_coverage_pct >= 70" \
+	-o trees/rift_seg_m.tre \
 	NEWICK_BOOTSTRAPS
 
   module riftRaxmlPhylogenyGeneratorNucs \
 	generate nucleotide phylogeny AL_ROOT_SegL -s segLselectorNucs \
-	-a -o trees/rift_seg_l.tre \
+	-w "fLocNotes.featureLoc.feature.name = 'segment_l' and fLocNotes.ref_nt_coverage_pct >= 70" \	
+	-o trees/rift_seg_l.tre \
 	NEWICK_BOOTSTRAPS
+

@@ -3,15 +3,15 @@
 
 	#~# Segment S
 
-	record feature-presence AL_ROOT_SegS --recursive --featureName whole_genome --descendentFeatures
+	record feature-presence AL_ROOT_SegS --recursive --featureName segment_s --descendentFeatures
 
 	#~# Segment M
 
-	record feature-presence AL_ROOT_SegM --recursive --featureName whole_genome --descendentFeatures
+	record feature-presence AL_ROOT_SegM --recursive --featureName segment_m --descendentFeatures
 
 	#~# Segment L
 
-	record feature-presence AL_ROOT_SegL --recursive --featureName whole_genome --descendentFeatures
+	record feature-presence AL_ROOT_SegL --recursive --featureName segment_l --descendentFeatures
 
 	exit
 	

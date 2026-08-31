@@ -1,4 +1,4 @@
  
-  run file glue/analyse/rift1ReconstructPhylogenies.glue
-  run file glue/analyse/rift1RerootPhylogenies.glue
-  run file glue/analyse/rift1ExportPhylogenyAnnotations.glue
+  run file glue/analyse/riftReconstructPhylogenies.glue
+  run file glue/analyse/riftRerootPhylogenies.glue
+  run file glue/analyse/riftExportPhylogenyAnnotations.glue
