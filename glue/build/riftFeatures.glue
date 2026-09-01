@@ -16,30 +16,37 @@
   #~#~# Segment S
   
   create feature NSs -p segment_s "non-structural protein"
-  feature NSs set metatag OWN_CODON_NUMBERING true
-  feature NSs set metatag INCLUDE_IN_SUMMARY true
-  feature NSs set metatag CODES_AMINO_ACIDS true
-  
+  feature NSs 
+    set metatag OWN_CODON_NUMBERING true
+    set metatag INCLUDE_IN_SUMMARY true
+    set metatag CODES_AMINO_ACIDS true
+    exit
+    
   create feature NP -p segment_s "nucleocapsid"
-  feature NP set metatag OWN_CODON_NUMBERING true
-  feature NP set metatag INCLUDE_IN_SUMMARY true
-  feature NP set metatag CODES_AMINO_ACIDS true
-
-
+  feature NP 
+    set metatag OWN_CODON_NUMBERING true
+    set metatag INCLUDE_IN_SUMMARY true
+    set metatag CODES_AMINO_ACIDS true
+	set metatag REVERSE_COMPLEMENT_TRANSLATION true
+    exit
+    
   #~#~# Segment M
   
   create feature Gn -p segment_m "glycoprotein"
-  feature Gn set metatag OWN_CODON_NUMBERING true
-  feature Gn set metatag INCLUDE_IN_SUMMARY true
-  feature Gn set metatag CODES_AMINO_ACIDS true
-
+  feature Gn 
+    set metatag OWN_CODON_NUMBERING true
+    set metatag INCLUDE_IN_SUMMARY true
+    set metatag CODES_AMINO_ACIDS true
+    exit
 
   #~#~# Segment L
   
   create feature L -p segment_l "polymerase"
-  feature L set metatag OWN_CODON_NUMBERING true
-  feature L set metatag INCLUDE_IN_SUMMARY true
-  feature L set metatag CODES_AMINO_ACIDS true
+  feature L 
+    set metatag OWN_CODON_NUMBERING true
+    set metatag INCLUDE_IN_SUMMARY true
+    set metatag CODES_AMINO_ACIDS true
+    exit
 
 
 

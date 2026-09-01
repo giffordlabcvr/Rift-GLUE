@@ -1,0 +1,14 @@
+  delete module riftUnconstrainedAlignmentImporter
+  create module --fileName modules/build/riftUnconstrainedAlignmentImporter.xml
+  
+  #~# Internal
+  
+  module riftUnconstrainedAlignmentImporter
+ 
+     #~# Segment-level alignments
+    import AL_UNC_SegS -f alignments/AL_ROOT_SegS.fna
+    import AL_UNC_SegM -f alignments/AL_ROOT_SegM.fna
+    import AL_UNC_SegL -f alignments/AL_ROOT_SegL.fna
+ 
+    exit
+

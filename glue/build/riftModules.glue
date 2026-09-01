@@ -4,5 +4,5 @@
   create module -f modules/build/tabularUtilityTab.xml
 
   create module --fileName modules/build/riftGenbankXmlPopulator.xml
-
   create module --fileName modules/build/riftFeaturePresenceRecorder.xml
+  create module --fileName modules/build/riftUnconstrainedAlignmentImporter.xml

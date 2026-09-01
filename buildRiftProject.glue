@@ -21,15 +21,19 @@ project rift
 
   run file glue/build/riftFeatures.glue
   run file glue/build/riftMasterReferences.glue
-  
+
   run script glue/build/riftLoadIsolateDataNuccore.js
   module riftGenbankXmlPopulator populate
+
+  delete module riftSegmentRecogniser  
+  create module --fileName modules/build/riftSegmentRecogniser.xml
+  run script glue/build/riftRecogniseSegments.js
   
   # Import unconstrained alignment
   run file glue/build/riftImportUnconstrainedAlignments.glue
 
-  # Derive constrained from unconstrained
-  run file glue/build/riftImportUnconstrainedAlignments.glue
+  # Derive constrained alignment tree
+  run file glue/build/riftDeriveConstrainedAlignments.glue
 
   # Record feature presence
   run file glue/build/riftRecordFeaturePresence.glue

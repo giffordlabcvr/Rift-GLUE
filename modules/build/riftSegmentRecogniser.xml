@@ -14,19 +14,19 @@
 <referenceSequence>REF_MASTER_SegL</referenceSequence>
 
 <recognitionCategory>
-<id>1</id>
+<id>S</id>
 <minimumBitScore>50</minimumBitScore>
 <referenceSequence>REF_MASTER_SegS</referenceSequence>
 </recognitionCategory>
 
 <recognitionCategory>
-<id>2</id>
+<id>M</id>
 <minimumBitScore>50</minimumBitScore>
 <referenceSequence>REF_MASTER_SegM</referenceSequence>
 </recognitionCategory>
 
 <recognitionCategory>
-<id>3</id>
+<id>L</id>
 <minimumBitScore>50</minimumBitScore>
 <referenceSequence>REF_MASTER_SegL</referenceSequence>
 </recognitionCategory>

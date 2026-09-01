@@ -11,7 +11,7 @@
 
     add feature-location NSs
     feature-location NSs
-      add segment 99 518
+      add segment 35 832
       exit
 
     add feature-location NP

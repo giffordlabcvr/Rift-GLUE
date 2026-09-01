@@ -56,12 +56,19 @@
 		</gbQualifier>
 
 		<gbQualifier name="note">
-			<propertyPopulator property="genotype">
-				<matchPattern>(?i).*genotype\s*:\s*([AB]).*</matchPattern>
+			<propertyPopulator property="gb_lineage">
+				<matchPattern>(?i).*genotype\s*[:=\-]?\s*([A-Za-z0-9]+).*</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>		
+
+		<gbQualifier name="note">
+			<propertyPopulator property="gb_lineage">
+				<matchPattern>(?i).*lineage\s*[:=\-]?\s*([A-Za-z0-9]+).*</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
-					
+				
         <!-- Segment details -->
 
 		<gbQualifier name="chromosome">

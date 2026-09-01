@@ -10,9 +10,9 @@ create alignment AL_ROOT_SegS -r REF_MASTER_SegS
 create alignment AL_ROOT_SegM -r REF_MASTER_SegM
 create alignment AL_ROOT_SegL -r REF_MASTER_SegL
 
-alignment AL_ROOT_SegS add member -w "segment = 'S'"
-alignment AL_ROOT_SegM add member -w "segment = 'M'"
-alignment AL_ROOT_SegL add member -w "segment = 'L'"
+alignment AL_ROOT_SegS add member -w "rec_segment = 'S' and rec_orientation = 'FORWARD'"
+alignment AL_ROOT_SegM add member -w "rec_segment = 'M' and rec_orientation = 'FORWARD'"
+alignment AL_ROOT_SegL add member -w "rec_segment = 'L' and rec_orientation = 'FORWARD'"
 
 compute alignment AL_ROOT_SegS riftCompoundAlignerSegS
 compute alignment AL_ROOT_SegM riftCompoundAlignerSegM
