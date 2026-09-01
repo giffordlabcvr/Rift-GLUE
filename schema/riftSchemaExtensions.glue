@@ -22,6 +22,8 @@
     create field gb_ref_title    VARCHAR 500
     create field gb_ref_doi      VARCHAR 60
 
+    create field gb_strain       VARCHAR 100 
+
     create field gb_lineage      VARCHAR 20 
     create field rec_lineage     VARCHAR 20 
 
