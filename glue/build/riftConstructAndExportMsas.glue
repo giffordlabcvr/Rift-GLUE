@@ -1,6 +1,7 @@
 
   # Construct constrained alignments
-  run file glue/build/riftConstructAlignments.glue
+  run file glue/build/riftConstructAlignmentsBlast.glue
+  #run file glue/build/riftConstructAlignmentsMafft.glue
 
   # Export constrained alignments
   run file glue/build/riftExportAlignments.glue

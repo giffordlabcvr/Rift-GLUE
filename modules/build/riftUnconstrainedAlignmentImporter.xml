@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <blastFastaAlignmentImporter>
-    <minRowCoveragePercent>80.0</minRowCoveragePercent>
+    <idClauseExtractorFormatter>
+        <matchPattern>^.*\.([^.]+)$</matchPattern>
+    </idClauseExtractorFormatter>
+    <minRowCoveragePercent>10.0</minRowCoveragePercent>
 </blastFastaAlignmentImporter>

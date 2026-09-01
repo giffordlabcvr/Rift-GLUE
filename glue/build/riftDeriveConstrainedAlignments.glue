@@ -3,6 +3,15 @@
   create alignment AL_ROOT_SegM -r REF_MASTER_SegM
   create alignment AL_ROOT_SegL -r REF_MASTER_SegL
 
-  alignment AL_ROOT_SegS add member -w "rec_segment = 'S' and rec_orientation = 'FORWARD'"
-  alignment AL_ROOT_SegM add member -w "rec_segment = 'M' and rec_orientation = 'FORWARD'"
-  alignment AL_ROOT_SegL add member -w "rec_segment = 'L' and rec_orientation = 'FORWARD'"
+  alignment AL_ROOT_SegS
+    derive segments AL_UNC_SegS --allMembers --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_ROOT_SegM
+    derive segments AL_UNC_SegM --allMembers --mergeStrategy OVERWRITE
+    exit
+  
+  alignment AL_ROOT_SegL
+    derive segments AL_UNC_SegL --allMembers --mergeStrategy OVERWRITE
+    exit
+ 
