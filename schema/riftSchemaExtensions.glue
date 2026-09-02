@@ -16,13 +16,12 @@
     create field rec_orientation VARCHAR 10
 
     create field patent_related  BOOLEAN
+    create field complete_genome BOOLEAN
     create field lab_construct   BOOLEAN
 
     create field gb_ref_journal  VARCHAR 400
     create field gb_ref_title    VARCHAR 500
     create field gb_ref_doi      VARCHAR 60
-
-    create field gb_strain       VARCHAR 100 
 
     create field gb_lineage      VARCHAR 20 
     create field rec_lineage     VARCHAR 20 
@@ -44,7 +43,11 @@
   table isolate
 
 	  # Primary ID for the isolate 
-	  create field isolate_id VARCHAR 200
+	  create field isolate_id  VARCHAR 100
+
+      # GenBank strain/isolate details
+	  create field gb_strain   VARCHAR 100
+	  create field gb_isolate  VARCHAR 100
 
 	  # Year, month, and day of sample collection (if available)
 	  create field iso_year    INTEGER

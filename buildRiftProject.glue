@@ -8,6 +8,7 @@ schema-project rift
   run file schema/riftSchemaExtensions.glue
 exit
  
+# Build project
 project rift
 
   run file glue/build/riftProjectSettings.glue  
@@ -16,27 +17,38 @@ project rift
   # Set up M49 standard for country & region data
   run file glue/build/m49_countries/populateM49All.glue
   
+  # Import the sequences
   import source sources/ncbi-refseqs-rift 
   import source sources/ncbi-core-rift
 
+  # Delete patent-related sequences
+  run script glue/build/riftDeletePatentRelatedSequences.js
+
+  # Link all imported sequences to the isolate table
+  run script glue/build/riftLinkSequencesToIsolates.js
+
+  # Define the genome feature set
   run file glue/build/riftFeatures.glue
+
+  # Declare master reference segment sequences & add feature locations on each
   run file glue/build/riftMasterReferences.glue
 
-  run script glue/build/riftLoadIsolateDataNuccore.js
+  # Load sequence-associated data from Genbank XML
   module riftGenbankXmlPopulator populate
 
+  # Resolve isolate naming inconsistencies
+  run script glue/build/riftResolveIsolateIds.js
+    
+  # Do segment recognition
   delete module riftSegmentRecogniser  
   create module --fileName modules/build/riftSegmentRecogniser.xml
   run script glue/build/riftRecogniseSegments.js
+
+  # Flag complete genomes based on `rec_segment` and `isolate.isolate_id` fields
+  run script glue/build/riftSetCompleteGenomes.js
   
-  # Import unconstrained alignment
-  run file glue/build/riftImportUnconstrainedAlignments.glue
-
-  # Derive constrained alignment tree
-  run file glue/build/riftDeriveConstrainedAlignments.glue
-
-  # Record feature presence
-  run file glue/build/riftRecordFeaturePresence.glue
-
+  # Construct alignments and determine feature coverage
+  run file glue/build/riftAlignments.glue
+  
   validate
   

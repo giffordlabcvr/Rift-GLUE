@@ -1,0 +1,9 @@
+
+  # Import unconstrained alignment
+  run file glue/build/riftImportUnconstrainedAlignments.glue
+
+  # Derive constrained alignment tree
+  run file glue/build/riftDeriveConstrainedAlignments.glue
+
+  # Record feature presence
+  run file glue/build/riftRecordFeaturePresence.glue

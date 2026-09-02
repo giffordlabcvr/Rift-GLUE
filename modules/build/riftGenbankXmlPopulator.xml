@@ -52,13 +52,13 @@
 			<propertyPopulator property="isolate.iso_source"/>
 		</gbQualifier>
 
-		<gbQualifier name="isolate">
-			<propertyPopulator property="isolate.isolate_id"/>
-		</gbQualifier>
-
 		<gbQualifier name="strain">
-			<propertyPopulator property="gb_strain"/>
+			<propertyPopulator property="isolate.gb_strain"/>
 		</gbQualifier>		
+
+		<gbQualifier name="isolate">
+			<propertyPopulator property="isolate.gb_isolate"/>
+		</gbQualifier>
 
 		<gbQualifier name="note">
 			<propertyPopulator property="gb_lineage">
