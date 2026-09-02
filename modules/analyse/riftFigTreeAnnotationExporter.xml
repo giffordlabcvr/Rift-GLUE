@@ -79,6 +79,11 @@
 		<annotationName>combined2</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')} | ${renderNestedProperty('sequence.complete_genome')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>combined3</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')} | ${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')} | ${renderNestedProperty('sequence.complete_genome')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
 
 
 </figTreeAnnotationExporter>
