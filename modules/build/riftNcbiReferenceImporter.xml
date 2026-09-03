@@ -11,3 +11,5 @@
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>
+
+
