@@ -60,6 +60,7 @@
 			<propertyPopulator property="isolate.gb_isolate"/>
 		</gbQualifier>
 
+
 		<gbQualifier name="note">
 			<propertyPopulator property="gb_lineage">
 				<matchPattern>(?i).*genotype\s*[:=\-]?\s*([A-Za-z0-9]+).*</matchPattern>
@@ -70,6 +71,13 @@
 		<gbQualifier name="note">
 			<propertyPopulator property="gb_lineage">
 				<matchPattern>(?i).*lineage\s*[:=\-]?\s*([A-Za-z0-9]+).*</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="note">
+			<propertyPopulator property="gb_lineage">
+				<matchPattern>(?i).*clade\s*[:=\-]?\s*([A-Za-z0-9]+).*</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
@@ -136,6 +144,7 @@
 				<!-- #### Ruminants -->																																									
 				<valueConverter>
 					<matchPattern>.*[sS]heep.*</matchPattern>
+					<matchPattern>.*Ovis [aA]ries.*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
 				</valueConverter>
 
@@ -145,9 +154,78 @@
 				</valueConverter>
 
 				<valueConverter>
+					<matchPattern>.*[bB]uffalo.*</matchPattern>
 					<matchPattern>.*[aA]frican buffalo.*</matchPattern>
+					<matchPattern>.*Synceres [cC]affer.*</matchPattern>
 					<outputTemplate>Syncerus caffer</outputTemplate>
 				</valueConverter>
+
+				<!-- ### Additional Ruminants-->
+				<valueConverter>
+					<matchPattern>.*[bB]ovine.*</matchPattern>
+					<matchPattern>.*[cC]attle.*</matchPattern>
+					<matchPattern>.*[cC]ow.*</matchPattern>
+					<matchPattern>.*Bos [tT]aurus.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[sS]heep.*</matchPattern>
+					<matchPattern>.*[oO]vine.*</matchPattern>
+					<matchPattern>.*Ovis [aA]ries.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[gG]oat.*</matchPattern>
+					<matchPattern>.*[cC]aprine.*</matchPattern>
+					<matchPattern>.*Capra.*</matchPattern>
+					<outputTemplate>Capra sp.</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[gG]oat.*</matchPattern>
+					<matchPattern>.*[cC]aprine.*</matchPattern>
+					<matchPattern>.*Capra.*</matchPattern>
+					<outputTemplate>Capra sp.</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[cC]amel.*</matchPattern>
+					<matchPattern>.*Camelus.*</matchPattern>
+					<outputTemplate>Camelus sp.</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[sS]pringbok.*</matchPattern>
+					<outputTemplate>Antidorcas marsupialis (springbok)</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[bB]at*</matchPattern>
+					<outputTemplate>Bat (unknown)</outputTemplate>
+				</valueConverter>
+
+				<!-- ### Additional unknowns-->
+				<valueConverter>
+					<matchPattern>.*[bB]at*</matchPattern>
+					<outputTemplate>Bat (unknown)</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*[mM]osquito*</matchPattern>
+					<outputTemplate>Mosquito (unknown)</outputTemplate>
+				</valueConverter>
+
+
+				<!-- ### Cross-reference these with "lab_constructs.tsv"-->
+				<valueConverter>
+					<matchPattern>.*[vV]ero cells.*</matchPattern>
+					<outputTemplate>lab_cell_line</outputTemplate>
+				</valueConverter>
+				
+
+
 
 									
 			</propertyPopulator>
