@@ -58,3 +58,7 @@
   exit 
 
 
+custom-table-row isolate NC_014395 set field is_reference TRUE
+custom-table-row isolate NC_014396 set field is_reference TRUE
+custom-table-row isolate NC_014397 set field is_reference TRUE
+

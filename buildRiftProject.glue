@@ -36,6 +36,9 @@ project rift
   # Load sequence-associated data from Genbank XML
   module riftGenbankXmlPopulator populate
 
+  # Declare lineage references
+  run script glue/build/loadRvfvLineages.js
+
   # Resolve isolate naming inconsistencies
   run script glue/build/riftResolveIsolateIds.js
     
