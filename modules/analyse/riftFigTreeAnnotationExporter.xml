@@ -22,7 +22,7 @@
 
 	<figTreeAnnotation>
 		<annotationName>rec_lineage</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_lineage')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>

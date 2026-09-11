@@ -1,1 +1,118 @@
-(((alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375433:0.00873233242395142321,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/KY126685:0.01091382906048122409)100:0.00185985705507891769,(alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375434:0.01933508237159935889,((alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659904:0.02011560847728322693,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375427:0.01153069241851031879)100:0.00451318375765240223,(alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659819:0.00860250599856454690,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659898:0.01265843451584019140)100:0.00556559488307875778)83:0.00033358307774685153)84:0.00050962849255142199)100:0.00177025148253188557,((alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375421:0.00822067470602880560,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375415:0.00681911608252121736)51:0.00051786017513676455,(alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/JF311374:0.01845428415575415398,((alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/KY126688:0.00649763438413221428,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375425:0.00635493538522717821)100:0.00169084842433510894,(alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659890:0.01587600209440631280,((alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375411:0.00109973731967153419,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-refseqs-rift/NC_014397:0.00094256958343876939)100:0.00419845980503720084,alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659899:0.00074140528710202509)100:0.00341507725995954768)100:0.00236763897602225437)100:0.00210357570104623484)74:0.00040096022602953993)100:0.00649407829026144631);
+#NEXUS
+begin taxa;
+	dimensions ntax=16;
+	taxlabels
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375411'[&combined1="northern_africa | EGY | 1978 | -",combined2="ZH-1776 | northern_africa | EGY | 1978 | - | true",combined3="DQ375411 | ZH-1776 | northern_africa | EGY | 1978 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="human sera",iso_year="1978",length=6404,m49_country="EGY",m49_country_region="africa",m49_country_subregion="northern_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375411",strain_and_isolate_info="ZH-1776 | ZH-1776 | -",rec_lineage="A"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375415'[&combined1="sub_saharan_africa | CAF | 1974 | -",combined2="74HB59 | sub_saharan_africa | CAF | 1974 | - | true",combined3="DQ375415 | 74HB59 | sub_saharan_africa | CAF | 1974 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="human sera",iso_year="1974",length=6404,m49_country="CAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375415",strain_and_isolate_info="74HB59 | 74HB59 | -",rec_lineage="E"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375421'[&combined1="sub_saharan_africa | GIN | 1984 | -",combined2="ANK-6087 | sub_saharan_africa | GIN | 1984 | - | true",combined3="DQ375421 | ANK-6087 | sub_saharan_africa | GIN | 1984 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="Micropterus pusillus (bat)",iso_year="1984",length=6404,m49_country="GIN",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375421",strain_and_isolate_info="ANK-6087 | ANK-6087 | -",rec_lineage="G"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375425'[&combined1="sub_saharan_africa | CAF | 1973 | -",combined2="73HB1230 | sub_saharan_africa | CAF | 1973 | - | true",combined3="DQ375425 | 73HB1230 | sub_saharan_africa | CAF | 1973 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="human sera",iso_year="1973",length=6404,m49_country="CAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375425",strain_and_isolate_info="73HB1230 | 73HB1230 | -",rec_lineage="D"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375427'[&combined1="sub_saharan_africa | KEN | - | -",combined2="Kenya 56 (IB8) | sub_saharan_africa | KEN | - | - | true",combined3="DQ375427 | Kenya 56 (IB8) | sub_saharan_africa | KEN | - | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="bovine",iso_year="-",length=6404,m49_country="KEN",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375427",strain_and_isolate_info="Kenya 56 (IB8) | Kenya 56 (IB8) | -",rec_lineage="L"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375433'[&combined1="sub_saharan_africa | ZAF | 1951 | -",combined2="SA-51 (Van Wyck) | sub_saharan_africa | ZAF | 1951 | - | true",combined3="DQ375433 | SA-51 (Van Wyck) | sub_saharan_africa | ZAF | 1951 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="ovine",iso_year="1951",length=6404,m49_country="ZAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375433",strain_and_isolate_info="SA-51 (Van Wyck) | SA-51 (Van Wyck) | -",rec_lineage="O"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375434'[&combined1="sub_saharan_africa | ZWE | 1974 | -",combined2="2269/74 | sub_saharan_africa | ZWE | 1974 | - | true",combined3="DQ375434 | 2269/74 | sub_saharan_africa | ZWE | 1974 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="bovine",iso_year="1974",length=6404,m49_country="ZWE",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="DQ375434",strain_and_isolate_info="2269/74 | 2269/74 | -",rec_lineage="J"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/JF311374'[&combined1="sub_saharan_africa | MDG | 2008 | bovine",combined2="200803168 | sub_saharan_africa | MDG | 2008 | bovine | true",combined3="JF311374 | 200803168 | sub_saharan_africa | MDG | 2008 | bovine | true",development_status="developing",gb_lineage="-",iso_host="bovine",iso_source="-",iso_year="2008",length=6404,m49_country="MDG",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="21507967",sample_type="-",sequenceID="JF311374",strain_and_isolate_info="200803168 | 200803168 | -",rec_lineage="C"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/KY126685'[&combined1="sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus",combined2="Ar74 | sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus | true",combined3="KY126685 | Ar74 | sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus | true",development_status="developing",gb_lineage="-",iso_host="Aedes circumluteolus",iso_source="-",iso_year="1955",length=6404,m49_country="ZAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="KY126685",strain_and_isolate_info="Ar74 | - | Ar74",rec_lineage="I"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/KY126688'[&combined1="sub_saharan_africa | ZAF | 1981 | Culex zombaensis",combined2="Ar20364 | sub_saharan_africa | ZAF | 1981 | Culex zombaensis | true",combined3="KY126688 | Ar20364 | sub_saharan_africa | ZAF | 1981 | Culex zombaensis | true",development_status="developing",gb_lineage="-",iso_host="Culex zombaensis",iso_source="-",iso_year="1981",length=6404,m49_country="ZAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="KY126688",strain_and_isolate_info="Ar20364 | - | Ar20364",rec_lineage="F"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659819'[&combined1="sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus (mosquito)",combined2="Ar 118 | sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus (mosquito) | true",combined3="MG659819 | Ar 118 | sub_saharan_africa | ZAF | 1955 | Aedes circumluteolus (mosquito) | true",development_status="developing",gb_lineage="-",iso_host="Aedes circumluteolus (mosquito)",iso_source="-",iso_year="1955",length=6404,m49_country="ZAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="MG659819",strain_and_isolate_info="Ar 118 | - | Ar 118",rec_lineage="M"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659890'[&combined1="sub_saharan_africa | ZAF | 2011 | Homo sapiens",combined2="SA67/11 | sub_saharan_africa | ZAF | 2011 | Homo sapiens | true",combined3="MG659890 | SA67/11 | sub_saharan_africa | ZAF | 2011 | Homo sapiens | true",development_status="developing",gb_lineage="-",iso_host="Homo sapiens",iso_source="-",iso_year="2011",length=6404,m49_country="ZAF",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="MG659890",strain_and_isolate_info="SA67/11 | - | SA67/11",rec_lineage="H"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659898'[&combined1="sub_saharan_africa | KEN | 1962 | bovine",combined2="B314 | sub_saharan_africa | KEN | 1962 | bovine | true",combined3="MG659898 | B314 | sub_saharan_africa | KEN | 1962 | bovine | true",development_status="developing",gb_lineage="-",iso_host="bovine",iso_source="-",iso_year="1962",length=6404,m49_country="KEN",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="MG659898",strain_and_isolate_info="B314 | - | B314",rec_lineage="K"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659899'[&combined1="sub_saharan_africa | KEN | 1972 | ovine",combined2="S35 | sub_saharan_africa | KEN | 1972 | ovine | true",combined3="MG659899 | S35 | sub_saharan_africa | KEN | 1972 | ovine | true",development_status="developing",gb_lineage="-",iso_host="ovine",iso_source="-",iso_year="1972",length=6404,m49_country="KEN",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="MG659899",strain_and_isolate_info="S35 | - | S35",rec_lineage="B"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659904'[&combined1="sub_saharan_africa | SEN | 1975 | Homo sapiens",combined2="HD21955 | sub_saharan_africa | SEN | 1975 | Homo sapiens | true",combined3="MG659904 | HD21955 | sub_saharan_africa | SEN | 1975 | Homo sapiens | true",development_status="developing",gb_lineage="-",iso_host="Homo sapiens",iso_source="-",iso_year="1975",length=6404,m49_country="SEN",m49_country_region="africa",m49_country_subregion="sub_saharan_africa",origin_type="-",pubmed_id="-",sample_type="-",sequenceID="MG659904",strain_and_isolate_info="HD21955 | - | HD21955",rec_lineage="N"]
+	'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-refseqs-rift/NC_014397'[&combined1="northern_africa | EGY | 1977 | -",combined2="ZH-548 | northern_africa | EGY | 1977 | - | true",combined3="NC_014397 | ZH-548 | northern_africa | EGY | 1977 | - | true",development_status="developing",gb_lineage="-",iso_host="-",iso_source="human sera",iso_year="1977",length=6404,m49_country="EGY",m49_country_region="africa",m49_country_subregion="northern_africa",origin_type="-",pubmed_id="17192303",sample_type="-",sequenceID="NC_014397",strain_and_isolate_info="ZH-548 | ZH-548 | -",rec_lineage="A"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375433':0.008732,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/KY126685':0.010914)[&label=100]:0.00186,('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375434':0.019335,(('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659904':0.020116,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375427':0.011531)[&label=100]:0.004513,('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659819':0.008603,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659898':0.012658)[&label=100]:0.005566)[&label=83]:3.34E-4)[&label=84]:5.1E-4)[&label=100]:0.00177,(('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375421':0.008221,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375415':0.006819)[&label=51]:5.18E-4,('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/JF311374':0.018454,(('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/KY126688':0.006498,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375425':0.006355)[&label=100]:0.001691,('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659890':0.015876,(('alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/DQ375411':0.0011,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-refseqs-rift/NC_014397':9.43E-4)[&label=100]:0.004198,'alignment/AL_LINEAGE_TREE_SegL/member/ncbi-core-rift/MG659899':7.41E-4)[&label=100]:0.003415)[&label=100]:0.002368)[&label=100]:0.002104)[&label=74]:4.01E-4)[&label=100]:0.006494);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="rec_lineage";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
