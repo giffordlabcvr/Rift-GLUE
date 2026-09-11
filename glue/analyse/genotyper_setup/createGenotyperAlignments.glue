@@ -1,0 +1,30 @@
+  delete alignment AL_LINEAGE_TREE_SegS
+  delete alignment AL_LINEAGE_TREE_SegM
+  delete alignment AL_LINEAGE_TREE_SegL
+
+  delete module riftCompoundAlignerSegS
+  delete module riftCompoundAlignerSegM
+  delete module riftCompoundAlignerSegL
+  delete module riftFeaturePresenceRecorder
+  
+  create module -f modules/build/riftCompoundAlignerSegS.xml
+  create module -f modules/build/riftCompoundAlignerSegM.xml
+  create module -f modules/build/riftCompoundAlignerSegL.xml
+
+  create alignment AL_LINEAGE_TREE_SegS -r REF_MASTER_SegS 
+  create alignment AL_LINEAGE_TREE_SegM -r REF_MASTER_SegM 
+  create alignment AL_LINEAGE_TREE_SegL -r REF_MASTER_SegL 
+  
+  alignment AL_LINEAGE_TREE_SegS add member \
+			-w "rec_segment = 'S' and isolate.is_reference = TRUE"
+  
+  alignment AL_LINEAGE_TREE_SegM add member \
+			-w "rec_segment = 'M' and isolate.is_reference = TRUE"
+  
+  alignment AL_LINEAGE_TREE_SegL add member \
+			-w "rec_segment = 'L' and isolate.is_reference = TRUE"
+			
+  compute alignment AL_LINEAGE_TREE_SegS riftCompoundAlignerSegS
+  compute alignment AL_LINEAGE_TREE_SegM riftCompoundAlignerSegM
+  compute alignment AL_LINEAGE_TREE_SegL riftCompoundAlignerSegL 
+

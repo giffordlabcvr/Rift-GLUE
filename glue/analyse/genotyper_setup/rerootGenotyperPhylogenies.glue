@@ -1,0 +1,23 @@
+  delete module ervPhyloUtility
+  
+  create module -f modules/analyse/riftPhyloUtility.xml
+
+  module riftPhyloUtility
+  
+	# midpoint rooting  
+	reroot-phylogeny \
+      --inputFile trees/rift_lineages_seg_s.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/rift_lineages_seg_s_midpointrerooted.tre NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/rift_lineages_seg_m.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/rift_lineages_seg_m_midpointrerooted.tre NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/rift_lineages_seg_l.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/rift_lineages_seg_l_midpointrerooted.tre NEWICK_BOOTSTRAPS
+
+    exit   

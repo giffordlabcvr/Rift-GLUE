@@ -1,0 +1,14 @@
+
+  delete module phyloImporter
+  
+  create module -t phyloImporter
+
+  module phyloImporter
+  
+	import phylogeny AL_ROOT_Phylogeny_M \
+	--recursive \
+	--anyAlignment \
+	--whereClause "referenceMember = false" \
+	--inputFile trees/rvRtReferencePhylogenyMidpointRerooted.tree NEWICK_BOOTSTRAPS \
+	--fieldName phylogeny
+	exit

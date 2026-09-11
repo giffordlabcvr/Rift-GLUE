@@ -19,6 +19,11 @@
 		<annotationName>gb_lineage</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_lineage')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>rec_lineage</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_lineage')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
 		<annotationName>iso_host</annotationName>
