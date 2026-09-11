@@ -14,6 +14,9 @@ project rift
   run file glue/build/riftProjectSettings.glue  
   run file glue/build/riftModules.glue
 
+  # Set log level
+  console set log-level INFO
+
   # Set up M49 standard for country & region data
   run file glue/build/m49_countries/populateM49All.glue
   
@@ -51,7 +54,10 @@ project rift
   run script glue/build/riftSetCompleteGenomes.js
   
   # Construct alignments and determine feature coverage
-  run file glue/build/riftAlignments.glue
-  
+  #run file glue/build/riftAlignments.glue
+
+  # Define alignment tree
+  run file glue/build/riftAlignmentTree.glue
+
   validate
   

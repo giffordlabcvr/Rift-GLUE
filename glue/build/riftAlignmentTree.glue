@@ -1,0 +1,172 @@
+### RVFV lineage alignment tree
+###
+### One constrained alignment hierarchy per segment (S, L, M).
+### Node structure follows the >= 0.90 support clades from the
+### midpoint-rooted reference-genotype trees.
+###
+### Members are selected as:
+###   sequence.rec_segment = '<S|L|M>'
+###   and sequence.rec_lineage in (...)
+###   and sequence.source.name = 'ncbi-core-rift'   # exclude masters
+###   and sequence.isolate.is_reference = TRUE
+
+
+  delete alignment AL_LINEAGE_TREE_SegS
+  delete alignment AL_LINEAGE_TREE_SegM
+  delete alignment AL_LINEAGE_TREE_SegL
+
+  create alignment AL_LINEAGE_TREE_SegS -r REF_S_MASTER 
+  create alignment AL_LINEAGE_TREE_SegM -r REF_M_MASTER 
+  create alignment AL_LINEAGE_TREE_SegL -r REF_L_MASTER 
+
+  alignment AL_LINEAGE_TREE_SegS add member -w "rec_segment = 'S' and isolate.is_reference = TRUE"
+  alignment AL_LINEAGE_TREE_SegM add member -w "rec_segment = 'M' and isolate.is_reference = TRUE"
+  alignment AL_LINEAGE_TREE_SegL add member -w "rec_segment = 'L' and isolate.is_reference = TRUE"
+  
+  
+#
+# =========================================================================
+# SEGMENT S
+# =========================================================================
+#
+
+alignment AL_LINEAGE_TREE_SegS
+
+    extract child AL_S_1 --refName REF_S_A_ZH-1776
+    demote member AL_S_1 --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('I','O','J','K','M','L','N') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_S_2 --refName REF_S_A_ZH-1776
+    demote member AL_S_2 --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('C','E','G','D','F','H','A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_S_1
+
+    extract child AL_S_1a --refName REF_S_K_B314
+    demote member AL_S_1a --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('K','M') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_S_2
+
+    extract child AL_S_2a --refName REF_S_A_ZH-1776
+    demote member AL_S_2a --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('D','F','H','A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_S_2a
+
+    extract child AL_S_2a_i --refName REF_S_A_ZH-1776
+    demote member AL_S_2a_i --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('H','A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_S_2a_i
+
+    extract child AL_S_2a_i_alpha --refName REF_S_A_ZH-1776
+    demote member AL_S_2a_i_alpha --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+
+#
+# =========================================================================
+# SEGMENT L
+# =========================================================================
+#
+
+alignment AL_LINEAGE_TREE_SegL
+
+    extract child AL_L_1 --refName REF_L_A_ZH-1776
+    demote member AL_L_1 --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('O','I','J','N','L','M','K') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_L_2 --refName REF_L_A_ZH-1776
+    demote member AL_L_2 --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('G','E','C','F','D','H','A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_L_1
+
+    extract child AL_L_1a --refName REF_L_O_SA-51VanWyck
+    demote member AL_L_1a --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('O','I') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_L_1b --refName REF_L_N_HD21955
+    demote member AL_L_1b --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('N','L') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_L_1c --refName REF_L_M_Ar118
+    demote member AL_L_1c --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('M','K') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_L_2
+
+    extract child AL_L_2a --refName REF_L_A_ZH-1776
+    demote member AL_L_2a --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('F','D','H','A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_L_2a
+
+    extract child AL_L_2a_i --refName REF_L_F_Ar20364
+    demote member AL_L_2a_i --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('F','D') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_L_2a_ii --refName REF_L_A_ZH-1776
+    demote member AL_L_2a_ii --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('H','A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_L_2a_ii
+
+    extract child AL_L_2a_ii_alpha --refName REF_L_A_ZH-1776
+    demote member AL_L_2a_ii_alpha --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('A','B') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+
+#
+# =========================================================================
+# SEGMENT M
+# =========================================================================
+#
+
+alignment AL_LINEAGE_TREE_SegM
+
+    extract child AL_M_1 --refName REF_M_A_ZH-1776
+    demote member AL_M_1 --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('O','I','J','N','M','L','K') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_M_2 --refName REF_M_A_ZH-1776
+    demote member AL_M_2 --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('E','C','D','F','H','B','A','G') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_M_1
+
+    extract child AL_M_1a --refName REF_M_O_SA-51VanWyck
+    demote member AL_M_1a --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('O','I') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    extract child AL_M_1b --refName REF_M_J_2269_74
+    demote member AL_M_1b --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('J','N','M','L','K') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_M_1b
+
+    extract child AL_M_1b_i --refName REF_M_N_HD21955
+    demote member AL_M_1b_i --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('N','M','L','K') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_M_1b_i
+
+    extract child AL_M_1b_ii --refName REF_M_M_Ar118
+    demote member AL_M_1b_ii --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('M','L','K') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+
+alignment AL_M_2
+
+    extract child AL_M_2a --refName REF_M_A_ZH-1776
+    demote member AL_M_2a --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('B','A') and sequence.source.name = 'ncbi-core-rift' and sequence.isolate.is_reference = TRUE"
+
+    exit
+    

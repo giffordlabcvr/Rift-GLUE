@@ -9,22 +9,29 @@
 // TSV columns expected:
 //   isolate, year, country, source, lineage, accession
 //
+// Reference naming convention (current):
+//   REF_<segment>_<lineage>_<strain>
+//   e.g. REF_L_A_ZH-1776
+//
+// Legacy convention (migrated on first run):
+//   REF_<lineage>_<segment>_<strain>
+//   e.g. REF_A_L_ZH-1776
+//
 // For each lineage in a file:
-//   - create reference REF_<lineage>_<segment>_<strain> from the FIRST
+//   - create reference REF_<segment>_<lineage>_<strain> from the FIRST
 //     accession in that file (one representative sequence per lineage).
-//     `<segment>` is derived from the filename (L, M, or S).
-//     `<strain>` is the isolate value with '/' replaced by '_'.
 //
 // For each row in a file:
 //   - set sequence.rec_lineage = <lineage>
 //
 // For the representative isolate of each lineage:
 //   - set isolate.is_reference = TRUE  (via custom-table-row/isolate/<id>)
-//
-// Sequence identity is by source/sequenceID. The TSV gives an accession,
-// so we look up the sequence whose sequenceID equals the accession.
 
 var DRY_RUN = false;
+
+// Set to true to migrate legacy REF_<lineage>_<segment>_<strain> reference
+// names to REF_<segment>_<lineage>_<strain> before running the load.
+var MIGRATE_LEGACY_REF_NAMES = false;
 
 // Processed serially. Each entry maps a file to the segment letter it
 // represents.
@@ -178,14 +185,111 @@ function findSequenceByAccession(accession) {
 }
 
 // Check whether an isolate custom-table row exists for the given sequenceID.
-// The `isolate` custom table's primary key is `id`, which equals the
-// accession / sequenceID.
 function isolateRowExists(sequenceID) {
     var rows = queryObjects([
         "list", "custom-table-row", "isolate",
         "-w", ISOLATE_KEY_FIELD + " = '" + escapeQuotes(sequenceID) + "'"
     ]);
     return rows.length > 0;
+}
+
+// Check whether a reference exists by name, returning its row or null.
+function findReferenceByName(refName) {
+    var rows = queryObjects([
+        "list", "reference",
+        "name",
+        "sequence.source.name",
+        "sequence.sequenceID",
+        "-w", "name = '" + escapeQuotes(refName) + "'"
+    ]);
+    if(rows.length === 0) {
+        return null;
+    }
+    return rows[0];
+}
+
+// -----------------------------------------------------------------------------
+// Legacy reference-name migration
+// -----------------------------------------------------------------------------
+
+// Rename a reference from one name to another, preserving the target
+// sequence. GLUE's reference model has no direct "rename" command, so we
+// delete and re-create under the new name.
+function renameReference(oldName, newName, sourceName, sequenceID) {
+    log("Renaming reference: " + oldName + " -> " + newName);
+
+    runCmd(["delete", "reference", oldName]);
+    runCmd([
+        "create", "reference",
+        newName,
+        sourceName,
+        sequenceID
+    ]);
+}
+
+// Legacy names are REF_<lineage>_<segment>_<strain>. New names are
+// REF_<segment>_<lineage>_<strain>. Because GLUE's `like` operator treats
+// `_` as a single-character wildcard, we can't reliably pattern-match the
+// old names. Instead we enumerate all references and parse the name in JS.
+function migrateLegacyReferenceNames() {
+    if(!MIGRATE_LEGACY_REF_NAMES) {
+        return;
+    }
+
+    log("=== Migrating legacy reference names (if any) ===");
+
+    var refs = queryObjects([
+        "list", "reference",
+        "name",
+        "sequence.source.name",
+        "sequence.sequenceID"
+    ]);
+
+    var renameCount = 0;
+    var collisionCount = 0;
+
+    _.each(refs, function(ref) {
+        var name = norm(ref.name);
+        if(name === null) {
+            return;
+        }
+        // Skip master references.
+        if(name.indexOf("REF_MASTER_") === 0) {
+            return;
+        }
+        // Expect REF_<lineage>_<segment>_<strain> where lineage and segment
+        // are single uppercase letters.
+        var m = name.match(/^REF_([A-Z])_([LMS])_(.+)$/);
+        if(m === null) {
+            return;
+        }
+        var lineage = m[1];
+        var segment = m[2];
+        var strain = m[3];
+
+        var newName = "REF_" + segment + "_" + lineage + "_" + strain;
+
+        // Is the new name already in use? If so, skip — probably a
+        // previous partial migration. We don't want to delete a reference
+        // that's already correctly named.
+        if(referenceExists(newName)) {
+            log("Skipping " + name + " -> " + newName +
+                " (target already exists; will clean up manually)");
+            collisionCount++;
+            return;
+        }
+
+        renameReference(
+            name,
+            newName,
+            norm(ref["sequence.source.name"]),
+            norm(ref["sequence.sequenceID"])
+        );
+        renameCount++;
+    });
+
+    log("Migrated " + renameCount + " reference names (" +
+        collisionCount + " skipped due to name collisions).");
 }
 
 // -----------------------------------------------------------------------------
@@ -198,8 +302,6 @@ function processLineageFile(path, segment) {
     var rows = readTsv(path);
     log("Loaded " + rows.length + " rows from " + path);
 
-    // Build a per-lineage list of rows, preserving file order so the first
-    // accession for each lineage becomes its reference.
     var lineageToRows = {};
     var orderedLineages = [];
 
@@ -240,16 +342,15 @@ function processLineageFile(path, segment) {
     var refsExisting = 0;
     var refsSkipped = 0;
 
-    // Track representatives so Step 3 can flag them without re-deriving.
     var representatives = [];
 
     _.each(orderedLineages, function(lineage) {
         var candidates = lineageToRows[lineage];
-        // First accession in file order is the representative.
         var chosen = candidates[0];
 
         var strain = sanitizeForRefName(chosen.isolate);
-        var refName = "REF_" + lineage + "_" + segment + "_" + strain;
+        // New naming convention: segment first, then lineage, then strain.
+        var refName = "REF_" + segment + "_" + lineage + "_" + strain;
 
         var seq = findSequenceByAccession(chosen.accession);
         if(seq === null) {
@@ -260,8 +361,6 @@ function processLineageFile(path, segment) {
             return;
         }
 
-        // Record the representative regardless of whether the reference
-        // already existed — Step 3 needs to flag it either way.
         representatives.push({
             lineage: lineage,
             refName: refName,
@@ -374,6 +473,8 @@ function processLineageFile(path, segment) {
 // Main
 // -----------------------------------------------------------------------------
 
+migrateLegacyReferenceNames();
+
 var summaries = [];
 
 _.each(TSV_INPUTS, function(input) {
@@ -390,3 +491,4 @@ _.each(summaries, function(s) {
         ", is_reference flagged=" + s.flaggedCount +
         ", missing=" + (s.missingCount + s.isolateMissingCount));
 });
+
