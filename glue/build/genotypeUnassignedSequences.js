@@ -1,14 +1,17 @@
 // genotypeUnassignedSequences.js
 //
-// For each segment (S, M, L), find all sequences that:
+// For each segment (S, M, L), find sequences that:
 //   - belong to that segment
-//   - have NULL rec_major_clade and rec_lineage
+//   - have NULL or missing rec_major_clade OR rec_lineage
 // and run the corresponding maxLikelihoodGenotyper on each.
 //
-// The genotyper results are written back to the sequence's
-// rec_major_clade and rec_lineage fields.
+// Results are written back to the sequence's rec_major_clade and
+// rec_lineage fields. Existing (non-null) values are not overwritten.
 //
-// Modelled on denvDoBatchGenotyping.js from the DENV GLUE project.
+// IMPORTANT: expects the console to be in JSON result format:
+//
+//     GLUE> console set cmd-result-format json
+//     GLUE> run script glue/build/genotypeUnassignedSequences.js
 
 var SEGMENTS = [
     {
@@ -47,20 +50,39 @@ function queryObjects(cmdWords) {
     return glue.tableToObjects(glue.command(cmdWords));
 }
 
+// Treat various "empty" encodings as no-assignment.
+function isMissing(value) {
+    if(value === null || value === undefined) {
+        return true;
+    }
+    var s = ("" + value).trim();
+    if(s === "") {
+        return true;
+    }
+    var low = s.toLowerCase();
+    if(low === "null" || low === "na" || low === "n/a" || low === "-") {
+        return true;
+    }
+    return false;
+}
+
 // -----------------------------------------------------------------------------
 // Finding candidate sequences
 // -----------------------------------------------------------------------------
 
 function findUnassignedSequences(segment) {
+    // Pick up rows where EITHER field is missing. This lets a rerun fill
+    // in partially-assigned records.
     var whereClause =
         "rec_segment = '" + escapeQuotes(segment) + "'" +
-        " and rec_major_clade = null" +
-        " and rec_lineage = null";
+        " and (rec_major_clade = null or rec_lineage = null)";
 
     var rows = queryObjects([
         "list", "sequence",
         "sequenceID",
         "source.name",
+        "rec_major_clade",
+        "rec_lineage",
         "-w", whereClause
     ]);
 
@@ -78,7 +100,9 @@ function findUnassignedSequences(segment) {
         results.push({
             sourceName: "" + sourceName,
             sequenceID: "" + sequenceID,
-            segment: segment
+            segment: segment,
+            existingMajorClade: r.rec_major_clade,
+            existingLineage: r.rec_lineage
         });
     }
     return results;
@@ -88,8 +112,21 @@ function findUnassignedSequences(segment) {
 // Running the genotyper
 // -----------------------------------------------------------------------------
 
+// Resolve a column name to its index in the result column array.
+function columnIndex(columns, name) {
+    if(columns === null || columns === undefined) {
+        return -1;
+    }
+    for(var i = 0; i < columns.length; i++) {
+        if(columns[i] === name) {
+            return i;
+        }
+    }
+    return -1;
+}
+
 // Run the genotyper on a single sequence. Returns
-// { majorClade, lineage } or null if the tool couldn't assign.
+// { majorClade, lineage } (either may be null) or null on parse failure.
 function runGenotyper(modulePath, sourceName, sequenceID) {
     var whereClause =
         "sequenceID = '" + escapeQuotes(sequenceID) + "'" +
@@ -102,7 +139,6 @@ function runGenotyper(modulePath, sourceName, sequenceID) {
         ]);
     });
 
-    // With JSON output, result may be a pre-parsed JS object or a raw string.
     if(genotypeResults === null || genotypeResults === undefined) {
         return null;
     }
@@ -124,15 +160,23 @@ function runGenotyper(modulePath, sourceName, sequenceID) {
         return null;
     }
     var values = rows[0].value;
-    if(values === null || values === undefined || values.length < 3) {
+    if(values === null || values === undefined) {
         return null;
     }
-    // Column order (as observed in your output):
-    //   0 queryName, 1 major_cladeFinalClade, 2 lineageFinalClade
+
+    var columns = gcr.column;
+    var majorIdx = columnIndex(columns, "major_cladeFinalClade");
+    var lineageIdx = columnIndex(columns, "lineageFinalClade");
+    if(majorIdx < 0 || lineageIdx < 0) {
+        log("Expected genotype result columns not found " +
+            "(major_cladeFinalClade=" + majorIdx +
+            ", lineageFinalClade=" + lineageIdx + ")");
+        return null;
+    }
+
     return {
-        queryName: values[0],
-        majorClade: values[1],
-        lineage: values[2]
+        majorClade: values[majorIdx],
+        lineage: values[lineageIdx]
     };
 }
 
@@ -152,7 +196,9 @@ function setSequenceField(sourceName, sequenceID, fieldName, value) {
 
 var totals = {
     scanned: 0,
-    assigned: 0,
+    fullyAssigned: 0,
+    assignedMajorClade: 0,
+    assignedLineage: 0,
     noAssignment: 0,
     errors: 0
 };
@@ -162,12 +208,14 @@ _.each(SEGMENTS, function(segmentDef) {
         " (" + segmentDef.modulePath + ") ===");
 
     var candidates = findUnassignedSequences(segmentDef.segment);
-    log("Found " + candidates.length + " unassigned sequences in segment " +
-        segmentDef.segment);
+    log("Found " + candidates.length + " unassigned/partial sequences in " +
+        "segment " + segmentDef.segment);
 
     _.each(candidates, function(cand) {
         totals.scanned++;
         var label = cand.sourceName + "/" + cand.sequenceID;
+
+        // ---- Stage 1: genotype -----------------------------------------
 
         var result;
         try {
@@ -182,40 +230,64 @@ _.each(SEGMENTS, function(segmentDef) {
             return;
         }
 
-        if(result === null ||
-           result.majorClade === null || result.majorClade === undefined ||
-           result.lineage === null || result.lineage === undefined) {
+        var hasMajorResult = result !== null && !isMissing(result.majorClade);
+        var hasLineageResult = result !== null && !isMissing(result.lineage);
+
+        if(!hasMajorResult && !hasLineageResult) {
             log("No clade assignment for " + label);
             totals.noAssignment++;
             return;
         }
-        if(result.majorClade === "" || result.majorClade === "NA" ||
-           result.majorClade === "null") {
-            log("Empty major_clade result for " + label);
-            totals.noAssignment++;
-            return;
-        }
-        if(result.lineage === "" || result.lineage === "NA" ||
-           result.lineage === "null") {
-            log("Empty lineage result for " + label);
-            totals.noAssignment++;
+
+        // Only write fields that are currently missing on the sequence.
+        // Existing values are preserved.
+        var needMajor = hasMajorResult && isMissing(cand.existingMajorClade);
+        var needLineage = hasLineageResult && isMissing(cand.existingLineage);
+
+        if(!needMajor && !needLineage) {
+            log("Assignments available but existing fields populated for " +
+                label + " (major=" + cand.existingMajorClade +
+                ", lineage=" + cand.existingLineage + ")");
             return;
         }
 
-        setSequenceField(cand.sourceName, cand.sequenceID,
-            segmentDef.majorCladeField, result.majorClade);
-        setSequenceField(cand.sourceName, cand.sequenceID,
-            segmentDef.lineageField, result.lineage);
+        // ---- Stage 2: write back --------------------------------------
 
-        log("Assigned " + label +
-            " -> major_clade=" + result.majorClade +
-            ", lineage=" + result.lineage);
-        totals.assigned++;
+        try {
+            if(needMajor) {
+                setSequenceField(
+                    cand.sourceName, cand.sequenceID,
+                    segmentDef.majorCladeField, result.majorClade
+                );
+                totals.assignedMajorClade++;
+            }
+            if(needLineage) {
+                setSequenceField(
+                    cand.sourceName, cand.sequenceID,
+                    segmentDef.lineageField, result.lineage
+                );
+                totals.assignedLineage++;
+            }
+        } catch(e) {
+            log("ERROR updating " + label + ": " + e);
+            totals.errors++;
+            return;
+        }
+
+        if(needMajor && needLineage) {
+            totals.fullyAssigned++;
+        }
+
+        log("Updated " + label +
+            (needMajor ? " major_clade=" + result.majorClade : "") +
+            (needLineage ? " lineage=" + result.lineage : ""));
     });
 });
 
 log("=== Summary ===");
 log("Scanned: " + totals.scanned);
-log("Assigned: " + totals.assigned);
+log("Fully assigned (both fields written): " + totals.fullyAssigned);
+log("Major clade written: " + totals.assignedMajorClade);
+log("Lineage written: " + totals.assignedLineage);
 log("No assignment: " + totals.noAssignment);
 log("Errors: " + totals.errors);
