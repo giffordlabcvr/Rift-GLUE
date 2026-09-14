@@ -18,19 +18,19 @@
 create alignment AL_LINEAGE_TREE_SegS -r REF_S_MASTER
 alignment AL_LINEAGE_TREE_SegS
     set field displayName "RVFV Segment S lineage tree"
-    add member --whereClause "rec_segment = 'S' and isolate.is_reference = TRUE"
+    add member --whereClause "rec_segment = 'S' and rec_lineage != NULL and source.name = 'ncbi-core-rift'"
     exit
 
 create alignment AL_LINEAGE_TREE_SegM -r REF_M_MASTER
 alignment AL_LINEAGE_TREE_SegM
     set field displayName "RVFV Segment M lineage tree"
-    add member --whereClause "rec_segment = 'M' and isolate.is_reference = TRUE"
+    add member --whereClause "rec_segment = 'M' and rec_lineage != NULL and source.name = 'ncbi-core-rift'"
     exit
 
 create alignment AL_LINEAGE_TREE_SegL -r REF_L_MASTER
 alignment AL_LINEAGE_TREE_SegL
     set field displayName "RVFV Segment L lineage tree"
-    add member --whereClause "rec_segment = 'L' and isolate.is_reference = TRUE"
+    add member --whereClause "rec_segment = 'L' and rec_lineage != NULL and source.name = 'ncbi-core-rift'"
     exit
 
 
@@ -55,7 +55,7 @@ alignment AL_S_1
     extract child AL_S_I -r REF_S_I_Ar74
     demote member AL_S_I --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'I' and sequence.source.name = 'ncbi-core-rift'"
 
-    extract child AL_S_O -r REF_S_O_SA-51VanWyck
+    extract child AL_S_O -r REF_S_O_M1955
     demote member AL_S_O --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'O' and sequence.source.name = 'ncbi-core-rift'"
 
     extract child AL_S_J -r REF_S_J_2269_74
@@ -64,10 +64,10 @@ alignment AL_S_1
     extract child AL_S_K -r REF_S_K_B314
     demote member AL_S_K --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'K' and sequence.source.name = 'ncbi-core-rift'"
 
-    extract child AL_S_M -r REF_S_M_Ar118
+    extract child AL_S_M -r REF_S_M_M259_09
     demote member AL_S_M --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'M' and sequence.source.name = 'ncbi-core-rift'"
 
-    extract child AL_S_L -r REF_S_L_Kenya56IB8
+    extract child AL_S_L -r REF_S_L_56_74_4255
     demote member AL_S_L --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'L' and sequence.source.name = 'ncbi-core-rift'"
 
     extract child AL_S_N -r REF_S_N_HD21955
@@ -186,7 +186,7 @@ alignment AL_L_1
     set field displayName "L-1"
     set field clade_category "major_clade"
 
-    extract child AL_L_O -r REF_L_O_SA-51VanWyck
+    extract child AL_L_O -r REF_L_O_M1955
     demote member AL_L_O --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'O' and sequence.source.name = 'ncbi-core-rift'"
 
     extract child AL_L_I -r REF_L_I_Ar74
@@ -198,13 +198,13 @@ alignment AL_L_1
     extract child AL_L_N -r REF_L_N_HD21955
     demote member AL_L_N --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'N' and sequence.source.name = 'ncbi-core-rift'"
 
-    extract child AL_L_L -r REF_L_L_Kenya56IB8
+    extract child AL_L_L -r REF_L_L_56_74_4255
     demote member AL_L_L --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'L' and sequence.source.name = 'ncbi-core-rift'"
 
     extract child AL_L_M -r REF_L_M_Ar118
     demote member AL_L_M --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'M' and sequence.source.name = 'ncbi-core-rift'"
 
-    extract child AL_L_K -r REF_L_K_B314
+    extract child AL_L_K -r REF_L_K_M259_09
     demote member AL_L_K --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'K' and sequence.source.name = 'ncbi-core-rift'"
 
     exit
