@@ -1,8 +1,8 @@
   #~#~# Rift segment S reference sequence   
  
-  create reference REF_MASTER_SegS ncbi-refseqs-rift NC_014395  
+  create reference REF_S_MASTER ncbi-refseqs-rift NC_014395  
   
-  reference REF_MASTER_SegS
+  reference REF_S_MASTER
 
     add feature-location segment_s
     feature-location segment_s
@@ -23,9 +23,9 @@
 
   #~#~# Rift segment M reference sequence   
  
-  create reference REF_MASTER_SegM ncbi-refseqs-rift NC_014396  
+  create reference REF_M_MASTER ncbi-refseqs-rift NC_014396  
   
-  reference REF_MASTER_SegM
+  reference REF_M_MASTER
 
     add feature-location segment_m
     feature-location segment_m
@@ -41,9 +41,9 @@
 
   #~#~# Rift segment L reference sequence   
  
-  create reference REF_MASTER_SegL ncbi-refseqs-rift NC_014397  
+  create reference REF_L_MASTER ncbi-refseqs-rift NC_014397  
   
-  reference REF_MASTER_SegL
+  reference REF_L_MASTER
 
     add feature-location segment_l
     feature-location segment_l
@@ -57,4 +57,8 @@
 
   exit 
 
+
+custom-table-row isolate NC_014395 set field is_reference TRUE
+custom-table-row isolate NC_014396 set field is_reference TRUE
+custom-table-row isolate NC_014397 set field is_reference TRUE
 

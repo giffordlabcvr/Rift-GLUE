@@ -14,6 +14,9 @@ project rift
   run file glue/build/riftProjectSettings.glue  
   run file glue/build/riftModules.glue
 
+  # Set log level
+  console set log-level INFO
+
   # Set up M49 standard for country & region data
   run file glue/build/m49_countries/populateM49All.glue
   
@@ -36,6 +39,9 @@ project rift
   # Load sequence-associated data from Genbank XML
   module riftGenbankXmlPopulator populate
 
+  # Declare lineage references
+  run script glue/build/loadRvfvLineages.js
+
   # Resolve isolate naming inconsistencies
   run script glue/build/riftResolveIsolateIds.js
     
@@ -46,9 +52,18 @@ project rift
 
   # Flag complete genomes based on `rec_segment` and `isolate.isolate_id` fields
   run script glue/build/riftSetCompleteGenomes.js
+
+  # Create genotyping phylogeny and trees
+  run file glue/build/createPhylogeniesForSegmentGenotypers.glue
   
   # Construct alignments and determine feature coverage
-  run file glue/build/riftAlignments.glue
-  
+  #run file glue/build/riftAlignments.glue
+
+  # Define alignment tree
+  run file glue/build/riftAlignmentTree.glue
+
+  # Import phylogenies
+  run file glue/build/importGenotyperPhylogenies.glue
+
   validate
   

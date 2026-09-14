@@ -25,6 +25,7 @@
 
     create field gb_lineage      VARCHAR 20 
     create field rec_lineage     VARCHAR 20 
+    create field rec_major_clade VARCHAR 20 
 
     exit
 
@@ -74,8 +75,14 @@
 
   create link isolate sequence -m ONE_TO_MANY
 
-
   #~# m49 country/region extension
 
   run file glue/build/m49_countries/m49SchemaExtension.glue 
   create link isolate m49_country -m MANY_TO_ONE
+  
+  #~# Alignment table extensions
+  
+  table alignment
+	create field clade_category      VARCHAR 20
+	create field phylogeny           CLOB
+  exit

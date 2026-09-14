@@ -1,0 +1,29 @@
+
+  delete module phyloImporter
+  
+  create module -t phyloImporter
+
+  module phyloImporter
+  
+  import phylogeny AL_LINEAGE_TREE_SegS \
+	--recursive \
+	--anyAlignment \
+	--whereClause "referenceMember = false and sequence.source.name = 'ncbi-core-rift'" \
+	--inputFile trees/rift_lineages_seg_s_midpointrerooted.tre NEWICK_BOOTSTRAPS \
+	--fieldName phylogeny
+	
+	import phylogeny AL_LINEAGE_TREE_SegM \
+	--recursive \
+	--anyAlignment \
+	--whereClause "referenceMember = false and sequence.source.name = 'ncbi-core-rift'" \
+	--inputFile trees/rift_lineages_seg_m_midpointrerooted.tre NEWICK_BOOTSTRAPS \
+	--fieldName phylogeny
+
+	import phylogeny AL_LINEAGE_TREE_SegL \
+	--recursive \
+	--anyAlignment \
+	--whereClause "referenceMember = false and sequence.source.name = 'ncbi-core-rift'" \
+	--inputFile trees/rift_lineages_seg_l_manually_rerooted.tre NEWICK_BOOTSTRAPS \
+	--fieldName phylogeny
+
+	exit

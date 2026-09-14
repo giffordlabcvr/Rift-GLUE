@@ -2,7 +2,16 @@
 
   create module -f modules/build/tabularUtilityCsv.xml
   create module -f modules/build/tabularUtilityTab.xml
+  create module -f modules/build/riftMafftAligner.xml
+  create module -f modules/build/blastFastaAlignmentImporter.xml
 
   create module --fileName modules/build/riftGenbankXmlPopulator.xml
   create module --fileName modules/build/riftFeaturePresenceRecorder.xml
   create module --fileName modules/build/riftUnconstrainedAlignmentImporter.xml
+
+  create module -f modules/build/riftMaxLikelihoodPlacerSegS.xml
+  create module -f modules/build/riftMaxLikelihoodGenotyperSegS.xml
+  create module -f modules/build/riftMaxLikelihoodPlacerSegM.xml
+  create module -f modules/build/riftMaxLikelihoodGenotyperSegM.xml
+  create module -f modules/build/riftMaxLikelihoodPlacerSegL.xml
+  create module -f modules/build/riftMaxLikelihoodGenotyperSegL.xml

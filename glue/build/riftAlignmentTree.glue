@@ -1,0 +1,438 @@
+### RVFV lineage alignment tree
+###
+### Two-level hierarchy per segment:
+###   Root (AL_LINEAGE_TREE_Seg<S/L/M>) -> major clades -> lineage clades
+###
+### One reference per lineage; masters stay at the root only.
+###
+###   sequence.rec_segment = '<S|L|M>'
+###   and sequence.rec_lineage in (...)
+###   and sequence.source.name = 'ncbi-core-rift'    # exclude masters
+###   and sequence.isolate.is_reference = TRUE
+
+
+# -----------------------------------------------------------------------------
+# Create roots and add all reference members
+# -----------------------------------------------------------------------------
+
+create alignment AL_LINEAGE_TREE_SegS -r REF_S_MASTER
+alignment AL_LINEAGE_TREE_SegS
+    set field displayName "RVFV Segment S lineage tree"
+    add member --whereClause "rec_segment = 'S' and rec_lineage != NULL and source.name = 'ncbi-core-rift'"
+    exit
+
+create alignment AL_LINEAGE_TREE_SegM -r REF_M_MASTER
+alignment AL_LINEAGE_TREE_SegM
+    set field displayName "RVFV Segment M lineage tree"
+    add member --whereClause "rec_segment = 'M' and rec_lineage != NULL and source.name = 'ncbi-core-rift'"
+    exit
+
+create alignment AL_LINEAGE_TREE_SegL -r REF_L_MASTER
+alignment AL_LINEAGE_TREE_SegL
+    set field displayName "RVFV Segment L lineage tree"
+    add member --whereClause "rec_segment = 'L' and rec_lineage != NULL and source.name = 'ncbi-core-rift'"
+    exit
+
+
+# =============================================================================
+# SEGMENT S
+# =============================================================================
+
+alignment AL_LINEAGE_TREE_SegS
+
+    extract child AL_S_1 -r REF_S_A_ZH-1776
+    demote member AL_S_1 --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('I','O','J','K','M','L','N') and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_2 -r REF_S_A_ZH-1776
+    demote member AL_S_2 --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage in ('C','E','G','D','F','H','A','B') and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+alignment AL_S_1
+    set field displayName "S-1"
+    set field clade_category "major_clade"
+
+    extract child AL_S_I -r REF_S_I_Ar74
+    demote member AL_S_I --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'I' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_O -r REF_S_O_M1955
+    demote member AL_S_O --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'O' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_J -r REF_S_J_2269_74
+    demote member AL_S_J --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'J' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_K -r REF_S_K_B314
+    demote member AL_S_K --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'K' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_M -r REF_S_M_M259_09
+    demote member AL_S_M --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'M' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_L -r REF_S_L_56_74_4255
+    demote member AL_S_L --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'L' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_N -r REF_S_N_HD21955
+    demote member AL_S_N --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'N' and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+alignment AL_S_2
+    set field displayName "S-2"
+    set field clade_category "major_clade"
+
+    extract child AL_S_C -r REF_S_C_200803168
+    demote member AL_S_C --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'C' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_E -r REF_S_E_74HB59
+    demote member AL_S_E --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'E' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_G -r REF_S_G_ANK-6087
+    demote member AL_S_G --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'G' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_D -r REF_S_D_73HB1230
+    demote member AL_S_D --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'D' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_F -r REF_S_F_Ar20364
+    demote member AL_S_F --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'F' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_H -r REF_S_H_SA67_11
+    demote member AL_S_H --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'H' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_A -r REF_S_A_ZH-1776
+    demote member AL_S_A --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'A' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_S_B -r REF_S_B_S35
+    demote member AL_S_B --whereClause "sequence.rec_segment = 'S' and sequence.rec_lineage = 'B' and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+# Tag S lineage leaves
+alignment AL_S_A
+    set field displayName "S-A"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_B
+    set field displayName "S-B"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_C
+    set field displayName "S-C"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_D
+    set field displayName "S-D"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_E
+    set field displayName "S-E"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_F
+    set field displayName "S-F"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_G
+    set field displayName "S-G"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_H
+    set field displayName "S-H"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_I
+    set field displayName "S-I"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_J
+    set field displayName "S-J"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_K
+    set field displayName "S-K"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_L
+    set field displayName "S-L"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_M
+    set field displayName "S-M"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_N
+    set field displayName "S-N"
+    set field clade_category "lineage"
+    exit
+alignment AL_S_O
+    set field displayName "S-O"
+    set field clade_category "lineage"
+    exit
+
+
+# =============================================================================
+# SEGMENT L
+# =============================================================================
+
+alignment AL_LINEAGE_TREE_SegL
+
+    extract child AL_L_1 -r REF_L_A_ZH-1776
+    demote member AL_L_1 --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('O','I','J','N','L','M','K') and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_2 -r REF_L_A_ZH-1776
+    demote member AL_L_2 --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage in ('G','E','C','F','D','H','A','B') and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+alignment AL_L_1
+    set field displayName "L-1"
+    set field clade_category "major_clade"
+
+    extract child AL_L_O -r REF_L_O_M1955
+    demote member AL_L_O --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'O' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_I -r REF_L_I_Ar74
+    demote member AL_L_I --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'I' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_J -r REF_L_J_2269_74
+    demote member AL_L_J --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'J' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_N -r REF_L_N_HD21955
+    demote member AL_L_N --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'N' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_L -r REF_L_L_56_74_4255
+    demote member AL_L_L --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'L' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_M -r REF_L_M_Ar118
+    demote member AL_L_M --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'M' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_K -r REF_L_K_M259_09
+    demote member AL_L_K --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'K' and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+alignment AL_L_2
+    set field displayName "L-2"
+    set field clade_category "major_clade"
+
+    extract child AL_L_G -r REF_L_G_ANK-6087
+    demote member AL_L_G --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'G' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_E -r REF_L_E_74HB59
+    demote member AL_L_E --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'E' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_C -r REF_L_C_200803168
+    demote member AL_L_C --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'C' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_F -r REF_L_F_Ar20364
+    demote member AL_L_F --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'F' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_D -r REF_L_D_73HB1230
+    demote member AL_L_D --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'D' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_H -r REF_L_H_SA67_11
+    demote member AL_L_H --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'H' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_A -r REF_L_A_ZH-1776
+    demote member AL_L_A --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'A' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_L_B -r REF_L_B_S35
+    demote member AL_L_B --whereClause "sequence.rec_segment = 'L' and sequence.rec_lineage = 'B' and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+# Tag L lineage leaves
+alignment AL_L_A
+    set field displayName "L-A"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_B
+    set field displayName "L-B"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_C
+    set field displayName "L-C"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_D
+    set field displayName "L-D"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_E
+    set field displayName "L-E"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_F
+    set field displayName "L-F"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_G
+    set field displayName "L-G"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_H
+    set field displayName "L-H"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_I
+    set field displayName "L-I"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_J
+    set field displayName "L-J"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_K
+    set field displayName "L-K"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_L
+    set field displayName "L-L"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_M
+    set field displayName "L-M"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_N
+    set field displayName "L-N"
+    set field clade_category "lineage"
+    exit
+alignment AL_L_O
+    set field displayName "L-O"
+    set field clade_category "lineage"
+    exit
+
+
+# =============================================================================
+# SEGMENT M
+# =============================================================================
+
+alignment AL_LINEAGE_TREE_SegM
+
+    extract child AL_M_1 -r REF_M_A_ZH-1776
+    demote member AL_M_1 --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('O','I','J','N','M','L','K') and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_2 -r REF_M_A_ZH-1776
+    demote member AL_M_2 --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage in ('E','C','D','F','H','B','A','G') and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+alignment AL_M_1
+    set field displayName "M-1"
+    set field clade_category "major_clade"
+
+    extract child AL_M_O -r REF_M_O_SA-51VanWyck
+    demote member AL_M_O --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'O' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_I -r REF_M_I_Ar74
+    demote member AL_M_I --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'I' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_J -r REF_M_J_2269_74
+    demote member AL_M_J --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'J' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_N -r REF_M_N_HD21955
+    demote member AL_M_N --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'N' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_M -r REF_M_M_Ar118
+    demote member AL_M_M --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'M' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_L -r REF_M_L_Kenya56IB8
+    demote member AL_M_L --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'L' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_K -r REF_M_K_B314
+    demote member AL_M_K --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'K' and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+alignment AL_M_2
+    set field displayName "M-2"
+    set field clade_category "major_clade"
+
+    extract child AL_M_E -r REF_M_E_74HB59
+    demote member AL_M_E --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'E' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_C -r REF_M_C_200803168
+    demote member AL_M_C --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'C' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_D -r REF_M_D_73HB1230
+    demote member AL_M_D --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'D' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_F -r REF_M_F_Ar20364
+    demote member AL_M_F --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'F' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_H -r REF_M_H_SA67_11
+    demote member AL_M_H --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'H' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_B -r REF_M_B_S35
+    demote member AL_M_B --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'B' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_A -r REF_M_A_ZH-1776
+    demote member AL_M_A --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'A' and sequence.source.name = 'ncbi-core-rift'"
+
+    extract child AL_M_G -r REF_M_G_ANK-6087
+    demote member AL_M_G --whereClause "sequence.rec_segment = 'M' and sequence.rec_lineage = 'G' and sequence.source.name = 'ncbi-core-rift'"
+
+    exit
+
+# Tag M lineage leaves
+alignment AL_M_A
+    set field displayName "M-A"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_B
+    set field displayName "M-B"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_C
+    set field displayName "M-C"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_D
+    set field displayName "M-D"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_E
+    set field displayName "M-E"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_F
+    set field displayName "M-F"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_G
+    set field displayName "M-G"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_H
+    set field displayName "M-H"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_I
+    set field displayName "M-I"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_J
+    set field displayName "M-J"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_K
+    set field displayName "M-K"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_L
+    set field displayName "M-L"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_M
+    set field displayName "M-M"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_N
+    set field displayName "M-N"
+    set field clade_category "lineage"
+    exit
+alignment AL_M_O
+    set field displayName "M-O"
+    set field clade_category "lineage"
+    exit
+    
+    

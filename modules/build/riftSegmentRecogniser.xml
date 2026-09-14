@@ -9,26 +9,26 @@
   </blastRunner>
 
 
-<referenceSequence>REF_MASTER_SegS</referenceSequence>
-<referenceSequence>REF_MASTER_SegM</referenceSequence>
-<referenceSequence>REF_MASTER_SegL</referenceSequence>
+<referenceSequence>REF_S_MASTER</referenceSequence>
+<referenceSequence>REF_M_MASTER</referenceSequence>
+<referenceSequence>REF_L_MASTER</referenceSequence>
 
 <recognitionCategory>
 <id>S</id>
 <minimumBitScore>50</minimumBitScore>
-<referenceSequence>REF_MASTER_SegS</referenceSequence>
+<referenceSequence>REF_S_MASTER</referenceSequence>
 </recognitionCategory>
 
 <recognitionCategory>
 <id>M</id>
 <minimumBitScore>50</minimumBitScore>
-<referenceSequence>REF_MASTER_SegM</referenceSequence>
+<referenceSequence>REF_M_MASTER</referenceSequence>
 </recognitionCategory>
 
 <recognitionCategory>
 <id>L</id>
 <minimumBitScore>50</minimumBitScore>
-<referenceSequence>REF_MASTER_SegL</referenceSequence>
+<referenceSequence>REF_L_MASTER</referenceSequence>
 </recognitionCategory>
 
 

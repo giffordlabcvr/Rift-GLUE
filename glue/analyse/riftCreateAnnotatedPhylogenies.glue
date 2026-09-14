@@ -2,3 +2,4 @@
   run file glue/analyse/riftReconstructPhylogenies.glue
   run file glue/analyse/riftRerootPhylogenies.glue
   run file glue/analyse/riftExportPhylogenyAnnotations.glue
+ 
