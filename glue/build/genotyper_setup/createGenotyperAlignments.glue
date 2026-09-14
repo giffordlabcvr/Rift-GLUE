@@ -1,0 +1,21 @@
+  delete alignment AL_UNC_LINEAGE_TREE_SegS
+  delete alignment AL_UNC_LINEAGE_TREE_SegM
+  delete alignment AL_UNC_LINEAGE_TREE_SegL
+
+  create alignment AL_UNC_LINEAGE_TREE_SegS  
+  create alignment AL_UNC_LINEAGE_TREE_SegM 
+  create alignment AL_UNC_LINEAGE_TREE_SegL
+  
+  alignment AL_UNC_LINEAGE_TREE_SegS add member \
+			-w "rec_segment = 'S' and isolate.is_reference = TRUE and source.name = 'ncbi-core-rift'"
+  
+  alignment AL_UNC_LINEAGE_TREE_SegM add member \
+			-w "rec_segment = 'M' and isolate.is_reference = TRUE and source.name = 'ncbi-core-rift'"
+  
+  alignment AL_UNC_LINEAGE_TREE_SegL add member \
+			-w "rec_segment = 'L' and isolate.is_reference = TRUE and source.name = 'ncbi-core-rift'"
+			
+  compute alignment AL_UNC_LINEAGE_TREE_SegS riftMafftAligner
+  compute alignment AL_UNC_LINEAGE_TREE_SegM riftMafftAligner
+  compute alignment AL_UNC_LINEAGE_TREE_SegL riftMafftAligner 
+

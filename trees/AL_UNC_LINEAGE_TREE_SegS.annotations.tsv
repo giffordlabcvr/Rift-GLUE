@@ -1,0 +1,16 @@
+taxon	sequenceID	pubmed_id	length	gb_lineage	rec_lineage
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380153	DQ380153	17192303	1690	-	A
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380158	DQ380158	17192303	1691	-	O
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380163	DQ380163	17192303	1690	-	E
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380166	DQ380166	17192303	1690	-	G
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380172	DQ380172	17192303	1690	-	D
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380173	DQ380173	17192303	1691	-	J
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/DQ380176	DQ380176	17192303	1690	-	L
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/JF311392	JF311392	21507967	1691	-	C
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/KY196507	KY196507	-	1691	-	I
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/KY196510	KY196510	-	1690	-	F
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/MG659905	MG659905	-	1692	-	M
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/MG659976	MG659976	-	1690	-	H
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/MG659984	MG659984	-	1691	-	K
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/MG659985	MG659985	-	1690	-	B
+alignment/AL_UNC_LINEAGE_TREE_SegS/member/ncbi-core-rift/MG659990	MG659990	-	1691	-	N

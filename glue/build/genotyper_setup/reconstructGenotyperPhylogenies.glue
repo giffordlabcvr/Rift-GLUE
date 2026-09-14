@@ -11,13 +11,13 @@
   
   module riftRaxmlPhylogenyGeneratorNucs
   
-    generate nucleotide phylogeny AL_LINEAGE_TREE_SegS -s segSselectorNucs \
+    generate nucleotide phylogeny AL_UNC_LINEAGE_TREE_SegS \
     -a -o trees/rift_lineages_seg_s.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_LINEAGE_TREE_SegM -s segMselectorNucs \
+    generate nucleotide phylogeny AL_UNC_LINEAGE_TREE_SegM \
     -a -o trees/rift_lineages_seg_m.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_LINEAGE_TREE_SegL -s segLselectorNucs  \
+    generate nucleotide phylogeny AL_UNC_LINEAGE_TREE_SegL \
     -a -o trees/rift_lineages_seg_l.tre NEWICK_BOOTSTRAPS
   	
     exit

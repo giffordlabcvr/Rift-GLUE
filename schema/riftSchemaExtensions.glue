@@ -25,6 +25,7 @@
 
     create field gb_lineage      VARCHAR 20 
     create field rec_lineage     VARCHAR 20 
+    create field rec_major_clade VARCHAR 20 
 
     exit
 

@@ -52,12 +52,18 @@ project rift
 
   # Flag complete genomes based on `rec_segment` and `isolate.isolate_id` fields
   run script glue/build/riftSetCompleteGenomes.js
+
+  # Create genotyping phylogeny and trees
+  run file glue/build/createPhylogeniesForSegmentGenotypers.glue
   
   # Construct alignments and determine feature coverage
   #run file glue/build/riftAlignments.glue
 
   # Define alignment tree
   run file glue/build/riftAlignmentTree.glue
+
+  # Import phylogenies
+  run file glue/build/importGenotyperPhylogenies.glue
 
   validate
   

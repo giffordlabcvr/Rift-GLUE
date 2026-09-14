@@ -1,0 +1,14 @@
+<maxLikelihoodPlacer>
+
+	<raxmlEpaRunner>
+		<substitutionModel>GTRGAMMAI</substitutionModel>
+	</raxmlEpaRunner>
+
+
+	<!-- where the RAxML epa phylogeny will come from -->
+	<phyloAlignmentName>AL_LINEAGE_TREE_SegM</phyloAlignmentName>
+	<phyloFieldName>phylogeny</phyloFieldName>
+
+	<!-- where the alignment will come from -->
+	<alignmentAlignmentName>AL_UNC_LINEAGE_TREE_SegM</alignmentAlignmentName>
+</maxLikelihoodPlacer>
