@@ -1,7 +1,7 @@
 
-  create alignment AL_ROOT_SegS -r REF_MASTER_SegS
-  create alignment AL_ROOT_SegM -r REF_MASTER_SegM
-  create alignment AL_ROOT_SegL -r REF_MASTER_SegL
+  create alignment AL_ROOT_SegS -r REF_S_MASTER
+  create alignment AL_ROOT_SegM -r REF_M_MASTER
+  create alignment AL_ROOT_SegL -r REF_L_MASTER
 
   alignment AL_ROOT_SegS
     derive segments AL_UNC_SegS --allMembers --mergeStrategy OVERWRITE

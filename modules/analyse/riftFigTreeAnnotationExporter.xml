@@ -21,13 +21,73 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>rec_lineage</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
+		<annotationName>id_plus_rec_lineage</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')} | ${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>iso_host</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_host')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>m49_country</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>id_plus_rec_lineage</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')} | ${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
+		<annotationName>m49_country_region</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.m49_region.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>m49_country_subregion</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>development_status</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.development_status')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>iso_source</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_source')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>strain_and_isolate_info</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.isolate.gb_strain')} | ${renderNestedProperty('sequence.isolate.gb_isolate')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>sample_type</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.sample_type')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>origin_type</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.origin_type')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>iso_year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>combined1</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>combined2</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')} | ${renderNestedProperty('sequence.complete_genome')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>combined3</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')} | ${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')} | ${renderNestedProperty('sequence.complete_genome')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 

@@ -1,9 +1,9 @@
 
-  delete module riftFigTreeAnnotationExporter
-  create module -f modules/analyse/riftFigTreeAnnotationExporter.xml
+  delete module riftFigTreeAnnotationExporterGenotypes
+  create module -f modules/analyse/riftFigTreeAnnotationExporterGenotypes.xml
   
   # Export annotations
-  module riftFigTreeAnnotationExporter 
+  module riftFigTreeAnnotationExporterGenotypes 
   
   	export figtree-annotation AL_ROOT_SegS -f trees/AL_ROOT_SegS.annotations.tsv
   	export figtree-annotation AL_ROOT_SegM -f trees/AL_ROOT_SegM.annotations.tsv
