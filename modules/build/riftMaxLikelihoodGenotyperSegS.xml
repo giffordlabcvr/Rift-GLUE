@@ -13,7 +13,7 @@
 		<displayName>Lineage</displayName>	
 		<whereClause>clade_category = 'lineage'</whereClause>
 		<distanceScalingExponent>-5.5</distanceScalingExponent>
-	    <distanceCutoff>0.008</distanceCutoff>
+	    <distanceCutoff>0.009</distanceCutoff>
 		<finalCladeCutoff>61.0</finalCladeCutoff>
 	</cladeCategory>
 </maxLikelihoodGenotyper>
