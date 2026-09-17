@@ -1,5 +1,5 @@
  
   run file glue/build/genotyper_setup/createGenotyperAlignments.glue
-  #run file glue/build/genotyper_setup/reconstructGenotyperPhylogenies.glue
+  run file glue/build/genotyper_setup/reconstructGenotyperPhylogenies.glue
   run file glue/build/genotyper_setup/rerootGenotyperPhylogenies.glue
   run file glue/build/genotyper_setup/exportGenotyperPhylogenyAnnotations.glue

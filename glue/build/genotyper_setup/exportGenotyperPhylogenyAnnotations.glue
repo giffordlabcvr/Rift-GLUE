@@ -5,9 +5,9 @@
   # Export annotations
   module riftFigTreeAnnotationExporter 
   
-  	export figtree-annotation AL_UNC_LINEAGE_TREE_SegS -f trees/AL_UNC_LINEAGE_TREE_SegS.annotations.tsv
-  	export figtree-annotation AL_UNC_LINEAGE_TREE_SegM -f trees/AL_UNC_LINEAGE_TREE_SegM.annotations.tsv
-  	export figtree-annotation AL_UNC_LINEAGE_TREE_SegL -f trees/AL_UNC_LINEAGE_TREE_SegL.annotations.tsv
+  	export figtree-annotation AL_UNC_LINEAGE_TREE_SegS -f trees/genotyper/AL_UNC_LINEAGE_TREE_SegS.annotations.tsv
+  	export figtree-annotation AL_UNC_LINEAGE_TREE_SegM -f trees/genotyper/AL_UNC_LINEAGE_TREE_SegM.annotations.tsv
+  	export figtree-annotation AL_UNC_LINEAGE_TREE_SegL -f trees/genotyper/AL_UNC_LINEAGE_TREE_SegL.annotations.tsv
 
     exit   
 

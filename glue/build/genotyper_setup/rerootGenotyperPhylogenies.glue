@@ -6,18 +6,18 @@
   
 	# midpoint rooting  
 	reroot-phylogeny \
-      --inputFile trees/rift_lineages_seg_s.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genotyper/rift_lineages_seg_s.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/rift_lineages_seg_s_midpointrerooted.tre NEWICK_BOOTSTRAPS
+      --outputFile trees/genotyper/rift_lineages_seg_s_midpointrerooted.tre NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/rift_lineages_seg_m.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genotyper/rift_lineages_seg_m.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/rift_lineages_seg_m_midpointrerooted.tre NEWICK_BOOTSTRAPS
+      --outputFile trees/genotyper/rift_lineages_seg_m_midpointrerooted.tre NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/rift_lineages_seg_l.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genotyper/rift_lineages_seg_l.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/rift_lineages_seg_l_midpointrerooted.tre NEWICK_BOOTSTRAPS
+      --outputFile trees/genotyper/rift_lineages_seg_l_midpointrerooted.tre NEWICK_BOOTSTRAPS
 
     exit   

@@ -5,9 +5,9 @@
   # Export annotations
   module riftFigTreeAnnotationExporterGenotypes 
   
-  	export figtree-annotation AL_ROOT_SegS -f trees/AL_ROOT_SegS.annotations.tsv
-  	export figtree-annotation AL_ROOT_SegM -f trees/AL_ROOT_SegM.annotations.tsv
-  	export figtree-annotation AL_ROOT_SegL -f trees/AL_ROOT_SegL.annotations.tsv
+  	export figtree-annotation AL_ROOT_SegS -f trees/ncbi_core/AL_ROOT_SegS.annotations.tsv
+  	export figtree-annotation AL_ROOT_SegM -f trees/ncbi_core/AL_ROOT_SegM.annotations.tsv
+  	export figtree-annotation AL_ROOT_SegL -f trees/ncbi_core/AL_ROOT_SegL.annotations.tsv
 
     exit   
 
