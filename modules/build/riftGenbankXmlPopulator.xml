@@ -192,12 +192,12 @@
 
 				<!-- ### Additional unknowns-->
 				<valueConverter>
-					   <matchPattern>[bB]ats?</matchPattern>
+					<matchPattern>^[bB]ats?$</matchPattern>
 					<outputTemplate>Bat (unknown)</outputTemplate>
 				</valueConverter>
 
 				<valueConverter>
-					<matchPattern>[mM]osquitoe?s?</matchPattern>
+					   <matchPattern>^[mM]osquitoe?s?$</matchPattern>
 					<outputTemplate>Mosquito (unknown)</outputTemplate>
 				</valueConverter>
 
