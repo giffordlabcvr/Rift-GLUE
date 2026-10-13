@@ -141,26 +141,7 @@
 					<outputTemplate>Homo sapiens</outputTemplate>
 				</valueConverter>
 				
-				<!-- #### Ruminants -->																																									
-				<valueConverter>
-					<matchPattern>.*[sS]heep.*</matchPattern>
-					<matchPattern>.*Ovis [aA]ries.*</matchPattern>
-					<outputTemplate>Ovis aries</outputTemplate>
-				</valueConverter>
-
-				<valueConverter>
-					<matchPattern>.*[gG]oat.*</matchPattern>
-					<outputTemplate>Capra sp.</outputTemplate>
-				</valueConverter>
-
-				<valueConverter>
-					<matchPattern>.*[bB]uffalo.*</matchPattern>
-					<matchPattern>.*[aA]frican buffalo.*</matchPattern>
-					<matchPattern>.*Synceres [cC]affer.*</matchPattern>
-					<outputTemplate>Syncerus caffer</outputTemplate>
-				</valueConverter>
-
-				<!-- ### Additional Ruminants-->
+				<!-- #### Ruminants -->	
 				<valueConverter>
 					<matchPattern>.*[bB]ovine.*</matchPattern>
 					<matchPattern>.*[cC]attle.*</matchPattern>
@@ -171,7 +152,7 @@
 
 				<valueConverter>
 					<matchPattern>.*[sS]heep.*</matchPattern>
-					<matchPattern>.*[oO]vine.*</matchPattern>
+					<matchPattern>.*\b[oO]vine\b.*</matchPattern>
 					<matchPattern>.*Ovis [aA]ries.*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
 				</valueConverter>
@@ -184,12 +165,15 @@
 				</valueConverter>
 
 				<valueConverter>
-					<matchPattern>.*[gG]oat.*</matchPattern>
-					<matchPattern>.*[cC]aprine.*</matchPattern>
-					<matchPattern>.*Capra.*</matchPattern>
-					<outputTemplate>Capra sp.</outputTemplate>
+					<matchPattern>.*[bB]uffalo.*</matchPattern>
+					<matchPattern>.*[aA]frican buffalo.*</matchPattern>
+					<matchPattern>.*Synceres [cC]affer.*</matchPattern>
+					<matchPattern>.*Syncerus [cC]affer.*</matchPattern>
+					<outputTemplate>Syncerus caffer</outputTemplate>
 				</valueConverter>
 
+				<!-- ### Additional Ruminants/Camelids-->
+				
 				<valueConverter>
 					<matchPattern>.*[cC]amel.*</matchPattern>
 					<matchPattern>.*Camelus.*</matchPattern>
@@ -202,20 +186,37 @@
 				</valueConverter>
 
 				<valueConverter>
-					<matchPattern>.*[bB]at*</matchPattern>
-					<outputTemplate>Bat (unknown)</outputTemplate>
-				</valueConverter>
+   					<matchPattern>.*[aA]lpaca.*</matchPattern>
+   					<outputTemplate>Vicugna pacos</outputTemplate>
+   				</valueConverter>
 
 				<!-- ### Additional unknowns-->
 				<valueConverter>
-					<matchPattern>.*[bB]at*</matchPattern>
+					<matchPattern>.*\b[bB]ats?\b.*</matchPattern>
 					<outputTemplate>Bat (unknown)</outputTemplate>
 				</valueConverter>
 
 				<valueConverter>
-					<matchPattern>.*[mM]osquito*</matchPattern>
+					<matchPattern>.*[mM]osquito.*</matchPattern>
 					<outputTemplate>Mosquito (unknown)</outputTemplate>
 				</valueConverter>
+
+				<valueConverter>
+   					<matchPattern>.*[bB]iting [mM]idges.*</matchPattern>
+					<matchPattern>.*[mM]idges.*</matchPattern>
+					<matchPattern>.*[mM]idge.*</matchPattern>
+   					<outputTemplate>Midge (unknown)</outputTemplate>
+   				</valueConverter>
+
+				<valueConverter>
+   					<matchPattern>[aA]nimals?</matchPattern>
+   					<outputTemplate>Animal (unknown)</outputTemplate>
+   				</valueConverter>
+
+   				<valueConverter>
+   					<matchPattern>.*[tT]ick.*</matchPattern>
+   					<outputTemplate>Tick (unknown)</outputTemplate>
+   				</valueConverter>
 
 
 				<!-- ### Cross-reference these with "lab_constructs.tsv"-->
