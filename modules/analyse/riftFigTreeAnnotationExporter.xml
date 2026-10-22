@@ -90,6 +90,53 @@
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')} | ${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')} | ${renderNestedProperty('sequence.isolate.iso_host')} | ${renderNestedProperty('sequence.complete_genome')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
+	<!--Clean single columns (in FigTree use to Colour by:)-->
+   	<figTreeAnnotation>
+   		<annotationName>rec_lineage</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+   	<figTreeAnnotation>
+   		<annotationName>rec_major_clade</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_major_clade')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+   	<figTreeAnnotation>
+   		<annotationName>rec_segment</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_segment')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+   	<figTreeAnnotation>
+   		<annotationName>complete_genome</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.complete_genome')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+	<!--Short combined labels-->
+   	<figTreeAnnotation>
+   		<annotationName>lin_place_year</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_lineage')} | ${renderNestedProperty('sequence.isolate.m49_country.id')} | ${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+   	<figTreeAnnotation>
+   		<annotationName>check_lineage</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')} | gb:${renderNestedProperty('sequence.gb_lineage')} | rec:${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+   		<annotationName>strain_lin</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate_id')} | ${renderNestedProperty('sequence.rec_lineage')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+   	<figTreeAnnotation>
+   		<annotationName>lin_host_year</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_lineage')} | ${renderNestedProperty('sequence.isolate.iso_host')} | ${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
+   	<figTreeAnnotation>
+   		<annotationName>lin_region_year</annotationName>
+   		<valueFreemarkerTemplate>${renderNestedProperty('sequence.rec_lineage')} | ${renderNestedProperty('sequence.isolate.m49_country.m49_sub_region.id')} | ${renderNestedProperty('sequence.isolate.iso_year')}</valueFreemarkerTemplate>
+   	</figTreeAnnotation>
+
 
 </figTreeAnnotationExporter>
 
