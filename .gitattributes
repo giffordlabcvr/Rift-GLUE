@@ -1,0 +1,6 @@
+# GLUE needs a backslash at the end of a line to be followed directly by a plain
+# line break. Windows-style (CRLF) endings break those multi-line commands.
+
+# Keep GLUE command files with plain line endings (lf) on every operating system.
+
+*.glue text eol=lf
