@@ -1,6 +1,7 @@
+# ============================================================================
+# 1. SEQUENCE TABLE EXTENSIONS
+# ============================================================================
 
-  #~# Extensions to sequence table
-  
   table sequence
 
 	# GenBank
@@ -27,6 +28,18 @@
     create field rec_lineage     VARCHAR 20 
     create field rec_major_clade VARCHAR 20 
 
+    # Master switch: whether this sequence should be analysed for variations
+    create field analyse_variation BOOLEAN
+    
+    # Cache flags: set to true when variations have been loaded from cache
+    # so we can skip reprocessing
+    create field var_reps_from_cache BOOLEAN
+    create field var_deletions_from_cache BOOLEAN
+    create field var_insertions_from_cache BOOLEAN
+    
+    # Set to true if any variation is present (useful for filtering)
+    create field variation_present BOOLEAN
+
     exit
 
   #~# Table for feature coverage
@@ -37,7 +50,9 @@
   	exit
 
 
-  #~# Custom tables
+# ============================================================================
+# 3. CUSTOM TABLE FOR ISOLATE DATA
+# ============================================================================
 
   create custom-table isolate --idFieldLength 200
 
@@ -74,15 +89,171 @@
   #~# Create links between tables
 
   create link isolate sequence -m ONE_TO_MANY
-
-  #~# m49 country/region extension
-
-  run file glue/build/m49_countries/m49SchemaExtension.glue 
-  create link isolate m49_country -m MANY_TO_ONE
   
-  #~# Alignment table extensions
-  
-  table alignment
-	create field clade_category      VARCHAR 20
-	create field phylogeny           CLOB
-  exit
+# ============================================================================
+# 3. CUSTOM TABLES FOR VARIATIONS
+# ============================================================================
+
+# --- Replacements (amino acid) ---
+
+create custom-table var_replacement
+create custom-table var_replacement_sequence --idFieldLength 300
+
+table var_replacement
+
+    create field display_name VARCHAR 300
+    create field feature_name VARCHAR 100
+    create field codon_label VARCHAR 50
+    create field codon_label_int INTEGER
+    create field reference_nt INTEGER
+    create field reference_aa VARCHAR 10
+    create field replacement_aa VARCHAR 10
+    create field parent_feature VARCHAR 100
+    create field parent_codon_label VARCHAR 50
+    create field num_seqs INTEGER
+    
+    exit
+
+
+# --- Deletions (amino acid) ---
+
+create custom-table var_deletion
+create custom-table var_deletion_sequence --idFieldLength 300
+
+table var_deletion
+
+    create field display_name VARCHAR 300
+    create field feature_name VARCHAR 100
+    create field start_codon VARCHAR 50
+    create field start_codon_int INTEGER
+    create field end_codon VARCHAR 50
+    create field end_codon_int INTEGER
+    create field reference_nt_start INTEGER
+    create field reference_nt_end INTEGER
+    create field parent_feature VARCHAR 100
+    create field parent_start_codon VARCHAR 50
+    create field parent_end_codon VARCHAR 50
+    create field num_seqs INTEGER
+
+    exit
+
+
+# --- Deletions (nucleotide) ---
+
+create custom-table var_nt_deletion
+create custom-table var_nt_deletion_sequence --idFieldLength 300
+
+table var_nt_deletion
+
+    create field display_name VARCHAR 300
+    create field feature_name VARCHAR 100
+    create field reference_nt_start INTEGER
+    create field reference_nt_end INTEGER
+    create field parent_feature VARCHAR 100
+    create field num_seqs INTEGER
+
+    exit
+
+
+# --- Insertions (amino acid) ---
+
+create custom-table var_insertion
+create custom-table var_insertion_sequence --idFieldLength 300
+
+table var_insertion
+
+    create field display_name VARCHAR 300
+    create field feature_name VARCHAR 100
+    create field last_codon_before VARCHAR 50
+    create field last_codon_before_int INTEGER
+    create field first_codon_after VARCHAR 50
+    create field first_codon_after_int INTEGER
+    create field last_ref_nt_before INTEGER
+    create field first_ref_nt_after INTEGER
+    create field parent_feature VARCHAR 100
+    create field parent_last_codon_before VARCHAR 50
+    create field parent_first_codon_after VARCHAR 50
+    create field inserted_aas_length INTEGER
+    create field inserted_aas VARCHAR 200
+    create field num_seqs INTEGER
+
+    exit
+
+
+# --- Insertions (nucleotide) ---
+
+create custom-table var_nt_insertion
+create custom-table var_nt_insertion_sequence --idFieldLength 300
+
+table var_nt_insertion
+
+    create field display_name VARCHAR 300
+    create field feature_name VARCHAR 100
+    create field last_ref_nt_before INTEGER
+    create field first_ref_nt_after INTEGER
+    create field parent_feature VARCHAR 100
+    create field inserted_nts_length INTEGER
+    create field inserted_nts VARCHAR 500
+    create field num_seqs INTEGER
+
+    exit
+
+
+# ============================================================================
+# 3. LINKS: VARIATION -> CUSTOM TABLE
+# ============================================================================
+# Each variation object is linked to exactly one custom table row
+
+create link variation var_replacement      -m ONE_TO_ONE
+create link variation var_deletion         -m ONE_TO_ONE
+create link variation var_nt_deletion      -m ONE_TO_ONE
+create link variation var_insertion        -m ONE_TO_ONE
+create link variation var_nt_insertion     -m ONE_TO_ONE
+
+
+# ============================================================================
+# 4. LINKS: CUSTOM TABLE -> SEQUENCE LINK TABLE
+# ============================================================================
+# Each variation can be linked to many sequences via a link table
+
+create link var_replacement      var_replacement_sequence      -m ONE_TO_MANY
+create link sequence             var_replacement_sequence      -m ONE_TO_MANY
+
+create link var_deletion         var_deletion_sequence         -m ONE_TO_MANY
+create link sequence             var_deletion_sequence         -m ONE_TO_MANY
+
+create link var_nt_deletion      var_nt_deletion_sequence      -m ONE_TO_MANY
+create link sequence             var_nt_deletion_sequence      -m ONE_TO_MANY
+
+create link var_insertion        var_insertion_sequence        -m ONE_TO_MANY
+create link sequence             var_insertion_sequence        -m ONE_TO_MANY
+
+create link var_nt_insertion     var_nt_insertion_sequence     -m ONE_TO_MANY
+create link sequence             var_nt_insertion_sequence     -m ONE_TO_MANY
+
+
+# ============================================================================
+# 5. LINKS: PARENT-CHILD RELATIONSHIPS
+# ============================================================================
+# Link each amino acid variation to its nucleotide representation
+# This mirrors the cov_deletion -> cov_nt_deletion pattern
+
+create link var_deletion    var_nt_deletion    -m ONE_TO_ONE
+create link var_insertion   var_nt_insertion   -m ONE_TO_ONE
+
+
+# ============================================================================
+# 5. OTHER SCHEMA ITEMS
+# ============================================================================
+
+
+#~# m49 country/region extension
+run file glue/build/m49_countries/m49SchemaExtension.glue 
+create link isolate m49_country -m MANY_TO_ONE
+
+#~# Alignment table extensions
+
+table alignment
+  create field clade_category      VARCHAR 20
+  create field phylogeny           CLOB
+exit
